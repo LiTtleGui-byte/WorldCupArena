@@ -213,6 +213,7 @@ const I18N = {
     no_details: "暂无详细预测数据。",
     search_sources: "🔗 联网来源",
     win_probabilities: "📊 胜率预测",
+    score_distribution: "🎯 比分分布",
     full_reasoning: "📖 完整推理",
     hide_detail: "🔼 收起详情",
     show_details: "👇 展开完整分析",
@@ -447,6 +448,7 @@ const I18N = {
     no_details: "No detailed prediction data available.",
     search_sources: "🔗 Search Sources",
     win_probabilities: "📊 Win Probabilities",
+    score_distribution: "🎯 Score Distribution",
     full_reasoning: "📖 Full Reasoning",
     hide_detail: "🔼 Hide Detail",
     show_details: "👇 Show Full AI Analysis",
@@ -2481,6 +2483,31 @@ function renderPrematchDetailsPanel(idx) {
             </div>`).join("")}
         </div>
       </div>` : ""}
+
+      ${top3.length ? (() => {
+        const allScores = scoreDist.slice(0, 15);
+        const maxP = Math.max(...allScores.map(s => s.p || 0));
+        return `
+      <div>
+        <div class="text-xs text-gray-400 uppercase tracking-wider mb-2">${t("score_distribution")}</div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1">
+          ${allScores.map(s => {
+            const barW = maxP > 0 ? Math.round((s.p / maxP) * 100) : 0;
+            const sc   = (s.score || "").split("-");
+            const hg   = parseInt(sc[0] ?? "-1");
+            const ag   = parseInt(sc[1] ?? "-1");
+            const outcomeCls = hg > ag || ag > hg ? "text-gray-100" : "text-gray-300";
+            return `<div class="flex items-center gap-2">
+              <span class="font-mono font-bold text-sm w-10 text-right ${outcomeCls}">${esc(s.score)}</span>
+              <div class="flex-1 h-2 rounded-full overflow-hidden" style="background:rgba(255,255,255,.07);">
+                <div class="h-full rounded-full" style="width:${barW}%;background:rgba(255,255,255,.3);"></div>
+              </div>
+              <span class="font-mono text-xs text-gray-400 w-10">${fmtPct(s.p)}</span>
+            </div>`;
+          }).join("")}
+        </div>
+      </div>`;
+      })() : ""}
 
       ${hasReason ? `
         <div>
