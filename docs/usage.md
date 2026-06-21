@@ -133,6 +133,10 @@ GPTPLUS5_BASE_URL=https://az.gptplus5.com/v1
 
 The proxy keeps the public `model_id` filenames unchanged while swapping the runtime provider/model slug. Search-enabled entries use the gateway's OpenAI-compatible `web_search_options`; `gemini-deep-research` is routed to the closest GPTPlus5 Gemini thinking model with S2 search because GPTPlus5 does not expose Google's native Interactions deep-research agent API. If a roster entry has no GPTPlus5 mapping, it falls back to the configured provider and prints a warning; currently `llama-4-maverick` and `gemma-7b` have no confirmed GPTPlus5 model slug.
 
+Several proxied models now carry explicit `fallbacks:` in [configs/models.yaml](../configs/models.yaml) so AZ/GPTPlus5 remains the primary path while native provider retries can catch proxy-only outages or malformed responses. Today that includes Gemini 3.1 Pro Preview, DeepSeek V4 Pro, Qwen3.7 Max, Kimi K2.6, GLM-5.1, Doubao Seed 2.0 Lite, MiniMax M2.7, GPT-5.4, and GPT-5.4 (Search).
+
+`llama-4-maverick` is kept only as historical data and is excluded from the default site/leaderboard output because it never had stable recurring coverage and still has no confirmed GPTPlus5 mapping.
+
 ### 3.4 Grade (T+3h to T+24h after kickoff)
 
 ```bash
@@ -198,7 +202,7 @@ All of these are already wired up; they are just config flags.
 ## 7. Common problems
 
 - **`NotImplementedError: no runner for provider X`** — add a runner under [src/runners/](../src/runners/) or remove that entry from `models.yaml`. `openai_compat` already covers OpenAI / DeepSeek / Together / DashScope / xAI / Perplexity via `base_url`.
-- **`ValidationError: 'reasoning' does not contain enough characters`** — the model emitted a too-short `reasoning.overall`. The orchestrator retries twice, but if it still fails you'll see `validation_errors` populated. Usually a model-specific prompt tweak fixes it; if not, relax `minLength` in [schemas/prediction.schema.json](../schemas/prediction.schema.json).
+- **`ValidationError: reasoning.* too short`** — the model emitted a too-short narrative field (often `reasoning.overall`, but tuned subfields such as `injuries_availability` can fail too). The orchestrator retries twice, but if it still fails you'll see `validation_errors` populated. Usually a model-specific prompt tweak fixes it; if not, relax the tuned `minLength` thresholds in [schemas/prediction.schema.json](../schemas/prediction.schema.json) and [src/pipeline/validate.py](../src/pipeline/validate.py).
 - **`leaked_sources` non-empty** — tasks that depend on that source get 0. This is working as designed. Check whether the agent is citing a post-match recap and prompt-engineer it not to (or accept the penalty — that is the whole point of the leakage audit).
 - **Clock skew issues with `lock_at_utc`** — all timestamps are UTC. Don't mix local time.
 

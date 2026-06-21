@@ -43,6 +43,7 @@ import yaml
 from dotenv import dotenv_values
 
 from ..pipeline.prediction_derivatives import derive_most_likely_score, derive_win_probs_from_score_dist
+from ..pipeline.reasoning_localization import localize_prediction_reasoning
 
 ROOT = Path(__file__).resolve().parents[2]
 RESULTS = ROOT / "data" / "results"
@@ -66,6 +67,9 @@ API_FOOTBALL_LOGO_PREFIX = "https://media.api-sports.io/football/teams/"
 API_FOOTBALL_FLAG_PREFIX = "https://media.api-sports.io/flags/"
 API_FOOTBALL_FLAG_CODES = {
     "Botswana": "bw",
+    "Cabo Verde": "cv",
+    "Cape Verde": "cv",
+    "Cape Verde Islands": "cv",
     "Niger": "ne",
     "Peru": "pe",
     "Spain": "es",
@@ -73,7 +77,7 @@ API_FOOTBALL_FLAG_CODES = {
     "China": "cn",
     "Thailand": "th",
 }
-HIDDEN_SITE_MODELS = {"yunwu-o4-mini-deep-research"}
+HIDDEN_SITE_MODELS = {"yunwu-o4-mini-deep-research", "llama-4-maverick"}
 
 _API_FOOTBALL_LOGO_CACHE: dict | None = None
 _API_FOOTBALL_LOGO_CACHE_DIRTY = False
@@ -108,13 +112,45 @@ def _norm_team_name(name: str | None) -> str:
     return " ".join(str(name or "").casefold().replace(".", " " ).split())
 
 
+TEAM_FLAG_ALIASES = {
+    "cabo verde": ("Cape Verde", "Cape Verde Islands"),
+    "cape verde": ("Cabo Verde", "Cape Verde Islands"),
+    "cape verde islands": ("Cape Verde", "Cabo Verde"),
+}
+
+
+def _team_flag_name_candidates(team_name: str | None) -> list[str]:
+    raw = str(team_name or "").strip()
+    names = [raw] if raw else []
+    names.extend(TEAM_FLAG_ALIASES.get(_norm_team_name(raw), ()))
+
+    out: list[str] = []
+    for name in names:
+        if name and name not in out:
+            out.append(name)
+    return out
+
+
+def _team_flag_lookup_keys(team_name: str | None) -> list[str]:
+    keys: list[str] = []
+    for name in _team_flag_name_candidates(team_name):
+        key = _norm_team_name(name)
+        if key and key not in keys:
+            keys.append(key)
+    return keys
+
+
 def _is_api_football_logo(url: str | None) -> bool:
     value = str(url or "")
     return value.startswith(API_FOOTBALL_LOGO_PREFIX) or value.startswith(API_FOOTBALL_FLAG_PREFIX)
 
 
 def _api_football_flag_for_team(team_name: str | None) -> str | None:
-    code = API_FOOTBALL_FLAG_CODES.get(str(team_name or "").strip())
+    code = None
+    for name in _team_flag_name_candidates(team_name):
+        code = API_FOOTBALL_FLAG_CODES.get(name)
+        if code:
+            break
     if not code:
         return None
     return f"{API_FOOTBALL_FLAG_PREFIX}{code}.svg"
@@ -656,6 +692,8 @@ def _empty_prediction_payload(
         "win_probs":          {},
         "score_dist":         [],
         "most_likely_score":  None,
+        "headline_score":     None,
+        "predicted_result":   None,
         "expected_goal_diff": None,
         "advance_prob":       None,
         "reasoning":          {},
@@ -693,6 +731,7 @@ def _is_deep_research_model(model_id: str) -> bool:
 def _collect_predictions(
     wca_id: str,
     *,
+    fixture: dict | None = None,
     include_errors: bool = False,
     include_missing: bool = False,
 ) -> list[dict]:
@@ -725,7 +764,7 @@ def _collect_predictions(
                     sources=rec.get("sources") or [],
                 ))
             continue
-        p = rec.get("prediction") or {}
+        p = localize_prediction_reasoning(rec.get("prediction") or {}, fixture=fixture, copy_prediction=True)
 
         # Load search sources from search_logs if available
         sources: list[dict] = []
@@ -739,7 +778,8 @@ def _collect_predictions(
         if not sources:
             sources = rec.get("sources") or []
         win_probs = p.get("win_probs") or derive_win_probs_from_score_dist(p.get("score_dist") or [])
-        most_likely_score = p.get("most_likely_score") or derive_most_likely_score(p.get("score_dist") or [])
+        headline_score = p.get("headline_score")
+        most_likely_score = headline_score or p.get("most_likely_score") or derive_most_likely_score(p.get("score_dist") or [])
         meta = MODEL_META.get(rec["model_id"]) or _infer_model_metadata(rec["model_id"])
 
         out.append({
@@ -748,6 +788,8 @@ def _collect_predictions(
             "win_probs":          win_probs,
             "score_dist":         p.get("score_dist") or [],
             "most_likely_score":  most_likely_score,
+            "headline_score":     headline_score,
+            "predicted_result":   p.get("predicted_result"),
             "expected_goal_diff": p.get("expected_goal_diff"),
             "advance_prob":       p.get("advance_prob"),
             "reasoning":          p.get("reasoning") or {},
@@ -966,9 +1008,11 @@ def build_incoming_matches() -> list[dict]:
         # truth.json is authoritative — if it exists the match is done
         is_finished = (truth is not None) or (live is not None and live.get("status") == "Match Finished")
         is_live = (not is_finished) and live is not None and live.get("status") not in (None, "Not Started", "Match Finished")
-        # Match kicked off recently but has no live file and no result yet — treat as live
+        # Match kicked off recently but has no live file and no result yet — treat as live.
+        # After a normal match window, stop surfacing it as "live" on the site;
+        # it will move to history once truth/live data arrives.
         is_in_progress = (not is_future and not is_finished and live is None
-                          and kick <= now and now - kick < timedelta(hours=3))
+                          and kick <= now and now - kick < timedelta(minutes=135))
 
         # Skip far-future matches even when predictions already exist; the page
         # should only surface the next 3 days plus live/in-progress fixtures.
@@ -987,6 +1031,7 @@ def build_incoming_matches() -> list[dict]:
             hdr["data_warning"] = "Fixture snapshot does not match registry metadata; predictions are hidden until re-ingested."
         preds = [] if snapshot_mismatch else _collect_predictions(
             wca_id,
+            fixture=hdr,
             include_errors=has_predictions,
             include_missing=has_predictions,
         )
@@ -995,7 +1040,7 @@ def build_incoming_matches() -> list[dict]:
             "fixture": hdr,
             "predictions": preds,
             "live": live,
-            "live_predictions": _load_live_predictions(wca_id),
+            "live_predictions": _load_live_predictions(wca_id, fixture=hdr),
         })
     return results
 
@@ -1020,8 +1065,8 @@ def _load_live_state(wca_id: str) -> dict | None:
     }
 
 
-def _public_live_prediction_entry(record: dict) -> dict:
-    pred = record.get("prediction") or {}
+def _public_live_prediction_entry(record: dict, fixture: dict | None = None) -> dict:
+    pred = localize_prediction_reasoning(record.get("prediction") or {}, fixture=fixture, copy_prediction=True)
     err = record.get("error")
     status = record.get("status") or ("failed" if err else "ok")
     return {
@@ -1040,7 +1085,7 @@ def _public_live_prediction_entry(record: dict) -> dict:
     }
 
 
-def _load_live_predictions(wca_id: str) -> list[dict]:
+def _load_live_predictions(wca_id: str, fixture: dict | None = None) -> list[dict]:
     """Load local in-play model forecasts.
 
     These files are produced by src.pipeline.live_predict and are intentionally
@@ -1060,8 +1105,8 @@ def _load_live_predictions(wca_id: str) -> list[dict]:
         if model_id in HIDDEN_SITE_MODELS:
             continue
         meta = MODEL_META.get(model_id) or _infer_model_metadata(model_id)
-        latest = _public_live_prediction_entry(record)
-        history = [_public_live_prediction_entry(item) for item in (record.get("history") or [])]
+        latest = _public_live_prediction_entry(record, fixture=fixture)
+        history = [_public_live_prediction_entry(item, fixture=fixture) for item in (record.get("history") or [])]
         if not history and record.get("submitted_at"):
             history = [latest]
         rows.append({
@@ -1400,7 +1445,7 @@ def build_history() -> list[dict]:
                 composites[key] = r.get("composite", 0.0)
 
         # Full predictions
-        preds = _collect_predictions(wca_id)
+        preds = _collect_predictions(wca_id, fixture=hdr)
         _attach_display_picks(preds)
         for p in preds:
             key = f"{p['model_id']}_{p['setting']}"
@@ -1566,11 +1611,15 @@ def main() -> None:
     for _grp in (_groups.values() if isinstance(_groups, dict) else _groups):
         for _tm in (_grp or []):
             if isinstance(_tm, dict) and _tm.get("name") and _tm.get("flag"):
-                _flag_by_team[_tm["name"]] = _tm["flag"]
+                for _key in _team_flag_lookup_keys(_tm["name"]):
+                    _flag_by_team[_key] = _tm["flag"]
     for _m in (payload.get("incoming_matches") or []) + (payload.get("history") or []):
         _fx = _m.get("fixture") or {}
         for _side in ("home", "away"):
-            _emoji = _flag_by_team.get(_fx.get(_side))
+            _emoji = next(
+                (_flag_by_team[_key] for _key in _team_flag_lookup_keys(_fx.get(_side)) if _key in _flag_by_team),
+                None,
+            )
             if _emoji:
                 _fx[f"{_side}_flag"] = _emoji
                 _img = _flag_img_url(_emoji)

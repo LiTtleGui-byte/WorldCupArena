@@ -1,0 +1,1203 @@
+{
+  "fixture_id": "World-Cup_Group-Stage-11_Netherlands_Japan_2026-06-14",
+  "model_id": "minimax-m2.7",
+  "setting": "S1",
+  "source": "minimax/minimax-m2.7",
+  "submitted_at": "2026-06-20T12:12:01.116934+00:00",
+  "prediction": {
+    "fixture_id": "World-Cup_Group-Stage-11_Netherlands_Japan_2026-06-14",
+    "model_id": "worldcuparena-v1",
+    "setting": "S1",
+    "submitted_at": "2026-06-12T18:30:00+00:00",
+    "reasoning": {
+      "overall": "荷兰与日本的世界杯F组首轮交锋，是一场实力与风格高度碰撞的对决。橙衣军团坐镇达拉斯体育场，以逸待劳迎接武士蓝的挑战。荷兰队近期在欧预赛中势不可挡，八场豪取六胜两平，场均轰入3.5球，攻击群状态火热——从德佩、加克波到维尔霍斯特、丹朱马，群星璀璨、多点开花。中场核心弗兰基·德容伤愈复出后逐步找回节奏，搭档科伊珀或雷恩德斯构建双枢纽，攻防转换流畅度值得期待。后防线由范戴克领衔，阿克、邓弗里斯分守两侧，门将维尔布鲁根把守最后一道关隘，整体结构稳固且具备出球能力。\n\n日本队同样状态不俗，十二强赛豪取七胜两平一负，但近期噩耗连连——队长远藤航因脚伤铁定缺席本届世界杯，这对球队的防守型中场屏障和定位球战术是毁灭性打击。此外，荷兰媒体透露橙衣军团自身也饱受伤病困扰，双方均有不同程度的阵容折损，这让比赛悬念略有上升。日本的优势在于边路速度与反击效率，上田绮世、久保建英、伊藤纯也构成的三叉戟具备撕裂任何防线的爆发力；但中后场在远藤缺阵后能否顶住荷兰的高位压迫，存在相当大的疑问。综合来看，荷兰整体纸面实力仍占优势，在主场气氛加持下拿下三分是大概率事件，但日本绝非鱼腩，若能抢好开局并利用荷兰防线身后的空当，逼平甚至爆冷并非天方夜谭。",
+      "market_odds": "市场赔率尚未完整公示，但根据双方近期表现、阵容完整度和世界杯平台的主场优势，荷兰的隐含胜率估计在55%至60%区间，平局约在22%至25%，日本客胜则在18%至22%左右。这一市场区间与基本面高度吻合：荷兰进攻火力冠绝欧预赛，场均3.5球的产出配合范戴克领衔的稳健防线，使其在达拉斯的取胜概率明显优于对手。日本虽然在亚洲区预选赛一路高歌，但对手含金量与欧洲劲旅不可同日而语，且队长远藤航的缺席进一步压低了其上限。本模型认同市场对荷兰的倾斜，但在平局概率上略高于市场均值——日本边路反击质量和两队相近的控球率（均约67%）意味着比赛未必呈现一边倒格局。若荷兰进入状态较慢或日本抢开局的战术奏效，1比1的平局剧本值得关注。",
+      "lineup_analysis": "荷兰预计以4-3-3阵型出击，门将位置由维尔布鲁根担任首发的可能性最大，尽管弗莱肯近期表现同样稳健。后防线四人组应为：范戴克与海赫形成中路搭档，阿克司职左中卫（可内收协助出球），邓弗里斯镇守右路进攻走廊，其插上助攻能力将成为日本左后卫防区的重大考验。中场三人从德容、德罗恩、科伊珀、雷恩德斯、蒂尔、格罗费恩贝赫等人中选出三人——德容居中调度核心位置不可撼动，搭配一名防守型中场（德罗恩或蒂尔）和一名进攻型中场（科伊珀/雷恩德斯）。锋线三箭头预计加克波居左、德佩居中、维尔霍斯特或马伦在右，替补席还坐拥朗、克罗马、沙维 Sim等变招。\n\n日本方面，远藤航缺阵后，田中碧很可能与佐伯海人组成双后腰，攻守平衡面临重建。防线预计为：冨安健洋与板仓滉搭档中卫，中山雄太或长友佑都出任左后卫，右路交给攻守兼备的酒井宏树。锋线三叉戟为：久保建英居右、铃木彩艳或上田绮世居中、前田大然或伊东纯也居左。中场创造力将高度依赖镰田大地和田中碧的输送质量。此役双方的阵容深度和轮换空间将成为下半场走势的关键变量。",
+      "tactical_analysis": "荷兰大概率采用主动压迫+控球主导的战术体系，后场从维尔布鲁根/弗莱肯开始通过范戴克和阿克的安全传球构建进攻，中场德容作为出球枢纽吸引对手压迫后精准分边。邓弗里斯的右路插上将是荷兰进攻宽度的主要来源，左路阿克的内收则提供额外的中路出球点。当日本中场试图压迫时，荷兰两翼边锋（加克波/朗）会内收形成紧凑的4-4-2块状结构，断球后迅速打对方边卫身后。\n\n日本则会牺牲部分控球权以换取反击空间，典型策略是：中后场5-3-2低阵型站位，田中碧与佐伯海人组成双后腰拦截荷兰中路渗透，随后由久保建英或伊东纯也带球推进至荷兰半场。左右边翼卫（中山/酒井）大幅插上提供宽度，形成5-3-2到3-4-3的阵型切换。日本的定位球同样值得重视——尽管远藤缺阵，但板仓滉和冨安健洋的头球能力仍在，角球和任意球攻防将贡献可观的预期进球。",
+      "h2h_recent_form": "两队历史交锋记录有限，最近一次重要对话为2022年卡塔尔世界杯小组赛，日本在领先两球的大好局面下以2比3被荷兰逆转绝杀，那场比赛也成为世界杯经典名局之一。该役充分暴露了日本在体能下降阶段防线注意力涣散的问题，而荷兰则展现了强队底蕴——即使落后两球也能通过高位压迫和边路传中连扳三球完成逆转。近期数据方面，荷兰近八场欧预赛轰入28球仅失4球，场均进球3.5个，xG产出极高；日本同期亚洲区预选赛进27球失3球，零封率同样可观，但对手实力与欧洲二流球队有明显差距。此番移师达拉斯中立场，荷兰的旅途压力（从欧洲赴美）略大于日本（从亚洲出发差距不大），但主场球迷氛围将显著抵消这一不利因素。",
+      "player_matchups": "本场最具决定性的对位集中在三条线：中场核心弗兰基·德容 vs 日本双后腰田中碧/佐伯海人——德容的推进能力和视野将直接决定荷兰能否有效撕开日本的中场屏障，若德容被缠斗，日本的反击将获得大片纵深空间；右路进攻核心邓弗里斯 vs 日本左后卫（预计为中山雄太或酒井宏树），邓弗里斯的身体对抗和插上频率将持续施压日本左路防守；锋线箭头德佩 vs 日本中卫搭档冨安健洋/板仓滉，德佩的支点作用和脚下技术能否在密集防守中找到空间至关重要。日本方面，久保建英 vs 荷兰右中卫海赫或阿克的组合值得期待——久保的脚下频率和变向能力对欧洲中卫是严峻考验；伊东纯也的速度 vs 邓弗里斯助攻后留下的右路空当同样是一大看点。双方门将（维尔布鲁根 vs 铃木彩艳）的发挥也可能左右最终比分。",
+      "injuries_availability": "日本方面最重大的伤情为队长远藤航左脚骨折，已确认无缘本届世界杯，这对球队防守体系和定位球攻防影响深远。中场屏障质量下降后，田中碧和佐伯海人的双后腰组合能否顶住荷兰的传中压制存疑。荷兰方面，据USA Today等媒体披露，橙衣军团在赛前也遭遇伤病潮——具体名单尚未完全确认，但若关键球员（德容、范戴克等）有任何缺阵，都将显著改变双方实力对比。赛前48小时名单公布前，双方均有轮换和阵容微调的可能，建议关注最终确认的首发阵容再做细化判断。目前而言，日本的阵容损失更为明确且影响更大，荷兰则面临一定的未知风险。",
+      "upset_draw_blowout_cases": "荷兰大胜（4比0、5比1等）的前提是：日本双后腰被德容和科伊珀打穿，锋线三叉戟利用边路宽度持续撕扯日本防线，邓弗里斯右路套边传中精准找到维尔霍斯特或德佩抢点。反过来，日本爆冷取胜的路径在于：开赛后迅速抢攻利用荷兰防线立足未稳，久保建英和伊东纯也利用个人能力打出反击快攻，中场在远藤缺阵后反而以更激进的压迫弥补空当——若这套剧本奏效，日本有望以2比1或3比2带走三分。\n\n平局最可能出现的情况是：日本在防守端展现出超预期的组织纪律性，通过低阵型压缩荷兰的进攻空间，同时利用反击或定位球偷得一分，荷兰虽占优但迟迟无法敲开铁桶阵，最终1比1握手言和。高比分 Chaos 剧本则要求双方均打开进攻模式：日本边路突破持续造威胁，荷兰则依靠个人能力和定位球还以颜色，最终可能打出3比3、4比2之类的高潮比分——这在双方均有进攻火力、但防线均有隐患的情况下并非不可能。综合权衡，荷兰赢面最大（55%），但平局和爆冷路径均不可忽视。",
+      "score_result_rationale": "综合上述分析，荷兰以整体实力、主场优势和近期火热的进攻状态理应拿下这场对决，但日本的边路速度、反击质量和门将位置的个人能力意味着比赛不会轻松。大比分胜利需要荷兰全线压制日本中场并把握住至少三次绝对机会，而更可能的情况是荷兰以2比1或3比1的比分艰难取胜。鉴于双方均有进攻火力而防守端存在隐患，预期总进球数在2.5至3.5之间。最终选择2比1——荷兰小胜，赢面约55%，平局约25%，日本客胜约20%。",
+      "t1_result": "荷兰以2比1战胜日本，主胜概率约55%、平局约25%、日本客胜约20%。这一分布反映了荷兰在整体实力和主场优势上的领先，但同时也认可日本通过反击和定位球制造威胁的能力。比分2比1而非3比0或4比0，是因为日本防线在远藤缺阵后可能展现更强的战斗欲望，且其进攻三人组具备随时改变比赛走势的个人能力。",
+      "t2_player": "首发阵容基于4-3-3体系：荷兰由维尔布鲁根把守大门，范戴克与海赫搭档中卫，阿克和邓弗里斯分居两侧；中场德容居中调度，德罗恩或蒂尔提供防守屏障，科伊珀或雷恩德斯负责进攻串联；锋线加克波居左、德佩居中、维尔霍斯特或马伦居右。日本方面，铃木彩艳把守球门，冨安健洋与板仓滉镇守中路，中山/酒井分任边卫；田中碧与佐伯海人组成双后腰，久保建英居右、前田大然或上田绮世居中、伊东纯也居左。主要进球候选人为荷兰的德佩（中等概率）、加克波（中等）和维尔霍斯特（较高），日本则为久保建英（中等）和伊东纯也（偏低）。",
+      "t3_events": "比赛节奏预计为：开场阶段双方试探，日本可能以低阵型防守为主，荷兰则通过德容的持球推进寻找渗透机会。第一粒进球大概率出现在25至40分钟区间——若荷兰领先，可能在第30至35分钟通过邓弗里斯右路传中由维尔霍斯特头槌破门；若日本抢开成功，则可能在第20至25分钟由伊东纯也利用速度反击得分。下半场60至75分钟为换人调整的黄金窗口，荷兰可能换上朗或沙维·西蒙斯增强边路突破，日本则可能换上相马勇纪或上田绮世加强进攻。比赛末段（80分钟后）可能出现荷兰再下一城或日本扳回一球的剧情，黄牌可能在对抗激烈的中场区域出现。",
+      "t4_stats": "基于双方近期数据和战术特点，预期统计分布为：荷兰控球率约55%至58%（略低于近期均值，因日本同样擅长控球），射门次数约15至18次（其中射正约5至7次），角球约6至8个，传球成功率约84%至87%；日本方面：控球率约42%至45%，射门次数约10至13次（射正约3至5次），角球约4至6个，传球成功率约79%至83%。荷兰的进攻主导将体现在更高的射门和角球数据上，而日本的反击效率则体现在射正转化率上。犯规次数预计日本略多（因中场防守压力大），而荷兰的防守型中场德罗恩/蒂尔的拦截数据将是限制日本进攻的关键指标。"
+    },
+    "predicted_result": "home",
+    "win_probs": {
+      "home": 0.55,
+      "draw": 0.25,
+      "away": 0.2
+    },
+    "headline_score": "2-1",
+    "expected_goal_diff": 0.8,
+    "match_profile": "normal",
+    "expected_total_goals": 2.8,
+    "advance_prob": 0.55,
+    "lineups": {
+      "home": {
+        "starting": [
+          {
+            "name": "Bart Verbruggen",
+            "position": "GK",
+            "shirt": 13
+          },
+          {
+            "name": "Virgil van Dijk",
+            "position": "DF",
+            "shirt": 4
+          },
+          {
+            "name": "Jan Paul van Hecke",
+            "position": "DF",
+            "shirt": 3
+          },
+          {
+            "name": "Nathan Aké",
+            "position": "DF",
+            "shirt": 5
+          },
+          {
+            "name": "Denzel Dumfries",
+            "position": "DF",
+            "shirt": 2
+          },
+          {
+            "name": "Frenkie de Jong",
+            "position": "MF",
+            "shirt": 21
+          },
+          {
+            "name": "Marten de Roon",
+            "position": "MF",
+            "shirt": 20
+          },
+          {
+            "name": "Tijjani Reijnders",
+            "position": "MF",
+            "shirt": 24
+          },
+          {
+            "name": "Cody Mathès Gakpo",
+            "position": "FW",
+            "shirt": 11
+          },
+          {
+            "name": "Memphis Depay",
+            "position": "FW",
+            "shirt": 10
+          },
+          {
+            "name": "Wout Weghorst",
+            "position": "FW",
+            "shirt": 9
+          }
+        ],
+        "bench": [
+          {
+            "name": "Mark Flekken",
+            "position": "GK",
+            "shirt": 1
+          },
+          {
+            "name": "Ryan Gravenberch",
+            "position": "MF",
+            "shirt": 16
+          },
+          {
+            "name": "Teun Koopmeiners",
+            "position": "MF",
+            "shirt": 18
+          },
+          {
+            "name": "Donyell Malen",
+            "position": "FW",
+            "shirt": 7
+          },
+          {
+            "name": "Noa Lang",
+            "position": "FW",
+            "shirt": 8
+          },
+          {
+            "name": "Brian Brobbey",
+            "position": "FW",
+            "shirt": 14
+          },
+          {
+            "name": "Crysencio Summerville",
+            "position": "FW",
+            "shirt": 19
+          },
+          {
+            "name": "Guus Berend Til",
+            "position": "MF",
+            "shirt": 15
+          },
+          {
+            "name": "Mickey van de Ven",
+            "position": "DF",
+            "shirt": 22
+          },
+          {
+            "name": "Jorrel Hato",
+            "position": "DF",
+            "shirt": 26
+          },
+          {
+            "name": "Lutsharel Geertruida",
+            "position": "DF",
+            "shirt": 25
+          },
+          {
+            "name": "Quinten Ryan Crispito Timber",
+            "position": "MF",
+            "shirt": 17
+          }
+        ]
+      },
+      "away": {
+        "starting": [
+          {
+            "name": "Zion Suzuki",
+            "position": "GK",
+            "shirt": 1
+          },
+          {
+            "name": "Takehiro Tomiyasu",
+            "position": "DF",
+            "shirt": 3
+          },
+          {
+            "name": "Ko Itakura",
+            "position": "DF",
+            "shirt": 4
+          },
+          {
+            "name": "Hiroki Ito",
+            "position": "DF",
+            "shirt": 16
+          },
+          {
+            "name": "Yuto Nagatomo",
+            "position": "DF",
+            "shirt": 5
+          },
+          {
+            "name": "Ao Tanaka",
+            "position": "MF",
+            "shirt": 6
+          },
+          {
+            "name": "Kaishu Sano",
+            "position": "MF",
+            "shirt": 7
+          },
+          {
+            "name": "Takefusa Kubo",
+            "position": "FW",
+            "shirt": 10
+          },
+          {
+            "name": "Daizen Maeda",
+            "position": "FW",
+            "shirt": 13
+          },
+          {
+            "name": "Junya Ito",
+            "position": "FW",
+            "shirt": 11
+          },
+          {
+            "name": "Ayase Ueda",
+            "position": "FW",
+            "shirt": 9
+          }
+        ],
+        "bench": [
+          {
+            "name": "Keisuke Osako",
+            "position": "GK",
+            "shirt": 12
+          },
+          {
+            "name": "Tomoki Hayakawa",
+            "position": "GK",
+            "shirt": 23
+          },
+          {
+            "name": "Ayumu Seko",
+            "position": "DF",
+            "shirt": 2
+          },
+          {
+            "name": "Tsuyoshi Watanabe",
+            "position": "DF",
+            "shirt": 15
+          },
+          {
+            "name": "Shogo Taniguchi",
+            "position": "DF",
+            "shirt": 20
+          },
+          {
+            "name": "Junnosuke Suzuki",
+            "position": "DF",
+            "shirt": 22
+          },
+          {
+            "name": "Yukinari Sugawara",
+            "position": "DF",
+            "shirt": 19
+          },
+          {
+            "name": "Daichi Kamada",
+            "position": "MF",
+            "shirt": 8
+          },
+          {
+            "name": "Ritsu Doan",
+            "position": "FW",
+            "shirt": 14
+          },
+          {
+            "name": "Keito Nakamura",
+            "position": "FW",
+            "shirt": 17
+          },
+          {
+            "name": "Yuito Suzuki",
+            "position": "FW",
+            "shirt": 24
+          },
+          {
+            "name": "Shuto Machino",
+            "position": "FW",
+            "shirt": 25
+          }
+        ]
+      }
+    },
+    "formations": {
+      "home": "4-3-3",
+      "away": "4-3-3"
+    },
+    "scorers": [
+      {
+        "player": "Wout Weghorst",
+        "team": "home",
+        "minute_range": [
+          28,
+          45
+        ],
+        "p": 0.35
+      },
+      {
+        "player": "Memphis Depay",
+        "team": "home",
+        "minute_range": [
+          55,
+          70
+        ],
+        "p": 0.3
+      },
+      {
+        "player": "Cody Mathès Gakpo",
+        "team": "home",
+        "minute_range": [
+          75,
+          90
+        ],
+        "p": 0.25
+      },
+      {
+        "player": "Junya Ito",
+        "team": "away",
+        "minute_range": [
+          35,
+          55
+        ],
+        "p": 0.3
+      },
+      {
+        "player": "Takefusa Kubo",
+        "team": "away",
+        "minute_range": [
+          60,
+          80
+        ],
+        "p": 0.22
+      }
+    ],
+    "assisters": [
+      {
+        "player": "Denzel Dumfries",
+        "team": "home",
+        "p": 0.28,
+        "minute": 32
+      },
+      {
+        "player": "Frenkie de Jong",
+        "team": "home",
+        "p": 0.25,
+        "minute": 58
+      },
+      {
+        "player": "Tijjani Reijnders",
+        "team": "home",
+        "p": 0.2,
+        "minute": 78
+      },
+      {
+        "player": "Hiroki Ito",
+        "team": "away",
+        "p": 0.22,
+        "minute": 42
+      },
+      {
+        "player": "Ao Tanaka",
+        "team": "away",
+        "p": 0.18,
+        "minute": 65
+      }
+    ],
+    "substitutions": [
+      {
+        "team": "home",
+        "off": "Memphis Depay",
+        "on": "Donyell Malen",
+        "minute": 65
+      },
+      {
+        "team": "home",
+        "off": "Marten de Roon",
+        "on": "Ryan Gravenberch",
+        "minute": 72
+      },
+      {
+        "team": "home",
+        "off": "Wout Weghorst",
+        "on": "Brian Brobbey",
+        "minute": 78
+      },
+      {
+        "team": "away",
+        "off": "Daizen Maeda",
+        "on": "Ritsu Doan",
+        "minute": 60
+      },
+      {
+        "team": "away",
+        "off": "Ayase Ueda",
+        "on": "Yuito Suzuki",
+        "minute": 70
+      },
+      {
+        "team": "away",
+        "off": "Kaishu Sano",
+        "on": "Daichi Kamada",
+        "minute": 80
+      }
+    ],
+    "cards": [
+      {
+        "player": "Marten de Roon",
+        "team": "home",
+        "color": "yellow",
+        "minute": 38
+      },
+      {
+        "player": "Kaishu Sano",
+        "team": "away",
+        "color": "yellow",
+        "minute": 51
+      },
+      {
+        "player": "Denzel Dumfries",
+        "team": "home",
+        "color": "yellow",
+        "minute": 67
+      }
+    ],
+    "penalties": [],
+    "own_goals": [],
+    "key_events": [],
+    "motm_probs": [
+      {
+        "player": "Wout Weghorst",
+        "team": "home",
+        "p": 0.3
+      },
+      {
+        "player": "Frenkie de Jong",
+        "team": "home",
+        "p": 0.25
+      },
+      {
+        "player": "Denzel Dumfries",
+        "team": "home",
+        "p": 0.18
+      },
+      {
+        "player": "Takefusa Kubo",
+        "team": "away",
+        "p": 0.15
+      },
+      {
+        "player": "Junya Ito",
+        "team": "away",
+        "p": 0.12
+      }
+    ],
+    "stats": {
+      "possession": {
+        "home": 57,
+        "away": 43
+      },
+      "shots": {
+        "home": 16,
+        "away": 11
+      },
+      "shots_on_target": {
+        "home": 6,
+        "away": 4
+      },
+      "corners": {
+        "home": 7,
+        "away": 4
+      },
+      "pass_accuracy": {
+        "home": 85,
+        "away": 81
+      },
+      "fouls": {
+        "home": 11,
+        "away": 13
+      },
+      "saves": {
+        "home": 2,
+        "away": 4
+      },
+      "defensive_actions": {
+        "home": 12,
+        "away": 15
+      }
+    },
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWTFPNExmVWpVR0JCa2taZVVxQlNUQllSOTA4ZlFpZWZBNy1HVFZUR3BFTEVHUVk1bEt1d2xYSFNiZklQUW8xcmpaQ2lVTlRsdVpnUTRaanhLcE5pS05YX0NrSWV4RjgzQWR1SUZ3RXZ1VEU2NElXckptOEFqNW9DZm1Xa3ZZSThGN1Z5b19Lckl2RVMxUjMtS0RncnNWOEY0eHJ0akU2UFdBZi03MVlVeEJXZ09wTmlpeDA3NVViX0V5anNNZ3YxOWZxWURodzg",
+        "accessed_at": "2026-06-12T18:00:00+00:00",
+        "title": "Sports Mole: Preview: Netherlands vs Japan - prediction, team news, lineups"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OUXlQUFUxdUdjaVhFYkthNXNQZVhybnZOTEtqbEd4SGVWd2UyOEpHOC1SRUszVThGa0FnZWNHTWtoamlDYUhXZ1JOLThpSWpHUndacUpTb3Jnd3diREFDdHpENGtvUXdBYlByM3BwTGRNT3lCTVFmYjVISUo",
+        "accessed_at": "2026-06-12T18:00:00+00:00",
+        "title": "FIFA World Cup 2026: Japan dealt gut punch as Samurai Blue lose captain Endo Wataru to foot injury"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc2x2TnlyeGRGQXE1c2FibzlCTExKcnVHaHdsYVVOVWlDVnI2dFg3SGE5THlmSFR4d0drMlJteDJVZmlDV0dScmY5aG1xYndQSE9rQ3ptZGNxTHFSNTZxb2RiUG9ydXZ0QU4zLUpMSFNicFVWYmJJOTBVZlZIMnRfaFQyMFZNRm42aXdjeTMwY0tfZmVyLVBScnZFM3lyS2JOaWdfQjQxRFh2dVRWb2FRZndrb0w4UUFHeTdNbXVPeWdpcEFkWEtZ",
+        "accessed_at": "2026-06-12T18:00:00+00:00",
+        "title": "USA Today: Netherlands hit with World Cup injury crisis ahead of showdown vs. Japan"
+      }
+    ],
+    "score_dist": [
+      {
+        "score": "2-1",
+        "p": 0.125
+      },
+      {
+        "score": "1-1",
+        "p": 0.119
+      },
+      {
+        "score": "1-0",
+        "p": 0.096
+      },
+      {
+        "score": "2-0",
+        "p": 0.092
+      },
+      {
+        "score": "0-0",
+        "p": 0.063
+      },
+      {
+        "score": "3-1",
+        "p": 0.063
+      },
+      {
+        "score": "0-1",
+        "p": 0.062
+      },
+      {
+        "score": "3-0",
+        "p": 0.061
+      },
+      {
+        "score": "1-2",
+        "p": 0.058
+      },
+      {
+        "score": "2-2",
+        "p": 0.056
+      },
+      {
+        "score": "3-2",
+        "p": 0.032
+      },
+      {
+        "score": "0-2",
+        "p": 0.031
+      },
+      {
+        "score": "4-1",
+        "p": 0.028
+      },
+      {
+        "score": "4-0",
+        "p": 0.028
+      },
+      {
+        "score": "1-3",
+        "p": 0.02
+      },
+      {
+        "score": "2-3",
+        "p": 0.018
+      },
+      {
+        "score": "4-2",
+        "p": 0.015
+      },
+      {
+        "score": "3-3",
+        "p": 0.012
+      },
+      {
+        "score": "0-3",
+        "p": 0.011
+      },
+      {
+        "score": "5-1",
+        "p": 0.01
+      }
+    ],
+    "most_likely_score": "2-1",
+    "over_under_probs": {
+      "over_1_5": 0.779,
+      "over_2_5": 0.537,
+      "over_3_5": 0.282,
+      "over_4_5": 0.115
+    }
+  },
+  "raw_prediction": {
+    "fixture_id": "World-Cup_Group-Stage-11_Netherlands_Japan_2026-06-14",
+    "model_id": "worldcuparena-v1",
+    "setting": "S1",
+    "submitted_at": "2026-06-12T18:30:00+00:00",
+    "reasoning": {
+      "overall": "荷兰与日本的世界杯F组首轮交锋，是一场实力与风格高度碰撞的对决。橙衣军团坐镇达拉斯体育场，以逸待劳迎接武士蓝的挑战。荷兰队近期在欧预赛中势不可挡，八场豪取六胜两平，场均轰入3.5球，攻击群状态火热——从德佩、加克波到维尔霍斯特、丹朱马，群星璀璨、多点开花。中场核心弗兰基·德容伤愈复出后逐步找回节奏，搭档科伊珀或雷恩德斯构建双枢纽，攻防转换流畅度值得期待。后防线由范戴克领衔，阿克、邓弗里斯分守两侧，门将维尔布鲁根把守最后一道关隘，整体结构稳固且具备出球能力。\n\n日本队同样状态不俗，十二强赛豪取七胜两平一负，但近期噩耗连连——队长远藤航因脚伤铁定缺席本届世界杯，这对球队的防守型中场屏障和定位球战术是毁灭性打击。此外，荷兰媒体透露橙衣军团自身也饱受伤病困扰，双方均有不同程度的阵容折损，这让比赛悬念略有上升。日本的优势在于边路速度与反击效率，上田绮世、久保建英、伊藤纯也构成的三叉戟具备撕裂任何防线的爆发力；但中后场在远藤缺阵后能否顶住荷兰的高位压迫，存在相当大的疑问。综合来看，荷兰整体纸面实力仍占优势，在主场气氛加持下拿下三分是大概率事件，但日本绝非鱼腩，若能抢好开局并利用荷兰防线身后的空当，逼平甚至爆冷并非天方夜谭。",
+      "market_odds": "市场赔率尚未完整公示，但根据双方近期表现、阵容完整度和世界杯平台的主场优势，荷兰的隐含胜率估计在55%至60%区间，平局约在22%至25%，日本客胜则在18%至22%左右。这一市场区间与基本面高度吻合：荷兰进攻火力冠绝欧预赛，场均3.5球的产出配合范戴克领衔的稳健防线，使其在达拉斯的取胜概率明显优于对手。日本虽然在亚洲区预选赛一路高歌，但对手含金量与欧洲劲旅不可同日而语，且队长远藤航的缺席进一步压低了其上限。本模型认同市场对荷兰的倾斜，但在平局概率上略高于市场均值——日本边路反击质量和两队相近的控球率（均约67%）意味着比赛未必呈现一边倒格局。若荷兰进入状态较慢或日本抢开局的战术奏效，1比1的平局剧本值得关注。",
+      "lineup_analysis": "荷兰预计以4-3-3阵型出击，门将位置由维尔布鲁根担任首发的可能性最大，尽管弗莱肯近期表现同样稳健。后防线四人组应为：范戴克与海赫形成中路搭档，阿克司职左中卫（可内收协助出球），邓弗里斯镇守右路进攻走廊，其插上助攻能力将成为日本左后卫防区的重大考验。中场三人从德容、德罗恩、科伊珀、雷恩德斯、蒂尔、格罗费恩贝赫等人中选出三人——德容居中调度核心位置不可撼动，搭配一名防守型中场（德罗恩或蒂尔）和一名进攻型中场（科伊珀/雷恩德斯）。锋线三箭头预计加克波居左、德佩居中、维尔霍斯特或马伦在右，替补席还坐拥朗、克罗马、沙维 Sim等变招。\n\n日本方面，远藤航缺阵后，田中碧很可能与佐伯海人组成双后腰，攻守平衡面临重建。防线预计为：冨安健洋与板仓滉搭档中卫，中山雄太或长友佑都出任左后卫，右路交给攻守兼备的酒井宏树。锋线三叉戟为：久保建英居右、铃木彩艳或上田绮世居中、前田大然或伊东纯也居左。中场创造力将高度依赖镰田大地和田中碧的输送质量。此役双方的阵容深度和轮换空间将成为下半场走势的关键变量。",
+      "tactical_analysis": "荷兰大概率采用主动压迫+控球主导的战术体系，后场从维尔布鲁根/弗莱肯开始通过范戴克和阿克的安全传球构建进攻，中场德容作为出球枢纽吸引对手压迫后精准分边。邓弗里斯的右路插上将是荷兰进攻宽度的主要来源，左路阿克的内收则提供额外的中路出球点。当日本中场试图压迫时，荷兰两翼边锋（加克波/朗）会内收形成紧凑的4-4-2块状结构，断球后迅速打对方边卫身后。\n\n日本则会牺牲部分控球权以换取反击空间，典型策略是：中后场5-3-2低阵型站位，田中碧与佐伯海人组成双后腰拦截荷兰中路渗透，随后由久保建英或伊东纯也带球推进至荷兰半场。左右边翼卫（中山/酒井）大幅插上提供宽度，形成5-3-2到3-4-3的阵型切换。日本的定位球同样值得重视——尽管远藤缺阵，但板仓滉和冨安健洋的头球能力仍在，角球和任意球攻防将贡献可观的预期进球。",
+      "h2h_recent_form": "两队历史交锋记录有限，最近一次重要对话为2022年卡塔尔世界杯小组赛，日本在领先两球的大好局面下以2比3被荷兰逆转绝杀，那场比赛也成为世界杯经典名局之一。该役充分暴露了日本在体能下降阶段防线注意力涣散的问题，而荷兰则展现了强队底蕴——即使落后两球也能通过高位压迫和边路传中连扳三球完成逆转。近期数据方面，荷兰近八场欧预赛轰入28球仅失4球，场均进球3.5个，xG产出极高；日本同期亚洲区预选赛进27球失3球，零封率同样可观，但对手实力与欧洲二流球队有明显差距。此番移师达拉斯中立场，荷兰的旅途压力（从欧洲赴美）略大于日本（从亚洲出发差距不大），但主场球迷氛围将显著抵消这一不利因素。",
+      "player_matchups": "本场最具决定性的对位集中在三条线：中场核心弗兰基·德容 vs 日本双后腰田中碧/佐伯海人——德容的推进能力和视野将直接决定荷兰能否有效撕开日本的中场屏障，若德容被缠斗，日本的反击将获得大片纵深空间；右路进攻核心邓弗里斯 vs 日本左后卫（预计为中山雄太或酒井宏树），邓弗里斯的身体对抗和插上频率将持续施压日本左路防守；锋线箭头德佩 vs 日本中卫搭档冨安健洋/板仓滉，德佩的支点作用和脚下技术能否在密集防守中找到空间至关重要。日本方面，久保建英 vs 荷兰右中卫海赫或阿克的组合值得期待——久保的脚下频率和变向能力对欧洲中卫是严峻考验；伊东纯也的速度 vs 邓弗里斯助攻后留下的右路空当同样是一大看点。双方门将（维尔布鲁根 vs 铃木彩艳）的发挥也可能左右最终比分。",
+      "injuries_availability": "日本方面最重大的伤情为队长远藤航左脚骨折，已确认无缘本届世界杯，这对球队防守体系和定位球攻防影响深远。中场屏障质量下降后，田中碧和佐伯海人的双后腰组合能否顶住荷兰的传中压制存疑。荷兰方面，据USA Today等媒体披露，橙衣军团在赛前也遭遇伤病潮——具体名单尚未完全确认，但若关键球员（德容、范戴克等）有任何缺阵，都将显著改变双方实力对比。赛前48小时名单公布前，双方均有轮换和阵容微调的可能，建议关注最终确认的首发阵容再做细化判断。目前而言，日本的阵容损失更为明确且影响更大，荷兰则面临一定的未知风险。",
+      "upset_draw_blowout_cases": "荷兰大胜（4比0、5比1等）的前提是：日本双后腰被德容和科伊珀打穿，锋线三叉戟利用边路宽度持续撕扯日本防线，邓弗里斯右路套边传中精准找到维尔霍斯特或德佩抢点。反过来，日本爆冷取胜的路径在于：开赛后迅速抢攻利用荷兰防线立足未稳，久保建英和伊东纯也利用个人能力打出反击快攻，中场在远藤缺阵后反而以更激进的压迫弥补空当——若这套剧本奏效，日本有望以2比1或3比2带走三分。\n\n平局最可能出现的情况是：日本在防守端展现出超预期的组织纪律性，通过低阵型压缩荷兰的进攻空间，同时利用反击或定位球偷得一分，荷兰虽占优但迟迟无法敲开铁桶阵，最终1比1握手言和。高比分 Chaos 剧本则要求双方均打开进攻模式：日本边路突破持续造威胁，荷兰则依靠个人能力和定位球还以颜色，最终可能打出3比3、4比2之类的高潮比分——这在双方均有进攻火力、但防线均有隐患的情况下并非不可能。综合权衡，荷兰赢面最大（55%），但平局和爆冷路径均不可忽视。",
+      "score_result_rationale": "综合上述分析，荷兰以整体实力、主场优势和近期火热的进攻状态理应拿下这场对决，但日本的边路速度、反击质量和门将位置的个人能力意味着比赛不会轻松。大比分胜利需要荷兰全线压制日本中场并把握住至少三次绝对机会，而更可能的情况是荷兰以2比1或3比1的比分艰难取胜。鉴于双方均有进攻火力而防守端存在隐患，预期总进球数在2.5至3.5之间。最终选择2比1——荷兰小胜，赢面约55%，平局约25%，日本客胜约20%。",
+      "t1_result": "荷兰以2比1战胜日本，主胜概率约55%、平局约25%、日本客胜约20%。这一分布反映了荷兰在整体实力和主场优势上的领先，但同时也认可日本通过反击和定位球制造威胁的能力。比分2比1而非3比0或4比0，是因为日本防线在远藤缺阵后可能展现更强的战斗欲望，且其进攻三人组具备随时改变比赛走势的个人能力。",
+      "t2_player": "首发阵容基于4-3-3体系：荷兰由维尔布鲁根把守大门，范戴克与海赫搭档中卫，阿克和邓弗里斯分居两侧；中场德容居中调度，德罗恩或蒂尔提供防守屏障，科伊珀或雷恩德斯负责进攻串联；锋线加克波居左、德佩居中、维尔霍斯特或马伦居右。日本方面，铃木彩艳把守球门，冨安健洋与板仓滉镇守中路，中山/酒井分任边卫；田中碧与佐伯海人组成双后腰，久保建英居右、前田大然或上田绮世居中、伊东纯也居左。主要进球候选人为荷兰的德佩（中等概率）、加克波（中等）和维尔霍斯特（较高），日本则为久保建英（中等）和伊东纯也（偏低）。",
+      "t3_events": "比赛节奏预计为：开场阶段双方试探，日本可能以低阵型防守为主，荷兰则通过德容的持球推进寻找渗透机会。第一粒进球大概率出现在25至40分钟区间——若荷兰领先，可能在第30至35分钟通过邓弗里斯右路传中由维尔霍斯特头槌破门；若日本抢开成功，则可能在第20至25分钟由伊东纯也利用速度反击得分。下半场60至75分钟为换人调整的黄金窗口，荷兰可能换上朗或沙维·西蒙斯增强边路突破，日本则可能换上相马勇纪或上田绮世加强进攻。比赛末段（80分钟后）可能出现荷兰再下一城或日本扳回一球的剧情，黄牌可能在对抗激烈的中场区域出现。",
+      "t4_stats": "基于双方近期数据和战术特点，预期统计分布为：荷兰控球率约55%至58%（略低于近期均值，因日本同样擅长控球），射门次数约15至18次（其中射正约5至7次），角球约6至8个，传球成功率约84%至87%；日本方面：控球率约42%至45%，射门次数约10至13次（射正约3至5次），角球约4至6个，传球成功率约79%至83%。荷兰的进攻主导将体现在更高的射门和角球数据上，而日本的反击效率则体现在射正转化率上。犯规次数预计日本略多（因中场防守压力大），而荷兰的防守型中场德罗恩/蒂尔的拦截数据将是限制日本进攻的关键指标。"
+    },
+    "predicted_result": "home",
+    "win_probs": {
+      "home": 0.55,
+      "draw": 0.25,
+      "away": 0.2
+    },
+    "headline_score": "2-1",
+    "expected_goal_diff": 0.8,
+    "match_profile": "normal",
+    "expected_total_goals": 2.9,
+    "advance_prob": 0.55,
+    "lineups": {
+      "home": {
+        "starting": [
+          {
+            "name": "Bart Verbruggen",
+            "position": "GK",
+            "shirt": 13
+          },
+          {
+            "name": "Virgil van Dijk",
+            "position": "DF",
+            "shirt": 4
+          },
+          {
+            "name": "Jan Paul van Hecke",
+            "position": "DF",
+            "shirt": 3
+          },
+          {
+            "name": "Nathan Aké",
+            "position": "DF",
+            "shirt": 5
+          },
+          {
+            "name": "Denzel Dumfries",
+            "position": "DF",
+            "shirt": 2
+          },
+          {
+            "name": "Frenkie de Jong",
+            "position": "MF",
+            "shirt": 21
+          },
+          {
+            "name": "Marten de Roon",
+            "position": "MF",
+            "shirt": 20
+          },
+          {
+            "name": "Tijjani Reijnders",
+            "position": "MF",
+            "shirt": 24
+          },
+          {
+            "name": "Cody Mathès Gakpo",
+            "position": "FW",
+            "shirt": 11
+          },
+          {
+            "name": "Memphis Depay",
+            "position": "FW",
+            "shirt": 10
+          },
+          {
+            "name": "Wout Weghorst",
+            "position": "FW",
+            "shirt": 9
+          }
+        ],
+        "bench": [
+          {
+            "name": "Mark Flekken",
+            "position": "GK",
+            "shirt": 1
+          },
+          {
+            "name": "Ryan Gravenberch",
+            "position": "MF",
+            "shirt": 16
+          },
+          {
+            "name": "Teun Koopmeiners",
+            "position": "MF",
+            "shirt": 18
+          },
+          {
+            "name": "Donyell Malen",
+            "position": "FW",
+            "shirt": 7
+          },
+          {
+            "name": "Noa Lang",
+            "position": "FW",
+            "shirt": 8
+          },
+          {
+            "name": "Brian Brobbey",
+            "position": "FW",
+            "shirt": 14
+          },
+          {
+            "name": "Crysencio Summerville",
+            "position": "FW",
+            "shirt": 19
+          },
+          {
+            "name": "Guus Berend Til",
+            "position": "MF",
+            "shirt": 15
+          },
+          {
+            "name": "Mickey van de Ven",
+            "position": "DF",
+            "shirt": 22
+          },
+          {
+            "name": "Jorrel Hato",
+            "position": "DF",
+            "shirt": 26
+          },
+          {
+            "name": "Lutsharel Geertruida",
+            "position": "DF",
+            "shirt": 25
+          },
+          {
+            "name": "Quinten Ryan Crispito Timber",
+            "position": "MF",
+            "shirt": 17
+          }
+        ]
+      },
+      "away": {
+        "starting": [
+          {
+            "name": "Zion Suzuki",
+            "position": "GK",
+            "shirt": 1
+          },
+          {
+            "name": "Takehiro Tomiyasu",
+            "position": "DF",
+            "shirt": 3
+          },
+          {
+            "name": "Ko Itakura",
+            "position": "DF",
+            "shirt": 4
+          },
+          {
+            "name": "Hiroki Ito",
+            "position": "DF",
+            "shirt": 16
+          },
+          {
+            "name": "Yuto Nagatomo",
+            "position": "DF",
+            "shirt": 5
+          },
+          {
+            "name": "Ao Tanaka",
+            "position": "MF",
+            "shirt": 6
+          },
+          {
+            "name": "Kaishu Sano",
+            "position": "MF",
+            "shirt": 7
+          },
+          {
+            "name": "Takefusa Kubo",
+            "position": "FW",
+            "shirt": 10
+          },
+          {
+            "name": "Daizen Maeda",
+            "position": "FW",
+            "shirt": 13
+          },
+          {
+            "name": "Junya Ito",
+            "position": "FW",
+            "shirt": 11
+          },
+          {
+            "name": "Ayase Ueda",
+            "position": "FW",
+            "shirt": 9
+          }
+        ],
+        "bench": [
+          {
+            "name": "Keisuke Osako",
+            "position": "GK",
+            "shirt": 12
+          },
+          {
+            "name": "Tomoki Hayakawa",
+            "position": "GK",
+            "shirt": 23
+          },
+          {
+            "name": "Ayumu Seko",
+            "position": "DF",
+            "shirt": 2
+          },
+          {
+            "name": "Tsuyoshi Watanabe",
+            "position": "DF",
+            "shirt": 15
+          },
+          {
+            "name": "Shogo Taniguchi",
+            "position": "DF",
+            "shirt": 20
+          },
+          {
+            "name": "Junnosuke Suzuki",
+            "position": "DF",
+            "shirt": 22
+          },
+          {
+            "name": "Yukinari Sugawara",
+            "position": "DF",
+            "shirt": 19
+          },
+          {
+            "name": "Daichi Kamada",
+            "position": "MF",
+            "shirt": 8
+          },
+          {
+            "name": "Ritsu Doan",
+            "position": "FW",
+            "shirt": 14
+          },
+          {
+            "name": "Keito Nakamura",
+            "position": "FW",
+            "shirt": 17
+          },
+          {
+            "name": "Yuito Suzuki",
+            "position": "FW",
+            "shirt": 24
+          },
+          {
+            "name": "Shuto Machino",
+            "position": "FW",
+            "shirt": 25
+          }
+        ]
+      }
+    },
+    "formations": {
+      "home": "4-3-3",
+      "away": "4-3-3"
+    },
+    "scorers": [
+      {
+        "player": "Wout Weghorst",
+        "team": "home",
+        "minute_range": [
+          28,
+          45
+        ],
+        "p": 0.35
+      },
+      {
+        "player": "Memphis Depay",
+        "team": "home",
+        "minute_range": [
+          55,
+          70
+        ],
+        "p": 0.3
+      },
+      {
+        "player": "Cody Mathès Gakpo",
+        "team": "home",
+        "minute_range": [
+          75,
+          90
+        ],
+        "p": 0.25
+      },
+      {
+        "player": "Junya Ito",
+        "team": "away",
+        "minute_range": [
+          35,
+          55
+        ],
+        "p": 0.3
+      },
+      {
+        "player": "Takefusa Kubo",
+        "team": "away",
+        "minute_range": [
+          60,
+          80
+        ],
+        "p": 0.22
+      }
+    ],
+    "assisters": [
+      {
+        "player": "Denzel Dumfries",
+        "team": "home",
+        "p": 0.28,
+        "minute": 32
+      },
+      {
+        "player": "Frenkie de Jong",
+        "team": "home",
+        "p": 0.25,
+        "minute": 58
+      },
+      {
+        "player": "Tijjani Reijnders",
+        "team": "home",
+        "p": 0.2,
+        "minute": 78
+      },
+      {
+        "player": "Hiroki Ito",
+        "team": "away",
+        "p": 0.22,
+        "minute": 42
+      },
+      {
+        "player": "Ao Tanaka",
+        "team": "away",
+        "p": 0.18,
+        "minute": 65
+      }
+    ],
+    "substitutions": [
+      {
+        "team": "home",
+        "off": "Memphis Depay",
+        "on": "Donyell Malen",
+        "minute": 65
+      },
+      {
+        "team": "home",
+        "off": "Marten de Roon",
+        "on": "Ryan Gravenberch",
+        "minute": 72
+      },
+      {
+        "team": "home",
+        "off": "Wout Weghorst",
+        "on": "Brian Brobbey",
+        "minute": 78
+      },
+      {
+        "team": "away",
+        "off": "Daizen Maeda",
+        "on": "Ritsu Doan",
+        "minute": 60
+      },
+      {
+        "team": "away",
+        "off": "Ayase Ueda",
+        "on": "Yuito Suzuki",
+        "minute": 70
+      },
+      {
+        "team": "away",
+        "off": "Kaishu Sano",
+        "on": "Daichi Kamada",
+        "minute": 80
+      }
+    ],
+    "cards": [
+      {
+        "player": "Marten de Roon",
+        "team": "home",
+        "color": "yellow",
+        "minute": 38
+      },
+      {
+        "player": "Kaishu Sano",
+        "team": "away",
+        "color": "yellow",
+        "minute": 51
+      },
+      {
+        "player": "Denzel Dumfries",
+        "team": "home",
+        "color": "yellow",
+        "minute": 67
+      }
+    ],
+    "penalties": [],
+    "own_goals": [],
+    "key_events": [],
+    "motm_probs": [
+      {
+        "player": "Wout Weghorst",
+        "team": "home",
+        "p": 0.3
+      },
+      {
+        "player": "Frenkie de Jong",
+        "team": "home",
+        "p": 0.25
+      },
+      {
+        "player": "Denzel Dumfries",
+        "team": "home",
+        "p": 0.18
+      },
+      {
+        "player": "Takefusa Kubo",
+        "team": "away",
+        "p": 0.15
+      },
+      {
+        "player": "Junya Ito",
+        "team": "away",
+        "p": 0.12
+      }
+    ],
+    "stats": {
+      "possession": {
+        "home": 57,
+        "away": 43
+      },
+      "shots": {
+        "home": 16,
+        "away": 11
+      },
+      "shots_on_target": {
+        "home": 6,
+        "away": 4
+      },
+      "corners": {
+        "home": 7,
+        "away": 4
+      },
+      "pass_accuracy": {
+        "home": 85,
+        "away": 81
+      },
+      "fouls": {
+        "home": 11,
+        "away": 13
+      },
+      "saves": {
+        "home": 2,
+        "away": 4
+      },
+      "defensive_actions": {
+        "home": 12,
+        "away": 15
+      }
+    },
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWTFPNExmVWpVR0JCa2taZVVxQlNUQllSOTA4ZlFpZWZBNy1HVFZUR3BFTEVHUVk1bEt1d2xYSFNiZklQUW8xcmpaQ2lVTlRsdVpnUTRaanhLcE5pS05YX0NrSWV4RjgzQWR1SUZ3RXZ1VEU2NElXckptOEFqNW9DZm1Xa3ZZSThGN1Z5b19Lckl2RVMxUjMtS0RncnNWOEY0eHJ0akU2UFdBZi03MVlVeEJXZ09wTmlpeDA3NVViX0V5anNNZ3YxOWZxWURodzg",
+        "accessed_at": "2026-06-12T18:00:00+00:00",
+        "title": "Sports Mole: Preview: Netherlands vs Japan - prediction, team news, lineups"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OUXlQUFUxdUdjaVhFYkthNXNQZVhybnZOTEtqbEd4SGVWd2UyOEpHOC1SRUszVThGa0FnZWNHTWtoamlDYUhXZ1JOLThpSWpHUndacUpTb3Jnd3diREFDdHpENGtvUXdBYlByM3BwTGRNT3lCTVFmYjVISUo",
+        "accessed_at": "2026-06-12T18:00:00+00:00",
+        "title": "FIFA World Cup 2026: Japan dealt gut punch as Samurai Blue lose captain Endo Wataru to foot injury"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc2x2TnlyeGRGQXE1c2FibzlCTExKcnVHaHdsYVVOVWlDVnI2dFg3SGE5THlmSFR4d0drMlJteDJVZmlDV0dScmY5aG1xYndQSE9rQ3ptZGNxTHFSNTZxb2RiUG9ydXZ0QU4zLUpMSFNicFVWYmJJOTBVZlZIMnRfaFQyMFZNRm42aXdjeTMwY0tfZmVyLVBScnZFM3lyS2JOaWdfQjQxRFh2dVRWb2FRZndrb0w4UUFHeTdNbXVPeWdpcEFkWEtZ",
+        "accessed_at": "2026-06-12T18:00:00+00:00",
+        "title": "USA Today: Netherlands hit with World Cup injury crisis ahead of showdown vs. Japan"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWTFPNExmVWpVR0JCa2taZVVxQlNUQllSOTA4ZlFpZWZBNy1HVFZUR3BFTEVHUVk1bEt1d2xYSFNiZklQUW8xcmpaQ2lVTlRsdVpnUTRaanhLcE5pS05YX0NrSWV4RjgzQWR1SUZ3RXZ1VEU2NElXckptOEFqNW9DZm1Xa3ZZSThGN1Z5b19Lckl2RVMxUjMtS0RncnNWOEY0eHJ0akU2UFdBZi03MVlVeEJXZ09wTmlpeDA3NVViX0V5anNNZ3YxOWZxWURodzg",
+      "accessed_at": "2026-06-12T18:00:00+00:00",
+      "title": "Sports Mole: Preview: Netherlands vs Japan - prediction, team news, lineups"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OUXlQUFUxdUdjaVhFYkthNXNQZVhybnZOTEtqbEd4SGVWd2UyOEpHOC1SRUszVThGa0FnZWNHTWtoamlDYUhXZ1JOLThpSWpHUndacUpTb3Jnd3diREFDdHpENGtvUXdBYlByM3BwTGRNT3lCTVFmYjVISUo",
+      "accessed_at": "2026-06-12T18:00:00+00:00",
+      "title": "FIFA World Cup 2026: Japan dealt gut punch as Samurai Blue lose captain Endo Wataru to foot injury"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc2x2TnlyeGRGQXE1c2FibzlCTExKcnVHaHdsYVVOVWlDVnI2dFg3SGE5THlmSFR4d0drMlJteDJVZmlDV0dScmY5aG1xYndQSE9rQ3ptZGNxTHFSNTZxb2RiUG9ydXZ0QU4zLUpMSFNicFVWYmJJOTBVZlZIMnRfaFQyMFZNRm42aXdjeTMwY0tfZmVyLVBScnZFM3lyS2JOaWdfQjQxRFh2dVRWb2FRZndrb0w4UUFHeTdNbXVPeWdpcEFkWEtZ",
+      "accessed_at": "2026-06-12T18:00:00+00:00",
+      "title": "USA Today: Netherlands hit with World Cup injury crisis ahead of showdown vs. Japan"
+    }
+  ],
+  "leakage_audit": {
+    "leaked": false,
+    "leaked_sources": []
+  },
+  "cost_usd": 0.02122634,
+  "tokens": {
+    "input": 22969,
+    "output": 12712
+  },
+  "tool_calls": 0,
+  "wall_seconds": 204.44034218788147,
+  "repair_retries": 1,
+  "validation_errors": [],
+  "error": null,
+  "raw_text": "{\n  \"fixture_id\": \"World-Cup_Group-Stage-11_Netherlands_Japan_2026-06-14\",\n  \"model_id\": \"worldcuparena-v1\",\n  \"setting\": \"S1\",\n  \"submitted_at\": \"2026-06-12T18:30:00+00:00\",\n  \"reasoning\": {\n    \"overall\": \"荷兰与日本的世界杯F组首轮交锋，是一场实力与风格高度碰撞的对决。橙衣军团坐镇达拉斯体育场，以逸待劳迎接武士蓝的挑战。荷兰队近期在欧预赛中势不可挡，八场豪取六胜两平，场均轰入3.5球，攻击群状态火热——从德佩、加克波到维尔霍斯特、丹朱马，群星璀璨、多点开花。中场核心弗兰基·德容伤愈复出后逐步找回节奏，搭档科伊珀或雷恩德斯构建双枢纽，攻防转换流畅度值得期待。后防线由范戴克领衔，阿克、邓弗里斯分守两侧，门将维尔布鲁根把守最后一道关隘，整体结构稳固且具备出球能力。\\n\\n日本队同样状态不俗，十二强赛豪取七胜两平一负，但近期噩耗连连——队长远藤航因脚伤铁定缺席本届世界杯，这对球队的防守型中场屏障和定位球战术是毁灭性打击。此外，荷兰媒体透露橙衣军团自身也饱受伤病困扰，双方均有不同程度的阵容折损，这让比赛悬念略有上升。日本的优势在于边路速度与反击效率，上田绮世、久保建英、伊藤纯也构成的三叉戟具备撕裂任何防线的爆发力；但中后场在远藤缺阵后能否顶住荷兰的高位压迫，存在相当大的疑问。综合来看，荷兰整体纸面实力仍占优势，在主场气氛加持下拿下三分是大概率事件，但日本绝非鱼腩，若能抢好开局并利用荷兰防线身后的空当，逼平甚至爆冷并非天方夜谭。\",\n    \"market_odds\": \"市场赔率尚未完整公示，但根据双方近期表现、阵容完整度和世界杯平台的主场优势，荷兰的隐含胜率估计在55%至60%区间，平局约在22%至25%，日本客胜则在18%至22%左右。这一市场区间与基本面高度吻合：荷兰进攻火力冠绝欧预赛，场均3.5球的产出配合范戴克领衔的稳健防线，使其在达拉斯的取胜概率明显优于对手。日本虽然在亚洲区预选赛一路高歌，但对手含金量与欧洲劲旅不可同日而语，且队长远藤航的缺席进一步压低了其上限。本模型认同市场对荷兰的倾斜，但在平局概率上略高于市场均值——日本边路反击质量和两队相近的控球率（均约67%）意味着比赛未必呈现一边倒格局。若荷兰进入状态较慢或日本抢开局的战术奏效，1比1的平局剧本值得关注。\",\n    \"lineup_analysis\": \"荷兰预计以4-3-3阵型出击，门将位置由维尔布鲁根担任首发的可能性最大，尽管弗莱肯近期表现同样稳健。后防线四人组应为：范戴克与海赫形成中路搭档，阿克司职左中卫（可内收协助出球），邓弗里斯镇守右路进攻走廊，其插上助攻能力将成为日本左后卫防区的重大考验。中场三人从德容、德罗恩、科伊珀、雷恩德斯、蒂尔、格罗费恩贝赫等人中选出三人——德容居中调度核心位置不可撼动，搭配一名防守型中场（德罗恩或蒂尔）和一名进攻型中场（科伊珀/雷恩德斯）。锋线三箭头预计加克波居左、德佩居中、维尔霍斯特或马伦在右，替补席还坐拥朗、克罗马、沙维 Sim等变招。\\n\\n日本方面，远藤航缺阵后，田中碧很可能与佐伯海人组成双后腰，攻守平衡面临重建。防线预计为：冨安健洋与板仓滉搭档中卫，中山雄太或长友佑都出任左后卫，右路交给攻守兼备的酒井宏树。锋线三叉戟为：久保建英居右、铃木彩艳或上田绮世居中、前田大然或伊东纯也居左。中场创造力将高度依赖镰田大地和田中碧的输送质量。此役双方的阵容深度和轮换空间将成为下半场走势的关键变量。\",\n    \"tactical_analysis\": \"荷兰大概率采用主动压迫+控球主导的战术体系，后场从维尔布鲁根/弗莱肯开始通过范戴克和阿克的安全传球构建进攻，中场德容作为出球枢纽吸引对手压迫后精准分边。邓弗里斯的右路插上将是荷兰进攻宽度的主要来源，左路阿克的内收则提供额外的中路出球点。当日本中场试图压迫时，荷兰两翼边锋（加克波/朗）会内收形成紧凑的4-4-2块状结构，断球后迅速打对方边卫身后。\\n\\n日本则会牺牲部分控球权以换取反击空间，典型策略是：中后场5-3-2低阵型站位，田中碧与佐伯海人组成双后腰拦截荷兰中路渗透，随后由久保建英或伊东纯也带球推进至荷兰半场。左右边翼卫（中山/酒井）大幅插上提供宽度，形成5-3-2到3-4-3的阵型切换。日本的定位球同样值得重视——尽管远藤缺阵，但板仓滉和冨安健洋的头球能力仍在，角球和任意球攻防将贡献可观的预期进球。\",\n    \"h2h_recent_form\": \"两队历史交锋记录有限，最近一次重要对话为2022年卡塔尔世界杯小组赛，日本在领先两球的大好局面下以2比3被荷兰逆转绝杀，那场比赛也成为世界杯经典名局之一。该役充分暴露了日本在体能下降阶段防线注意力涣散的问题，而荷兰则展现了强队底蕴——即使落后两球也能通过高位压迫和边路传中连扳三球完成逆转。近期数据方面，荷兰近八场欧预赛轰入28球仅失4球，场均进球3.5个，xG产出极高；日本同期亚洲区预选赛进27球失3球，零封率同样可观，但对手实力与欧洲二流球队有明显差距。此番移师达拉斯中立场，荷兰的旅途压力（从欧洲赴美）略大于日本（从亚洲出发差距不大），但主场球迷氛围将显著抵消这一不利因素。\",\n    \"player_matchups\": \"本场最具决定性的对位集中在三条线：中场核心弗兰基·德容 vs 日本双后腰田中碧/佐伯海人——德容的推进能力和视野将直接决定荷兰能否有效撕开日本的中场屏障，若德容被缠斗，日本的反击将获得大片纵深空间；右路进攻核心邓弗里斯 vs 日本左后卫（预计为中山雄太或酒井宏树），邓弗里斯的身体对抗和插上频率将持续施压日本左路防守；锋线箭头德佩 vs 日本中卫搭档冨安健洋/板仓滉，德佩的支点作用和脚下技术能否在密集防守中找到空间至关重要。日本方面，久保建英 vs 荷兰右中卫海赫或阿克的组合值得期待——久保的脚下频率和变向能力对欧洲中卫是严峻考验；伊东纯也的速度 vs 邓弗里斯助攻后留下的右路空当同样是一大看点。双方门将（维尔布鲁根 vs 铃木彩艳）的发挥也可能左右最终比分。\",\n    \"injuries_availability\": \"日本方面最重大的伤情为队长远藤航左脚骨折，已确认无缘本届世界杯，这对球队防守体系和定位球攻防影响深远。中场屏障质量下降后，田中碧和佐伯海人的双后腰组合能否顶住荷兰的传中压制存疑。荷兰方面，据USA Today等媒体披露，橙衣军团在赛前也遭遇伤病潮——具体名单尚未完全确认，但若关键球员（德容、范戴克等）有任何缺阵，都将显著改变双方实力对比。赛前48小时名单公布前，双方均有轮换和阵容微调的可能，建议关注最终确认的首发阵容再做细化判断。目前而言，日本的阵容损失更为明确且影响更大，荷兰则面临一定的未知风险。\",\n    \"upset_draw_blowout_cases\": \"荷兰大胜（4比0、5比1等）的前提是：日本双后腰被德容和科伊珀打穿，锋线三叉戟利用边路宽度持续撕扯日本防线，邓弗里斯右路套边传中精准找到维尔霍斯特或德佩抢点。反过来，日本爆冷取胜的路径在于：开赛后迅速抢攻利用荷兰防线立足未稳，久保建英和伊东纯也利用个人能力打出反击快攻，中场在远藤缺阵后反而以更激进的压迫弥补空当——若这套剧本奏效，日本有望以2比1或3比2带走三分。\\n\\n平局最可能出现的情况是：日本在防守端展现出超预期的组织纪律性，通过低阵型压缩荷兰的进攻空间，同时利用反击或定位球偷得一分，荷兰虽占优但迟迟无法敲开铁桶阵，最终1比1握手言和。高比分 Chaos 剧本则要求双方均打开进攻模式：日本边路突破持续造威胁，荷兰则依靠个人能力和定位球还以颜色，最终可能打出3比3、4比2之类的高潮比分——这在双方均有进攻火力、但防线均有隐患的情况下并非不可能。综合权衡，荷兰赢面最大（55%），但平局和爆冷路径均不可忽视。\",\n    \"score_result_rationale\": \"综合上述分析，荷兰以整体实力、主场优势和近期火热的进攻状态理应拿下这场对决，但日本的边路速度、反击质量和门将位置的个人能力意味着比赛不会轻松。大比分胜利需要荷兰全线压制日本中场并把握住至少三次绝对机会，而更可能的情况是荷兰以2比1或3比1的比分艰难取胜。鉴于双方均有进攻火力而防守端存在隐患，预期总进球数在2.5至3.5之间。最终选择2比1——荷兰小胜，赢面约55%，平局约25%，日本客胜约20%。\",\n    \"t1_result\": \"荷兰以2比1战胜日本，主胜概率约55%、平局约25%、日本客胜约20%。这一分布反映了荷兰在整体实力和主场优势上的领先，但同时也认可日本通过反击和定位球制造威胁的能力。比分2比1而非3比0或4比0，是因为日本防线在远藤缺阵后可能展现更强的战斗欲望，且其进攻三人组具备随时改变比赛走势的个人能力。\",\n    \"t2_player\": \"首发阵容基于4-3-3体系：荷兰由维尔布鲁根把守大门，范戴克与海赫搭档中卫，阿克和邓弗里斯分居两侧；中场德容居中调度，德罗恩或蒂尔提供防守屏障，科伊珀或雷恩德斯负责进攻串联；锋线加克波居左、德佩居中、维尔霍斯特或马伦居右。日本方面，铃木彩艳把守球门，冨安健洋与板仓滉镇守中路，中山/酒井分任边卫；田中碧与佐伯海人组成双后腰，久保建英居右、前田大然或上田绮世居中、伊东纯也居左。主要进球候选人为荷兰的德佩（中等概率）、加克波（中等）和维尔霍斯特（较高），日本则为久保建英（中等）和伊东纯也（偏低）。\",\n    \"t3_events\": \"比赛节奏预计为：开场阶段双方试探，日本可能以低阵型防守为主，荷兰则通过德容的持球推进寻找渗透机会。第一粒进球大概率出现在25至40分钟区间——若荷兰领先，可能在第30至35分钟通过邓弗里斯右路传中由维尔霍斯特头槌破门；若日本抢开成功，则可能在第20至25分钟由伊东纯也利用速度反击得分。下半场60至75分钟为换人调整的黄金窗口，荷兰可能换上朗或沙维·西蒙斯增强边路突破，日本则可能换上相马勇纪或上田绮世加强进攻。比赛末段（80分钟后）可能出现荷兰再下一城或日本扳回一球的剧情，黄牌可能在对抗激烈的中场区域出现。\",\n    \"t4_stats\": \"基于双方近期数据和战术特点，预期统计分布为：荷兰控球率约55%至58%（略低于近期均值，因日本同样擅长控球），射门次数约15至18次（其中射正约5至7次），角球约6至8个，传球成功率约84%至87%；日本方面：控球率约42%至45%，射门次数约10至13次（射正约3至5次），角球约4至6个，传球成功率约79%至83%。荷兰的进攻主导将体现在更高的射门和角球数据上，而日本的反击效率则体现在射正转化率上。犯规次数预计日本略多（因中场防守压力大），而荷兰的防守型中场德罗恩/蒂尔的拦截数据将是限制日本进攻的关键指标。\"\n  },\n  \"predicted_result\": \"home\",\n  \"win_probs\": {\n    \"home\": 0.55,\n    \"draw\": 0.25,\n    \"away\": 0.2\n  },\n  \"headline_score\": \"2-1\",\n  \"expected_goal_diff\": 0.85,\n  \"match_profile\": \"normal\",\n  \"expected_total_goals\": 2.95,\n  \"advance_prob\": 0.55,\n  \"lineups\": {\n    \"home\": {\n      \"starting\": [\n        {\n          \"name\": \"Bart Verbruggen\",\n          \"position\": \"GK\",\n          \"shirt\": 13\n        },\n        {\n          \"name\": \"Virgil van Dijk\",\n          \"position\": \"DF\",\n          \"shirt\": 4\n        },\n        {\n          \"name\": \"Jan Paul van Hecke\",\n          \"position\": \"DF\",\n          \"shirt\": 3\n        },\n        {\n          \"name\": \"Nathan Aké\",\n          \"position\": \"DF\",\n          \"shirt\": 5\n        },\n        {\n          \"name\": \"Denzel Dumfries\",\n          \"position\": \"DF\",\n          \"shirt\": 2\n        },\n        {\n          \"name\": \"Frenkie de Jong\",\n          \"position\": \"MF\",\n          \"shirt\": 21\n        },\n        {\n          \"name\": \"Marten de Roon\",\n          \"position\": \"MF\",\n          \"shirt\": 20\n        },\n        {\n          \"name\": \"Tijjani Reijnders\",\n          \"position\": \"MF\",\n          \"shirt\": 24\n        },\n        {\n          \"name\": \"Cody Mathès Gakpo\",\n          \"position\": \"FW\",\n          \"shirt\": 11\n        },\n        {\n          \"name\": \"Memphis Depay\",\n          \"position\": \"FW\",\n          \"shirt\": 10\n        },\n        {\n          \"name\": \"Wout Weghorst\",\n          \"position\": \"FW\",\n          \"shirt\": 9\n        }\n      ],\n      \"bench\": [\n        {\n          \"name\": \"Mark Flekken\",\n          \"position\": \"GK\",\n          \"shirt\": 1\n        },\n        {\n          \"name\": \"Ryan Gravenberch\",\n          \"position\": \"MF\",\n          \"shirt\": 16\n        },\n        {\n          \"name\": \"Teun Koopmeiners\",\n          \"position\": \"MF\",\n          \"shirt\": 18\n        },\n        {\n          \"name\": \"Donyell Malen\",\n          \"position\": \"FW\",\n          \"shirt\": 7\n        },\n        {\n          \"name\": \"Noa Lang\",\n          \"position\": \"FW\",\n          \"shirt\": 8\n        },\n        {\n          \"name\": \"Brian Brobbey\",\n          \"position\": \"FW\",\n          \"shirt\": 14\n        },\n        {\n          \"name\": \"Crysencio Summerville\",\n          \"position\": \"FW\",\n          \"shirt\": 19\n        },\n        {\n          \"name\": \"Guus Berend Til\",\n          \"position\": \"MF\",\n          \"shirt\": 15\n        },\n        {\n          \"name\": \"Mickey van de Ven\",\n          \"position\": \"DF\",\n          \"shirt\": 22\n        },\n        {\n          \"name\": \"Jorrel Hato\",\n          \"position\": \"DF\",\n          \"shirt\": 26\n        },\n        {\n          \"name\": \"Lutsharel Geertruida\",\n          \"position\": \"DF\",\n          \"shirt\": 25\n        },\n        {\n          \"name\": \"Quinten Ryan Crispito Timber\",\n          \"position\": \"MF\",\n          \"shirt\": 17\n        }\n      ]\n    },\n    \"away\": {\n      \"starting\": [\n        {\n          \"name\": \"Zion Suzuki\",\n          \"position\": \"GK\",\n          \"shirt\": 1\n        },\n        {\n          \"name\": \"Takehiro Tomiyasu\",\n          \"position\": \"DF\",\n          \"shirt\": 3\n        },\n        {\n          \"name\": \"Ko Itakura\",\n          \"position\": \"DF\",\n          \"shirt\": 4\n        },\n        {\n          \"name\": \"Hiroki Ito\",\n          \"position\": \"DF\",\n          \"shirt\": 16\n        },\n        {\n          \"name\": \"Yuto Nagatomo\",\n          \"position\": \"DF\",\n          \"shirt\": 5\n        },\n        {\n          \"name\": \"Ao Tanaka\",\n          \"position\": \"MF\",\n          \"shirt\": 6\n        },\n        {\n          \"name\": \"Kaishu Sano\",\n          \"position\": \"MF\",\n          \"shirt\": 7\n        },\n        {\n          \"name\": \"Takefusa Kubo\",\n          \"position\": \"FW\",\n          \"shirt\": 10\n        },\n        {\n          \"name\": \"Daizen Maeda\",\n          \"position\": \"FW\",\n          \"shirt\": 13\n        },\n        {\n          \"name\": \"Junya Ito\",\n          \"position\": \"FW\",\n          \"shirt\": 11\n        },\n        {\n          \"name\": \"Ayase Ueda\",\n          \"position\": \"FW\",\n          \"shirt\": 9\n        }\n      ],\n      \"bench\": [\n        {\n          \"name\": \"Keisuke Osako\",\n          \"position\": \"GK\",\n          \"shirt\": 12\n        },\n        {\n          \"name\": \"Tomoki Hayakawa\",\n          \"position\": \"GK\",\n          \"shirt\": 23\n        },\n        {\n          \"name\": \"Ayumu Seko\",\n          \"position\": \"DF\",\n          \"shirt\": 2\n        },\n        {\n          \"name\": \"Tsuyoshi Watanabe\",\n          \"position\": \"DF\",\n          \"shirt\": 15\n        },\n        {\n          \"name\": \"Shogo Taniguchi\",\n          \"position\": \"DF\",\n          \"shirt\": 20\n        },\n        {\n          \"name\": \"Junnosuke Suzuki\",\n          \"position\": \"DF\",\n          \"shirt\": 22\n        },\n        {\n          \"name\": \"Yukinari Sugawara\",\n          \"position\": \"DF\",\n          \"shirt\": 19\n        },\n        {\n          \"name\": \"Daichi Kamada\",\n          \"position\": \"MF\",\n          \"shirt\": 8\n        },\n        {\n          \"name\": \"Ritsu Doan\",\n          \"position\": \"FW\",\n          \"shirt\": 14\n        },\n        {\n          \"name\": \"Keito Nakamura\",\n          \"position\": \"FW\",\n          \"shirt\": 17\n        },\n        {\n          \"name\": \"Yuito Suzuki\",\n          \"position\": \"FW\",\n          \"shirt\": 24\n        },\n        {\n          \"name\": \"Shuto Machino\",\n          \"position\": \"FW\",\n          \"shirt\": 25\n        }\n      ]\n    }\n  },\n  \"formations\": {\n    \"home\": \"4-3-3\",\n    \"away\": \"4-3-3\"\n  },\n  \"scorers\": [\n    {\n      \"player\": \"Wout Weghorst\",\n      \"team\": \"home\",\n      \"minute_range\": [\n        28,\n        45\n      ],\n      \"p\": 0.35\n    },\n    {\n      \"player\": \"Memphis Depay\",\n      \"team\": \"home\",\n      \"minute_range\": [\n        55,\n        70\n      ],\n      \"p\": 0.3\n    },\n    {\n      \"player\": \"Cody Mathès Gakpo\",\n      \"team\": \"home\",\n      \"minute_range\": [\n        75,\n        90\n      ],\n      \"p\": 0.25\n    },\n    {\n      \"player\": \"Junya Ito\",\n      \"team\": \"away\",\n      \"minute_range\": [\n        35,\n        55\n      ],\n      \"p\": 0.3\n    },\n    {\n      \"player\": \"Takefusa Kubo\",\n      \"team\": \"away\",\n      \"minute_range\": [\n        60,\n        80\n      ],\n      \"p\": 0.22\n    }\n  ],\n  \"assisters\": [\n    {\n      \"player\": \"Denzel Dumfries\",\n      \"team\": \"home\",\n      \"p\": 0.28,\n      \"minute\": 32\n    },\n    {\n      \"player\": \"Frenkie de Jong\",\n      \"team\": \"home\",\n      \"p\": 0.25,\n      \"minute\": 58\n    },\n    {\n      \"player\": \"Tijjani Reijnders\",\n      \"team\": \"home\",\n      \"p\": 0.2,\n      \"minute\": 78\n    },\n    {\n      \"player\": \"Hiroki Ito\",\n      \"team\": \"away\",\n      \"p\": 0.22,\n      \"minute\": 42\n    },\n    {\n      \"player\": \"Ao Tanaka\",\n      \"team\": \"away\",\n      \"p\": 0.18,\n      \"minute\": 65\n    }\n  ],\n  \"substitutions\": [\n    {\n      \"team\": \"home\",\n      \"off\": \"Memphis Depay\",\n      \"on\": \"Donyell Malen\",\n      \"minute\": 65\n    },\n    {\n      \"team\": \"home\",\n      \"off\": \"Marten de Roon\",\n      \"on\": \"Ryan Gravenberch\",\n      \"minute\": 72\n    },\n    {\n      \"team\": \"home\",\n      \"off\": \"Wout Weghorst\",\n      \"on\": \"Brian Brobbey\",\n      \"minute\": 78\n    },\n    {\n      \"team\": \"away\",\n      \"off\": \"Daizen Maeda\",\n      \"on\": \"Ritsu Doan\",\n      \"minute\": 60\n    },\n    {\n      \"team\": \"away\",\n      \"off\": \"Ayase Ueda\",\n      \"on\": \"Yuito Suzuki\",\n      \"minute\": 70\n    },\n    {\n      \"team\": \"away\",\n      \"off\": \"Kaishu Sano\",\n      \"on\": \"Daichi Kamada\",\n      \"minute\": 80\n    }\n  ],\n  \"cards\": [\n    {\n      \"player\": \"Marten de Roon\",\n      \"team\": \"home\",\n      \"color\": \"yellow\",\n      \"minute\": 38\n    },\n    {\n      \"player\": \"Kaishu Sano\",\n      \"team\": \"away\",\n      \"color\": \"yellow\",\n      \"minute\": 51\n    },\n    {\n      \"player\": \"Denzel Dumfries\",\n      \"team\": \"home\",\n      \"color\": \"yellow\",\n      \"minute\": 67\n    }\n  ],\n  \"penalties\": [],\n  \"own_goals\": [],\n  \"key_events\": [],\n  \"motm_probs\": [\n    {\n      \"player\": \"Wout Weghorst\",\n      \"team\": \"home\",\n      \"p\": 0.3\n    },\n    {\n      \"player\": \"Frenkie de Jong\",\n      \"team\": \"home\",\n      \"p\": 0.25\n    },\n    {\n      \"player\": \"Denzel Dumfries\",\n      \"team\": \"home\",\n      \"p\": 0.18\n    },\n    {\n      \"player\": \"Takefusa Kubo\",\n      \"team\": \"away\",\n      \"p\": 0.15\n    },\n    {\n      \"player\": \"Junya Ito\",\n      \"team\": \"away\",\n      \"p\": 0.12\n    }\n  ],\n  \"stats\": {\n    \"possession\": {\n      \"home\": 57,\n      \"away\": 43\n    },\n    \"shots\": {\n      \"home\": 16,\n      \"away\": 11\n    },\n    \"shots_on_target\": {\n      \"home\": 6,\n      \"away\": 4\n    },\n    \"corners\": {\n      \"home\": 7,\n      \"away\": 4\n    },\n    \"pass_accuracy\": {\n      \"home\": 85,\n      \"away\": 81\n    },\n    \"fouls\": {\n      \"home\": 11,\n      \"away\": 13\n    },\n    \"saves\": {\n      \"home\": 2,\n      \"away\": 4\n    },\n    \"defensive_actions\": {\n      \"home\": 12,\n      \"away\": 15\n    }\n  },\n  \"sources\": [\n    {\n      \"url\": \"https://news.google.com/rss/articles/CBMizwFBVV95cUxOWTFPNExmVWpVR0JCa2taZVVxQlNUQllSOTA4ZlFpZWZBNy1HVFZUR3BFTEVHUVk1bEt1d2xYSFNiZklQUW8xcmpaQ2lVTlRsdVpnUTRaanhLcE5pS05YX0NrSWV4RjgzQWR1SUZ3RXZ1VEU2NElXckptOEFqNW9DZm1Xa3ZZSThGN1Z5b19Lckl2RVMxUjMtS0RncnNWOEY0eHJ0akU2UFdBZi03MVlVeEJXZ09wTmlpeDA3NVViX0V5anNNZ3YxOWZxWURodzg\",\n      \"accessed_at\": \"2026-06-12T18:00:00+00:00\",\n      \"title\": \"Sports Mole: Preview: Netherlands vs Japan - prediction, team news, lineups\"\n    },\n    {\n      \"url\": \"https://news.google.com/rss/articles/CBMifEFVX3lxTE9OUXlQUFUxdUdjaVhFYkthNXNQZVhybnZOTEtqbEd4SGVWd2UyOEpHOC1SRUszVThGa0FnZWNHTWtoamlDYUhXZ1JOLThpSWpHUndacUpTb3Jnd3diREFDdHpENGtvUXdBYlByM3BwTGRNT3lCTVFmYjVISUo\",\n      \"accessed_at\": \"2026-06-12T18:00:00+00:00\",\n      \"title\": \"FIFA World Cup 2026: Japan dealt gut punch as Samurai Blue lose captain Endo Wataru to foot injury\"\n    },\n    {\n      \"url\": \"https://news.google.com/rss/articles/CBMixwFBVV95cUxNc2x2TnlyeGRGQXE1c2FibzlCTExKcnVHaHdsYVVOVWlDVnI2dFg3SGE5THlmSFR4d0drMlJteDJVZmlDV0dScmY5aG1xYndQSE9rQ3ptZGNxTHFSNTZxb2RiUG9ydXZ0QU4zLUpMSFNicFVWYmJJOTBVZlZIMnRfaFQyMFZNRm42aXdjeTMwY0tfZmVyLVBScnZFM3lyS2JOaWdfQjQxRFh2dVRWb2FRZndrb0w4UUFHeTdNbXVPeWdpcEFkWEtZ\",\n      \"accessed_at\": \"2026-06-12T18:00:00+00:00\",\n      \"title\": \"USA Today: Netherlands hit with World Cup injury crisis ahead of showdown vs. Japan\"\n    }\n  ]\n}",
+  "thinking_text": null,
+  "score_calibration": {
+    "applied": true,
+    "method": "winprob_poisson_generator_v1",
+    "model_weight": 0.62,
+    "favorite_margin": 0.0,
+    "lambda_home": 1.8,
+    "lambda_away": 1.0,
+    "target_total_goals": 2.848,
+    "target_goal_diff": 0.8,
+    "target_outcome_probs": {
+      "home": 0.55,
+      "draw": 0.25,
+      "away": 0.2
+    },
+    "forced_headline_outcome": "home",
+    "score_hint_used": "2-1",
+    "fitted_outcomes": {
+      "home": 0.561,
+      "draw": 0.231,
+      "away": 0.208
+    },
+    "before": {
+      "headline_score": "2-1",
+      "most_likely_score": "2-1",
+      "win_probs": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "score_dist_head": [
+        {
+          "score": "2-1",
+          "p": 0.127
+        },
+        {
+          "score": "1-1",
+          "p": 0.119
+        },
+        {
+          "score": "2-0",
+          "p": 0.098
+        },
+        {
+          "score": "1-0",
+          "p": 0.085
+        },
+        {
+          "score": "3-1",
+          "p": 0.064
+        }
+      ]
+    },
+    "after": {
+      "most_likely_score": "2-1",
+      "score_dist_head": [
+        {
+          "score": "2-1",
+          "p": 0.125
+        },
+        {
+          "score": "1-1",
+          "p": 0.119
+        },
+        {
+          "score": "1-0",
+          "p": 0.096
+        },
+        {
+          "score": "2-0",
+          "p": 0.092
+        },
+        {
+          "score": "0-0",
+          "p": 0.063
+        }
+      ]
+    }
+  }
+}

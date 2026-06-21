@@ -1,0 +1,883 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "id": "19609138"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 19609138,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-14T20:00:00+00:00",
+        "timestamp": 1781467200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 72372,
+          "name": "Dallas Stadium",
+          "city": "Arlington"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 732,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://cdn.sportmonks.com/images/soccer/leagues/28/732.png",
+        "season": "2026",
+        "round": "Group Stage"
+      },
+      "teams": {
+        "home": {
+          "id": 18694,
+          "name": "Netherlands",
+          "logo": "https://cdn.sportmonks.com/images/soccer/teams/6/18694.png",
+          "winner": null
+        },
+        "away": {
+          "id": 18597,
+          "name": "Japan",
+          "logo": "https://cdn.sportmonks.com/images/soccer/teams/5/18597.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [],
+      "lineups": [
+        {
+          "team": {
+            "id": 18694,
+            "name": "Netherlands",
+            "logo": "https://cdn.sportmonks.com/images/soccer/teams/6/18694.png",
+            "winner": null
+          },
+          "formation": null,
+          "startXI": [],
+          "substitutes": []
+        },
+        {
+          "team": {
+            "id": 18597,
+            "name": "Japan",
+            "logo": "https://cdn.sportmonks.com/images/soccer/teams/5/18597.png",
+            "winner": null
+          },
+          "formation": null,
+          "startXI": [],
+          "substitutes": []
+        }
+      ],
+      "statistics": [
+        {
+          "team": {
+            "id": 18694,
+            "name": "Netherlands",
+            "logo": "https://cdn.sportmonks.com/images/soccer/teams/6/18694.png",
+            "winner": null
+          },
+          "statistics": []
+        },
+        {
+          "team": {
+            "id": 18597,
+            "name": "Japan",
+            "logo": "https://cdn.sportmonks.com/images/soccer/teams/5/18597.png",
+            "winner": null
+          },
+          "statistics": []
+        }
+      ]
+    }
+  ],
+  "_provider": "sportmonks",
+  "_sportmonks_raw": {
+    "id": 19609138,
+    "sport_id": 1,
+    "league_id": 732,
+    "season_id": 26618,
+    "stage_id": 77478590,
+    "group_id": 253024,
+    "aggregate_id": null,
+    "round_id": 395361,
+    "state_id": 1,
+    "venue_id": 72372,
+    "name": "Netherlands vs Japan",
+    "starting_at": "2026-06-14 20:00:00",
+    "result_info": null,
+    "leg": "1/1",
+    "details": "Match 11",
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1781467200,
+    "participants": [
+      {
+        "id": 18694,
+        "sport_id": 1,
+        "country_id": 38,
+        "venue_id": 154,
+        "gender": "male",
+        "name": "Netherlands",
+        "short_code": "NED",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/6/18694.png",
+        "founded": 1889,
+        "type": "national",
+        "placeholder": false,
+        "last_played_at": "2026-06-08 18:45:00",
+        "meta": {
+          "location": "home",
+          "winner": null,
+          "position": 1
+        }
+      },
+      {
+        "id": 18597,
+        "sport_id": 1,
+        "country_id": 479,
+        "venue_id": 13533,
+        "gender": "male",
+        "name": "Japan",
+        "short_code": "JPN",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/teams/5/18597.png",
+        "founded": 1921,
+        "type": "national",
+        "placeholder": false,
+        "last_played_at": "2026-05-31 10:25:00",
+        "meta": {
+          "location": "away",
+          "winner": null,
+          "position": 2
+        }
+      }
+    ],
+    "scores": [],
+    "state": {
+      "id": 1,
+      "state": "NS",
+      "name": "Not Started",
+      "short_name": "NS",
+      "developer_name": "NS"
+    },
+    "league": {
+      "id": 732,
+      "sport_id": 1,
+      "country_id": 99474,
+      "name": "World Cup",
+      "active": true,
+      "short_code": "FIFA WC",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/28/732.png",
+      "type": "league",
+      "sub_type": "cup_international",
+      "last_played_at": "2026-06-13 01:00:00",
+      "category": 1,
+      "has_jerseys": true
+    },
+    "season": {
+      "id": 26618,
+      "sport_id": 1,
+      "league_id": 732,
+      "tie_breaker_rule_id": 170,
+      "name": "2026",
+      "finished": false,
+      "pending": false,
+      "is_current": true,
+      "starting_at": "2026-06-11",
+      "ending_at": "2026-07-19",
+      "standings_recalculated_at": "2026-06-13 07:37:26",
+      "games_in_current_week": false
+    },
+    "stage": {
+      "id": 77478590,
+      "sport_id": 1,
+      "league_id": 732,
+      "season_id": 26618,
+      "type_id": 223,
+      "name": "Group Stage",
+      "sort_order": 1,
+      "finished": false,
+      "is_current": true,
+      "starting_at": "2026-06-11",
+      "ending_at": "2026-06-28",
+      "games_in_current_week": true,
+      "tie_breaker_rule_id": null
+    },
+    "round": {
+      "id": 395361,
+      "sport_id": 1,
+      "league_id": 732,
+      "season_id": 26618,
+      "stage_id": 77478590,
+      "name": "1",
+      "finished": false,
+      "is_current": true,
+      "starting_at": "2026-06-11",
+      "ending_at": "2026-06-18",
+      "games_in_current_week": true
+    },
+    "venue": {
+      "id": 72372,
+      "country_id": 3483,
+      "city_id": 3749,
+      "name": "Dallas Stadium",
+      "address": "1 AT&T Way, Arlington, TX 76011, United States",
+      "zipcode": null,
+      "latitude": "32.747778",
+      "longitude": "-97.092778",
+      "capacity": 80000,
+      "image_path": "https://cdn.sportmonks.com/images/core/venues/20/72372.png",
+      "city_name": "Arlington",
+      "surface": "artificial turf",
+      "national_team": false
+    },
+    "events": [],
+    "lineups": [],
+    "statistics": []
+  },
+  "fixture_id": "World-Cup_Group-Stage-11_Netherlands_Japan_2026-06-14",
+  "lock_at_utc": "2026-06-12T20:00:00+00:00",
+  "context_pack": {
+    "squads": {
+      "home": {
+        "team_name": "18694",
+        "players": [
+          {
+            "name": "Brian Brobbey",
+            "position": "Attacker",
+            "age": null,
+            "club": "18694",
+            "number": 19
+          },
+          {
+            "name": "Nathan Aké",
+            "position": "Defender",
+            "age": null,
+            "club": "18694",
+            "number": 5
+          },
+          {
+            "name": "Robin Roefs",
+            "position": "Goalkeeper",
+            "age": null,
+            "club": "18694",
+            "number": 13
+          },
+          {
+            "name": "Crysencio Summerville",
+            "position": "Attacker",
+            "age": null,
+            "club": "18694",
+            "number": 24
+          },
+          {
+            "name": "Noa Lang",
+            "position": "Attacker",
+            "age": null,
+            "club": "18694",
+            "number": 17
+          },
+          {
+            "name": "Bart Verbruggen",
+            "position": "Goalkeeper",
+            "age": null,
+            "club": "18694",
+            "number": 1
+          },
+          {
+            "name": "Marten de Roon",
+            "position": "Midfielder",
+            "age": null,
+            "club": "18694",
+            "number": 3
+          },
+          {
+            "name": "Justin Kluivert",
+            "position": "Midfielder",
+            "age": null,
+            "club": "18694",
+            "number": 7
+          },
+          {
+            "name": "Virgil van Dijk",
+            "position": "Defender",
+            "age": null,
+            "club": "18694",
+            "number": 4
+          },
+          {
+            "name": "Cody Mathès Gakpo",
+            "position": "Attacker",
+            "age": null,
+            "club": "18694",
+            "number": 11
+          },
+          {
+            "name": "Mickey van de Ven",
+            "position": "Defender",
+            "age": null,
+            "club": "18694",
+            "number": 15
+          },
+          {
+            "name": "Teun Koopmeiners",
+            "position": "Midfielder",
+            "age": null,
+            "club": "18694",
+            "number": 20
+          },
+          {
+            "name": "Memphis Depay",
+            "position": "Attacker",
+            "age": null,
+            "club": "18694",
+            "number": 10
+          },
+          {
+            "name": "Quinten Ryan Crispito Timber",
+            "position": "Midfielder",
+            "age": null,
+            "club": "18694",
+            "number": 26
+          },
+          {
+            "name": "Jorrel Hato",
+            "position": "Defender",
+            "age": null,
+            "club": "18694",
+            "number": 25
+          },
+          {
+            "name": "Denzel Dumfries",
+            "position": "Defender",
+            "age": null,
+            "club": "18694",
+            "number": 22
+          },
+          {
+            "name": "Ryan Gravenberch",
+            "position": "Midfielder",
+            "age": null,
+            "club": "18694",
+            "number": 8
+          },
+          {
+            "name": "Frenkie de Jong",
+            "position": "Midfielder",
+            "age": null,
+            "club": "18694",
+            "number": 21
+          },
+          {
+            "name": "Donyell Malen",
+            "position": "Attacker",
+            "age": null,
+            "club": "18694",
+            "number": 18
+          },
+          {
+            "name": "Mats Wieffer",
+            "position": "Defender",
+            "age": null,
+            "club": "18694",
+            "number": 12
+          },
+          {
+            "name": "Tijjani Reijnders",
+            "position": "Midfielder",
+            "age": null,
+            "club": "18694",
+            "number": 14
+          },
+          {
+            "name": "Mark Flekken",
+            "position": "Goalkeeper",
+            "age": null,
+            "club": "18694",
+            "number": 23
+          },
+          {
+            "name": "Jan Paul van Hecke",
+            "position": "Defender",
+            "age": null,
+            "club": "18694",
+            "number": 6
+          },
+          {
+            "name": "Wout Weghorst",
+            "position": "Attacker",
+            "age": null,
+            "club": "18694",
+            "number": 9
+          },
+          {
+            "name": "Guus Berend Til",
+            "position": "Midfielder",
+            "age": null,
+            "club": "18694",
+            "number": 16
+          },
+          {
+            "name": "Lutsharel Geertruida",
+            "position": "Defender",
+            "age": null,
+            "club": "18694",
+            "number": 2
+          }
+        ]
+      },
+      "away": {
+        "team_name": "18597",
+        "players": [
+          {
+            "name": "Junnosuke Suzuki",
+            "position": "Defender",
+            "age": null,
+            "club": "18597",
+            "number": 25
+          },
+          {
+            "name": "Kaishu Sano",
+            "position": "Midfielder",
+            "age": null,
+            "club": "18597",
+            "number": 24
+          },
+          {
+            "name": "Ko Itakura",
+            "position": "Defender",
+            "age": null,
+            "club": "18597",
+            "number": 4
+          },
+          {
+            "name": "Tsuyoshi Watanabe",
+            "position": "Defender",
+            "age": null,
+            "club": "18597",
+            "number": 16
+          },
+          {
+            "name": "Yuto Nagatomo",
+            "position": "Defender",
+            "age": null,
+            "club": "18597",
+            "number": 5
+          },
+          {
+            "name": "Yukinari Sugawara",
+            "position": "Defender",
+            "age": null,
+            "club": "18597",
+            "number": 2
+          },
+          {
+            "name": "Takefusa Kubo",
+            "position": "Attacker",
+            "age": null,
+            "club": "18597",
+            "number": 8
+          },
+          {
+            "name": "Keito Nakamura",
+            "position": "Attacker",
+            "age": null,
+            "club": "18597",
+            "number": 13
+          },
+          {
+            "name": "Junya Ito",
+            "position": "Attacker",
+            "age": null,
+            "club": "18597",
+            "number": 14
+          },
+          {
+            "name": "Ayase Ueda",
+            "position": "Attacker",
+            "age": null,
+            "club": "18597",
+            "number": 18
+          },
+          {
+            "name": "Keisuke Goto",
+            "position": "Attacker",
+            "age": null,
+            "club": "18597",
+            "number": 9
+          },
+          {
+            "name": "Kento Shiogai",
+            "position": "Attacker",
+            "age": null,
+            "club": "18597",
+            "number": 26
+          },
+          {
+            "name": "Koki Ogawa",
+            "position": "Attacker",
+            "age": null,
+            "club": "18597",
+            "number": 19
+          },
+          {
+            "name": "Yuito Suzuki",
+            "position": "Attacker",
+            "age": null,
+            "club": "18597",
+            "number": 17
+          },
+          {
+            "name": "Daizen Maeda",
+            "position": "Attacker",
+            "age": null,
+            "club": "18597",
+            "number": 11
+          },
+          {
+            "name": "Ritsu Doan",
+            "position": "Attacker",
+            "age": null,
+            "club": "18597",
+            "number": 10
+          },
+          {
+            "name": "Daichi Kamada",
+            "position": "Midfielder",
+            "age": null,
+            "club": "18597",
+            "number": 15
+          },
+          {
+            "name": "Shogo Taniguchi",
+            "position": "Defender",
+            "age": null,
+            "club": "18597",
+            "number": 3
+          },
+          {
+            "name": "Ao Tanaka",
+            "position": "Midfielder",
+            "age": null,
+            "club": "18597",
+            "number": 7
+          },
+          {
+            "name": "Ayumu Seko",
+            "position": "Defender",
+            "age": null,
+            "club": "18597",
+            "number": 20
+          },
+          {
+            "name": "Zion Suzuki",
+            "position": "Goalkeeper",
+            "age": null,
+            "club": "18597",
+            "number": 1
+          },
+          {
+            "name": "Keisuke Osako",
+            "position": "Goalkeeper",
+            "age": null,
+            "club": "18597",
+            "number": 12
+          },
+          {
+            "name": "Tomoki Hayakawa",
+            "position": "Goalkeeper",
+            "age": null,
+            "club": "18597",
+            "number": 23
+          },
+          {
+            "name": "Hiroki Ito",
+            "position": "Defender",
+            "age": null,
+            "club": "18597",
+            "number": 21
+          },
+          {
+            "name": "Shuto Machino",
+            "position": "Attacker",
+            "age": null,
+            "club": "18597",
+            "number": 6
+          },
+          {
+            "name": "Takehiro Tomiyasu",
+            "position": "Defender",
+            "age": null,
+            "club": "18597",
+            "number": 22
+          }
+        ]
+      }
+    },
+    "recent_form": {
+      "home": {
+        "summary": "6W 2D 0L (last 8)",
+        "matches": [
+          {
+            "date": "2025-11-17",
+            "competition": "WC Qualification Europe",
+            "opponent": "Lithuania",
+            "venue": "H",
+            "result": "W",
+            "score": "4-0"
+          },
+          {
+            "date": "2025-11-14",
+            "competition": "WC Qualification Europe",
+            "opponent": "Poland",
+            "venue": "A",
+            "result": "D",
+            "score": "1-1"
+          },
+          {
+            "date": "2025-10-12",
+            "competition": "WC Qualification Europe",
+            "opponent": "Finland",
+            "venue": "H",
+            "result": "W",
+            "score": "4-0"
+          },
+          {
+            "date": "2025-10-09",
+            "competition": "WC Qualification Europe",
+            "opponent": "Malta",
+            "venue": "A",
+            "result": "W",
+            "score": "4-0"
+          },
+          {
+            "date": "2025-09-07",
+            "competition": "WC Qualification Europe",
+            "opponent": "Lithuania",
+            "venue": "A",
+            "result": "W",
+            "score": "3-2"
+          },
+          {
+            "date": "2025-09-04",
+            "competition": "WC Qualification Europe",
+            "opponent": "Poland",
+            "venue": "H",
+            "result": "D",
+            "score": "1-1"
+          },
+          {
+            "date": "2025-06-10",
+            "competition": "WC Qualification Europe",
+            "opponent": "Malta",
+            "venue": "H",
+            "result": "W",
+            "score": "8-0"
+          },
+          {
+            "date": "2025-06-07",
+            "competition": "WC Qualification Europe",
+            "opponent": "Finland",
+            "venue": "A",
+            "result": "W",
+            "score": "2-0"
+          }
+        ]
+      },
+      "away": {
+        "summary": "7W 2D 1L (last 10)",
+        "matches": [
+          {
+            "date": "2025-06-10",
+            "competition": "WC Qualification Asia",
+            "opponent": "Indonesia",
+            "venue": "H",
+            "result": "W",
+            "score": "6-0"
+          },
+          {
+            "date": "2025-06-05",
+            "competition": "WC Qualification Asia",
+            "opponent": "Australia",
+            "venue": "A",
+            "result": "L",
+            "score": "0-1"
+          },
+          {
+            "date": "2025-03-25",
+            "competition": "WC Qualification Asia",
+            "opponent": "Saudi Arabia",
+            "venue": "H",
+            "result": "D",
+            "score": "0-0"
+          },
+          {
+            "date": "2025-03-20",
+            "competition": "WC Qualification Asia",
+            "opponent": "Bahrain",
+            "venue": "H",
+            "result": "W",
+            "score": "2-0"
+          },
+          {
+            "date": "2024-11-19",
+            "competition": "WC Qualification Asia",
+            "opponent": "China PR",
+            "venue": "A",
+            "result": "W",
+            "score": "3-1"
+          },
+          {
+            "date": "2024-11-15",
+            "competition": "WC Qualification Asia",
+            "opponent": "Indonesia",
+            "venue": "A",
+            "result": "W",
+            "score": "4-0"
+          },
+          {
+            "date": "2024-10-15",
+            "competition": "WC Qualification Asia",
+            "opponent": "Australia",
+            "venue": "H",
+            "result": "D",
+            "score": "1-1"
+          },
+          {
+            "date": "2024-10-10",
+            "competition": "WC Qualification Asia",
+            "opponent": "Saudi Arabia",
+            "venue": "A",
+            "result": "W",
+            "score": "2-0"
+          },
+          {
+            "date": "2024-09-10",
+            "competition": "WC Qualification Asia",
+            "opponent": "Bahrain",
+            "venue": "A",
+            "result": "W",
+            "score": "5-0"
+          },
+          {
+            "date": "2024-09-05",
+            "competition": "WC Qualification Asia",
+            "opponent": "China PR",
+            "venue": "H",
+            "result": "W",
+            "score": "7-0"
+          }
+        ]
+      }
+    },
+    "stats_last_n": {
+      "home": {
+        "corners": 6.5,
+        "shots": 17.4,
+        "possession": 66.6,
+        "fouls": 10.0,
+        "saves": 1.8,
+        "shots_on_target": 6.5
+      },
+      "away": {
+        "corners": 6.8,
+        "shots": 13.2,
+        "possession": 67.4,
+        "fouls": 11.8,
+        "saves": 1.1,
+        "shots_on_target": 5.3
+      },
+      "n": 10
+    },
+    "news_headlines": [
+      {
+        "published_at": "2026-06-12T15:56:00+00:00",
+        "source": "Sports Mole",
+        "title": "Preview: Netherlands vs Japan - prediction, team news, lineups | World Cup 2026 - Sports Mole",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWTFPNExmVWpVR0JCa2taZVVxQlNUQllSOTA4ZlFpZWZBNy1HVFZUR3BFTEVHUVk1bEt1d2xYSFNiZklQUW8xcmpaQ2lVTlRsdVpnUTRaanhLcE5pS05YX0NrSWV4RjgzQWR1SUZ3RXZ1VEU2NElXckptOEFqNW9DZm1Xa3ZZSThGN1Z5b19Lckl2RVMxUjMtS0RncnNWOEY0eHJ0akU2UFdBZi03MVlVeEJXZ09wTmlpeDA3NVViX0V5anNNZ3YxOWZxWURodzg?oc=5"
+      },
+      {
+        "published_at": "2026-06-12T11:50:42+00:00",
+        "source": "City of Arlington (.gov)",
+        "title": "Netherlands vs Japan - City of Arlington (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYzl2QWRtcnlMNUV5QjhBMno5MEpwTGx0UmZTN0RUMkY5eUh2T1hHeElpS2RrRm9sTndUMlNuSFBUenRWUE9paGF1cDljNmpXRkFjOUtGd3A5WmxqV0pRVE9ERWtRc1ZIRjVxSk43X25paFZaM0JwT3JJOHNRMWxPdnhxcmxEcHhUS2tuVQ?oc=5"
+      },
+      {
+        "published_at": "2026-06-12T11:04:55+00:00",
+        "source": "Dallas News",
+        "title": "How much will a ticket cost you for Sunday's World Cup Netherlands-Japan game? - Dallas News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWkR4dzE1QS1jdDhHbHBkUkZFamZNem5uRi1zR0lQa3hLbFhmMEN6aUhpNkF6NE5JYllYeHBKcmU4NE9jV1hYWldWbFY4RV9DWEo1XzBZcHVycXQyblNXdVlWSFF6QVh4YnhwM2s2UC03Wk9jVlUyTWc1cEgwZjVHSUJIWWU0OVlyZkFjSHA4aHZLQlpWdGtpbGpwUlpYcGdDbTB2WmRB?oc=5"
+      },
+      {
+        "published_at": "2026-06-12T07:11:00+00:00",
+        "source": "ESPN",
+        "title": "Netherlands vs Japan at World Cup 2026: TV channel, how to watch, kick-off time, live stream, referee, predicted line-ups - ESPN",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSVd3ZURxTFhrLXRPMHU3cjBqTVF6c1FWSTM5UkRGUzItV0JjVnVJdUpUbFFTTjJpdDE1NWdPdXh1V19hZGYzV1BPYzFqRXcwOC1qMXJrcWN1LVlEa1ZTRmZ1ZTNkeW04bUpfMUhBXzRyeWw4bzVmUkQ5UXZxejRlWEVDUTZlSnQ2eFJkaTdCdThTRlhGbF82MVltQVNDaW9sbGhYaEIxNU5NX0FPYjM4YVNPTldzUS1JUHVMcWs1ZnZHdW9QZkJlUkdwUkxNYkE1VFJfbFhtektvSkExLXpIZmlleXg1ekx4?oc=5"
+      },
+      {
+        "published_at": "2026-06-12T03:53:00+00:00",
+        "source": "olympics.com",
+        "title": "FIFA World Cup 2026: Japan dealt gut punch as Samurai Blue lose captain Endo Wataru to foot injury - olympics.com",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OUXlQUFUxdUdjaVhFYkthNXNQZVhybnZOTEtqbEd4SGVWd2UyOEpHOC1SRUszVThGa0FnZWNHTWtoamlDYUhXZ1JOLThpSWpHUndacUpTb3Jnd3diREFDdHpENGtvUXdBYlByM3BwTGRNT3lCTVFmYjVISUo?oc=5"
+      },
+      {
+        "published_at": "2026-06-11T23:49:00+00:00",
+        "source": "WFAA",
+        "title": "This resident Texan will referee Netherlands-Japan at 'Dallas Stadium' - WFAA",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxONXhkR1RqZzNSZTVFQzRHVWRXUi1GcHk4YUVYSVNNeUFZbDBfdnlJZW9LcmlBMXdiVno5aEVxX3pYdENSakU2ZWRPa285RmpVejhwT1dsdTM5MDBjMFNrb05ZODNvc3VBeHV4cmF0eU4ydjRJX2g2Z084N1FpNFlOYV9EcmRWMmh6MEpWMXJjb2tvWG1kd2NjX28tRnVxZGhfUkZpVFkyWkNpVUdhcEZDb1VWc1oyMmlYdGhEbm1UR0FUTUlzcWlvMkNockxVc0RtSjdOa1hTUjBmOE9iQjJGYnZjZzgxelk?oc=5"
+      },
+      {
+        "published_at": "2026-06-11T16:58:22+00:00",
+        "source": "Total Football Analysis",
+        "title": "Netherlands vs Japan Prediction: World Cup 2026 Preview & Best Bets - Total Football Analysis",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOFdQcHFYV3lWT2pLMk5IdFJwUkV4SlBJLXp1bVBCMzBLRUthLUhQTGNORk5BQl9OekpNekVYUkZaSks2MUdSTXJkX0VSQXNrVlNOWXFVSEJBZS02QUpWTXBMamY4OHB4TEJaRlVwaUNIRmRMNXR1VVJJTFRnZHJuRjYyRHpyN3BfUDhDMkI1dnlNeUt1NGhmRlpNRTJ1UEE?oc=5"
+      },
+      {
+        "published_at": "2026-06-11T14:51:44+00:00",
+        "source": "Juvefc.com",
+        "title": "Netherlands vs Japan World Cup 2026 Predictions: Group F Pick - Juvefc.com",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBuY1RtVy1hVXBFak82dDJEN0RqZTNjQ2J2dF8zLVdiWHhacDRnMkI5dlJfdG0tMXM0RnNQamVqNk04OTJJUHdPQms2VWJEakoxVXl4b2dMQUMwMFk1c1Axek1QLU1pQQ?oc=5"
+      },
+      {
+        "published_at": "2026-06-10T19:15:00+00:00",
+        "source": "USA Today",
+        "title": "Netherlands hit with World Cup injury crisis ahead of showdown vs. Japan - USA Today",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc2x2TnlyeGRGQXE1c2FibzlCTExKcnVHaHdsYVVOVWlDVnI2dFg3SGE5THlmSFR4d0drMlJteDJVZmlDV0dScmY5aG1xYndQSE9rQ3ptZGNxTHFSNTZxb2RiUG9ydXZ0QU4zLUpMSFNicFVWYmJJOTBVZlZIMnRfaFQyMFZNRm42aXdjeTMwY0tfZmVyLVBScnZFM3lyS2JOaWdfQjQxRFh2dVRWb2FRZndrb0w4UUFHeTdNbXVPeWdpcEFkWEtZ?oc=5"
+      }
+    ]
+  },
+  "snapshot_hash": "4dbb5051ae85a9d951e3aca3f896354ccf761a3c6c2a97c5f3e30fb27b102936"
+}

@@ -9,6 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 RESULTS = ROOT / "data" / "results"
 OUT = ROOT / "docs" / "leaderboard"
+HIDDEN_SITE_MODELS = {"yunwu-o4-mini-deep-research", "llama-4-maverick"}
 
 
 def collect() -> list[dict]:
@@ -16,6 +17,8 @@ def collect() -> list[dict]:
     for fid_dir in RESULTS.glob("*"):
         for f in fid_dir.glob("*.json"):
             r = json.loads(f.read_text())
+            if r.get("model_id") in HIDDEN_SITE_MODELS:
+                continue
             rows.append({
                 "fixture_id": fid_dir.name,
                 "model_id": r["model_id"],

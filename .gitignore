@@ -17,3 +17,6 @@ docs/site/data.zh.json
 .claude/
 vis
 /test.py
+.sportmonks_key
+.wca_proxy_key
+*.key

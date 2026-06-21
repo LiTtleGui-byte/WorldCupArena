@@ -10,12 +10,12 @@ Validation layers:
     3. Semantic checks the schema can't express:
          - model win_probs sum ≈ 1
          - generated score_dist p values sum ≈ 1
-         - generated headline score outcome matches argmax(win_probs)
+         - predicted_result, headline score outcome, and argmax(win_probs) match
          - explicit goal events do not contradict headline_score
          - expected_total_goals and generated over/under probabilities match score_dist
          - stats contains all 8 required keys
          - lineups.*.starting has exactly 11 entries
-         - reasoning.overall non-empty & ≥80 chars
+         - reasoning fields are complete and substantive
          - `setting` field matches the invocation
          - `fixture_id` field matches
          - `submitted_at` is ISO-8601 UTC
@@ -46,6 +46,22 @@ from .score_calibration import calibrate_score_prediction
 
 ROOT = Path(__file__).resolve().parents[2]
 SCHEMA_PATH = ROOT / "schemas" / "prediction.schema.json"
+
+REQUIRED_REASONING_FIELDS: dict[str, int] = {
+    "overall": 500,
+    "market_odds": 140,
+    "lineup_analysis": 350,
+    "tactical_analysis": 320,
+    "h2h_recent_form": 210,
+    "player_matchups": 320,
+    "injuries_availability": 140,
+    "upset_draw_blowout_cases": 250,
+    "score_result_rationale": 180,
+    "t1_result": 75,
+    "t2_player": 90,
+    "t3_events": 100,
+    "t4_stats": 100,
+}
 
 
 class ValidationReport:
@@ -154,12 +170,27 @@ def _validate_semantics(
 
     favorite = best_win_outcome(wp)
     headline_score = pred.get("headline_score")
+    headline_outcome = None
     if headline_score and favorite:
         headline_outcome = score_outcome(str(headline_score))
         if headline_outcome != favorite:
             errs.append(
                 f"headline_score outcome '{headline_outcome}' does not match "
                 f"highest win_probs bucket '{favorite}'"
+            )
+    predicted_result = pred.get("predicted_result")
+    if predicted_result not in {"home", "draw", "away"}:
+        errs.append(f"predicted_result must be one of home/draw/away, got {predicted_result!r}")
+    else:
+        if headline_outcome and predicted_result != headline_outcome:
+            errs.append(
+                f"predicted_result '{predicted_result}' does not match headline_score outcome "
+                f"'{headline_outcome}'"
+            )
+        if favorite and predicted_result != favorite:
+            errs.append(
+                f"predicted_result '{predicted_result}' does not match highest win_probs bucket "
+                f"'{favorite}'"
             )
 
     errs.extend(_validate_goal_event_story(pred))
@@ -186,13 +217,21 @@ def _validate_semantics(
                     f"(allowed ±{outcome_tol:.2f})"
                 )
 
-    reasoning = (pred.get("reasoning") or {}).get("overall") or ""
-    if len(reasoning) < 80:
-        errs.append(f"reasoning.overall too short ({len(reasoning)} chars, need ≥80)")
+    reasoning = pred.get("reasoning") or {}
+    for field, min_len in REQUIRED_REASONING_FIELDS.items():
+        text = reasoning.get(field) or ""
+        if len(str(text).strip()) < min_len:
+            errs.append(f"reasoning.{field} too short ({len(str(text).strip())} chars, need ≥{min_len})")
 
     lineups = pred.get("lineups") or {}
     for side in ("home", "away"):
-        starting = (lineups.get(side) or {}).get("starting") or []
+        _side = lineups.get(side)
+        if isinstance(_side, list):
+            starting = _side
+        elif isinstance(_side, dict):
+            starting = _side.get("starting") or []
+        else:
+            starting = []
         if len(starting) != 11:
             errs.append(f"lineups.{side}.starting has {len(starting)} players, need 11")
 
@@ -300,6 +339,17 @@ def normalize_probabilities(pred: dict[str, Any], tol: float = 0.01) -> dict[str
     return generated
 
 
+def _normalize_lineups(pred):
+    """Tolerate models that emit lineups[side] as a flat starting list instead of
+    {starting, bench}; normalize to object form so schema/semantic checks pass."""
+    lu = pred.get("lineups") if isinstance(pred, dict) else None
+    if isinstance(lu, dict):
+        for side in ("home", "away"):
+            v = lu.get(side)
+            if isinstance(v, list):
+                lu[side] = {"starting": v, "bench": []}
+
+
 def validate(
     pred: dict[str, Any],
     *,
@@ -308,6 +358,7 @@ def validate(
     tol: float = 0.01,
 ) -> ValidationReport:
     pred, _ = calibrate_score_prediction(pred)
+    _normalize_lineups(pred)
     rep = ValidationReport()
     for e in _validate_schema(pred):
         rep.add(f"schema: {e}")
@@ -323,7 +374,8 @@ def build_repair_prompt(original: dict[str, Any], report: ValidationReport) -> s
         "and return the corrected FULL JSON object (not a patch). Keep all other "
         "fields and values unchanged. Do not add `score_dist`, `most_likely_score`, "
         "or `over_under_probs`; the system generates them from `win_probs`, "
-        "`expected_total_goals`, and `headline_score`.\n\n"
+        "`expected_total_goals`, and `headline_score`. Ensure `predicted_result`, "
+        "`headline_score`, and the highest `win_probs` bucket all agree.\n\n"
         f"Validation errors:\n{report}\n\n"
         "Previous JSON:\n```json\n"
         f"{json.dumps(strip_generated_score_fields(original), ensure_ascii=False, indent=2)}\n```\n"

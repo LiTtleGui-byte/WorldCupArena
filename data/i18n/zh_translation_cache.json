@@ -1,7 +1,7 @@
 {
   "_meta": {
     "entity_count": 2603,
-    "text_count": 2019
+    "text_count": 2124
   },
   "entities": {
     "1. FC Köln": "科隆",
@@ -2693,9 +2693,17 @@
       "src": "Tottenham host Everton on the final day needing only a draw to secure Premier League survival, with a two-point cushion and superior goal difference over West Ham. Opta's supercomputer and bookmakers price Spurs as ~50% favourites (Opta 49.3%, BetMGM has them as 0.5-goal favourite). However, Spurs' home form has been historically bad — joint-fewest home points in the league (12), winless in 10 PL home games, and they carry a severe injury list (Romero, Simons, Solanke doubtful, Kudus, Kulusevski, Odobert all out). Everton are winless in six and on the beach with nothing to play for after being knocked out of Europe contention, and historically have one win at Spurs since 2008. Both teams score regularly: BTTS in 4 of Spurs' last 5 PL games, Everton scored in 9 of last 10, and the last 5 H2H all had 3+ goals. Expect an open, nervy match where Spurs ultimately do enough at home, but Everton's pace on counter (Ndiaye, Beto) creates chances.",
       "zh": "热刺主场迎战埃弗顿，最后一轮只需一场平局即可确保英超保级，领先西汉姆联两分且净胜球占优。Opta超级计算机和博彩公司将热刺定为约50%胜率的热门（Opta 49.3%，BetMGM让热刺半球盘）。然而，热刺主场表现历来糟糕——联赛主场积分并列最少（12分），英超主场10场不胜，且伤病严重（罗梅罗、西蒙斯、索兰克存疑，穆罕默德·库杜斯、库卢塞夫斯基、奥多贝尔全部缺阵）。埃弗顿近六场不胜，已无欧洲赛事争夺目标，且自2008年以来在热刺主场仅胜一场。两队均有稳定进球表现：热刺最近5场英超有4场双方均有进球，埃弗顿最近10场有9场进球，双方最近5次交锋均有3球以上。预计比赛开放且紧张，热刺主场最终能拿下比赛，但埃弗顿的反击速度（恩迪耶、贝托）将制造威胁。"
     },
+    "0285cef142c0e554225ff32ae105a06048f8d89825c4453fdde6fcbfbaf6ba75": {
+      "src": "PSG enter as defending champions with a more rested squad after Ligue 1’s early finish, while Arsenal face fatigue from a grueling Premier League campaign, as highlighted by multiple pre-match reports. Despite Arsenal’s stellar defense (Saliba–Gabriel) and creative midfield (Ødegaard–Rice), PSG’s deep, in‑form attack (Dembélé, Kvaratskhelia, Ramos) can exploit any lethargy in the final third. Tactically, both sides favor a 4‑3‑3, but PSG’s wide overloads via Hakimi and 努诺·门德斯 may stretch Arsenal’s backline. A tight, low‑event game is likely, with one moment of quality deciding the outcome.",
+      "zh": "PSG enter as defending champions with a more rested squad after Ligue 1’s early finish, while Arsenal face fatigue from a grueling Premier League campaign, as highlighted by multiple pre-match reports. Despite Arsenal’s stellar defense (Saliba–Gabriel) and creative midfield (Ødegaard–Rice), PSG’s deep, in‑form attack (Dembélé, Kvaratskhelia, Ramos) can exploit any lethargy in the final third. Tactically, both sides favor a 4‑3‑3, but PSG’s wide overloads via Hakimi and 努诺·门德斯 may stretch Arsenal’s backline. A tight, low‑event game is likely, with one moment of quality deciding the outcome."
+    },
     "02adcb8c638c428ea579c918939eb3befb9c2f79bdb51244cc1a5645d07b7091": {
       "src": "Early Bayern dominance expected with Kane scoring first-half goals (25-45 mins). Köln may counter in second half via Waldschmidt (50-75 mins), prompting Bayern substitutions (Díaz for Gnabry). Tactical fouls from Köln's midfield could yield yellow cards (Huseinbašić at 40 mins). High-tempo finish as Bayern seeks a third goal.",
       "zh": "预计拜仁早期占优，凯恩上半场（25-45分钟）进球。科隆可能在下半场通过瓦尔施密特反击（50-75分钟），促使拜仁换人（迪亚兹替换格纳布里）。科隆中场战术犯规可能导致黄牌（胡塞因巴希奇40分钟）。拜仁寻求第三球，比赛节奏加快。"
+    },
+    "02e103f7a6ff595e3946eade3ff1f18540e8e82c33f1bbd21eeba400dc991b0e": {
+      "src": "Final-day Etihad fixture with no league table implications (Arsenal champions, City locked into 2nd, Villa locked into 4th & UCL). However City have huge emotional motivation: it is widely reported to be Pep Guardiola's farewell match at the Etihad, plus send-offs for 贝尔纳多·席尔瓦 and 约翰·斯通斯. City arrive unbeaten in last 11–15 (FA Cup and Carabao Cup winners), with Haaland scoring in his last 5 PL games and a near-fully-fit squad. Villa just won the Europa League 3-0 vs Freiburg on Wed 20 May, only 4 days before kickoff — celebratory mood, tired legs, Martinez doubtful (finger), Kamara out, Onana out. City have won their last 10 home meetings vs Villa, but Villa won the reverse 1-0 in October. Expect City to dominate possession at home and Villa to ride waves while still posing a threat via Watkins/Rogers in transition.",
+      "zh": "Final-day Etihad fixture with no league table implications (Arsenal champions, City locked into 2nd, Villa locked into 4th & UCL). However City have huge emotional motivation: it is widely reported to be Pep Guardiola's farewell match at the Etihad, plus send-offs for 贝尔纳多·席尔瓦 and 约翰·斯通斯. City arrive unbeaten in last 11–15 (FA Cup and Carabao Cup winners), with Haaland scoring in his last 5 PL games and a near-fully-fit squad. Villa just won the Europa League 3-0 vs Freiburg on Wed 20 May, only 4 days before kickoff — celebratory mood, tired legs, Martinez doubtful (finger), Kamara out, Onana out. City have won their last 10 home meetings vs Villa, but Villa won the reverse 1-0 in October. Expect City to dominate possession at home and Villa to ride waves while still posing a threat via Watkins/Rogers in transition."
     },
     "031bcb04b802fc53f99b6fc10cf57d38bcd5bbb56b24629c9ba9107537cbe0c1": {
       "src": "Substitution 5",
@@ -2725,9 +2733,17 @@
       "src": "Spain enters as heavy favorites based on squad depth, recent form, and statistical dominance in possession and shots. Peru has shown resilience in friendlies but lacks the attacking quality to consistently break down elite defenses. Spain's midfield control (Rodri, Zubimendi, Ruiz) and wide threats (Yamal absent per news, but Williams, Torres, Olmo available) should dictate tempo. Peru relies on Gallese in goal and counter-attacks via Carrillo or Ugarriza, but their xG output is modest. Head-to-head history favors Spain, and venue neutrality doesn't offset the gulf in class. Expected a controlled Spanish win with moderate goal tally.",
       "zh": "西班牙凭借阵容深度、近期状态和在控球与射门数据上的统治力，作为大热出战。秘鲁在友谊赛中展现了韧性，但缺乏持续撕开顶级防线的进攻质量。西班牙的中场控制（罗德里、祖比门迪、鲁伊斯）和边路威胁（亚马尔因新闻缺席，但威廉斯、托雷斯、奥尔莫可用）应会主导比赛节奏。秘鲁依靠门将加列塞以及卡里略或乌加里萨的反击，但他们的xG产出并不理想。交锋历史有利于西班牙，而中立场地也不足以弥合双方实力鸿沟。预计西班牙将以可控的方式取胜，进球数适中。"
     },
+    "041d833d3ed6aa2cef32f8b40e5b22f9a47d8dfdfc7d2ab5dd59a59e178b5649": {
+      "src": "Cagey opening 25 minutes typical of finals, first goal likely 25-55' from PSG's high-tempo phase; Arsenal threat grows on set pieces and after a chasing substitution wave around 60-70'. Yellow cards likely on Rice/若昂·内维斯 in midfield duels.",
+      "zh": "Cagey opening 25 minutes typical of finals, first goal likely 25-55' from PSG's high-tempo phase; Arsenal threat grows on set pieces and after a chasing substitution wave around 60-70'. Yellow cards likely on Rice/若昂·内维斯 in midfield duels."
+    },
     "0428b967fad8bc8b58493ba0d01c9fc26c2fb5082fd7899ea157129c22ecceea": {
       "src": "Tottenham fixtures - FotMob",
       "zh": "热刺赛程 - FotMob"
+    },
+    "043f271639b2df68c735c79316a65b6546782ff8dc30fcba01e2be030fd10562": {
+      "src": "荷兰预计控球率约58%，射门15次、射正6次，传球准确率88%；日本控球42%，射门10次、射正4次，传球准确率84%。荷兰角球约6个，日本4个。日本防守动作更多（约35次），门将扑救5次反映荷兰射门压力。犯规数日本略高（12 vs 10），因缺少远藤航后中场拦截需更多身体对抗。",
+      "zh": "荷兰预计控球率约58%，射门15次、射正6次，传球准确率88%；日本控球42%，射门10次、射正4次，传球准确率84%。荷兰角球约6个，日本4个。日本防守动作更多（约35次），门将扑救5次反映荷兰射门压力。犯规数日本略高（12 vs 10），因缺少远藤航后中场拦截需更多身体对抗。"
     },
     "0443e2f7a5f3bd4cb413298977ebbb9bfbe0e48fc6ccde2440bb2cff7584b2b4": {
       "src": "Mexico vs Belgium: Confirmed lineups for the 2026 international friendly - World Soccer Talk",
@@ -2857,6 +2873,10 @@
       "src": "Arsenal is expected to edge possession (52-48) and dictate the passing rhythm, while PSG will likely match them in total shots through quick counter-attacks.",
       "zh": "预计阿森纳控球率略占优势（52-48），并主导传球节奏，而巴黎圣日耳曼则可能通过快速反击在射门总数上与之匹敌。"
     },
+    "081b0cbc145c0d48f9c76d6e59491998c5f9d262611dc99234d59423855c159e": {
+      "src": "荷兰控球率略占优（约58%），射门次数更多（15+），但日本反击效率高，射正数接近。荷兰传球成功率更高，日本犯规稍多，体现其高位逼抢策略。",
+      "zh": "荷兰控球率略占优（约58%），射门次数更多（15+），但日本反击效率高，射正数接近。荷兰传球成功率更高，日本犯规稍多，体现其高位逼抢策略。"
+    },
     "08321d08956bdc40adb1103497d1de289d429a87652b20bdfe9e74b85a5054a8": {
       "src": "Bayern’s need to attack suggests a slight possession edge, more shots and corners, while PSG should still produce efficient shot quality in transition. Pass accuracy should stay high for both teams because both are comfortable in buildup, but saves and defensive actions should also be elevated given the expected volume.",
       "zh": "拜仁需要进攻，这意味着控球率稍占优势，射门和角球更多，而巴黎圣日耳曼在转换进攻中仍应保持高效的射门质量。两队传球准确率应保持较高，因为双方都擅长组织进攻，但鉴于预期的比赛强度，扑救和防守动作也应有所增加。"
@@ -2932,6 +2952,10 @@
     "0a88bd4383907d2fcf4b7326a507d54f80534223f080966b745a6a4a637df090": {
       "src": "Harry Kane & Co granted extra time off by Vincent Kompany to recover from 'extremely intense' period as Bayern look to complete domestic double | Goal.com",
       "zh": "哈里·凯恩等人获文森特·孔帕尼额外休息时间，以从“极其紧张”的时期恢复，拜仁力图完成国内双冠 | Goal.com"
+    },
+    "0aa4f173f931257375152f3d50bcd739e1a981bf3e7dc5c095205f3dbc404af7": {
+      "src": "埃尔林·哈兰德 and Phil Foden are key attacking threats for City. 拉扬·切尔基 is predicted to start based on recent news. 奥利·沃特金斯 will lead the line for Villa.",
+      "zh": "埃尔林·哈兰德 and Phil Foden are key attacking threats for City. 拉扬·切尔基 is predicted to start based on recent news. 奥利·沃特金斯 will lead the line for Villa."
     },
     "0b28a5b1704dc213b9729f24c8517ed93814c40c1db8613981428dcf1c9efe1f": {
       "src": "China will deploy a compact 4-2-3-1 formation to leverage physical dominance in defense and use pacey wingers to hit Thailand on counters, while Thailand will stick to their preferred possession-focused 4-3-3 system. Top expected scorers are Yuning Zhang starting up front for China, veteran Teerasil Dangda leading Thailand's line, and Lei Wu coming off the bench to add a second home goal.",
@@ -3073,6 +3097,10 @@
       "src": "Opta Analyst PSG vs Bayern prediction",
       "zh": "Opta 分析师 巴黎圣日耳曼 vs 拜仁慕尼黑 预测"
     },
+    "0eb3a7f3c81e4e1d8eff96ec59a9cc4f8e4dc372e4c22f60a12aee47498ea670": {
+      "src": "This is the 2026 UEFA Champions League Final in Budapest, a neutral venue. PSG enter with significant rest advantage having rotated heavily through domestic fixtures, while Arsenal have endured a grueling Premier League title race and late-season fixture congestion. PSG's squad depth and Luis Enrique's tactical flexibility (4-3-3/3-4-3 hybrid) allow them to control tempo through 维蒂尼亚 and 若昂·内维斯 in midfield, while Arsenal's press under Arteta may be blunted by fatigue. PSG's wide threat through Dembélé and Kvaratskhelia against Arsenal's full-backs (Timber/White or Calafiori) is a key matchup. Arsenal's defensive solidity with Saliba-Gabriel is elite, but their attacking output has relied heavily on Saka and Ødegaard. The neutral venue removes true home advantage, but PSG's freshness and superior squad rotation give them a narrow edge in a tight final.",
+      "zh": "This is the 2026 UEFA Champions League Final in Budapest, a neutral venue. PSG enter with significant rest advantage having rotated heavily through domestic fixtures, while Arsenal have endured a grueling Premier League title race and late-season fixture congestion. PSG's squad depth and Luis Enrique's tactical flexibility (4-3-3/3-4-3 hybrid) allow them to control tempo through 维蒂尼亚 and 若昂·内维斯 in midfield, while Arsenal's press under Arteta may be blunted by fatigue. PSG's wide threat through Dembélé and Kvaratskhelia against Arsenal's full-backs (Timber/White or Calafiori) is a key matchup. Arsenal's defensive solidity with Saliba-Gabriel is elite, but their attacking output has relied heavily on Saka and Ødegaard. The neutral venue removes true home advantage, but PSG's freshness and superior squad rotation give them a narrow edge in a tight final."
+    },
     "0ebf6586882b1fc21ef6755fcb25beb16e070b9dfdbe2c0d63e145b552ffe09e": {
       "src": "China's 4-4-2 uses Wu Lei and Zhang Yuning as dual strikers, with Alan providing width. Thailand's 4-3-3 features Teerasil central, supported by Teerasak and Soonsup-Bell on flanks. Key matchups: Tyias Browning vs Teerasil, and the midfield battle between Sarach Yooyen and Tsun Dai. Scorers likely from set pieces or counter-attacks.",
       "zh": "中国队采用4-4-2阵型，武磊和张玉宁搭档双前锋，阿兰拉开宽度。泰国队则以4-3-3应战，提拉辛居中，由提拉萨克和孙颂普-贝尔在两翼提供支持。关键对位包括布朗宁对阵提拉辛，以及萨拉奇·尤延与曾戴之间的中场争夺。进球很可能来自定位球或反击。"
@@ -3184,6 +3212,10 @@
     "12d717c5d7c7b6cb2150c362fdf00f64fcb20c3372036363aa8e74fa7ba05ae8": {
       "src": "Arsenal v Burnley betting odds",
       "zh": "阿森纳对伯恩利的投注赔率"
+    },
+    "135309d451e66d280f498e1aca3eba3b1693df9f90ed58b2ec0c2e02124fd57f": {
+      "src": "FIFA World Cup 2026: Japan dealt gut punch as Samurai Blue lose captain Endo Wataru to foot injury",
+      "zh": "FIFA World Cup 2026: Japan dealt gut punch as Samurai Blue lose captain Endo Wataru to foot injury"
     },
     "136eff250f7cb706ce3834408ced2949b833021c370736247bd28148642f9c45": {
       "src": "A tight draw or a narrow home win is most likely. The probabilities reflect a cagey first leg where neither team wants to take excessive risks, making 1-1 and 0-0 the most probable scorelines.",
@@ -3333,9 +3365,17 @@
       "src": "Atletico Madrid vs Arsenal Lineups, Prediction, Team News, Injury And Preview",
       "zh": "马德里竞技对阿森纳首发、预测、球队消息、伤病和前瞻"
     },
+    "17b8d063509782402bbb7e65a9bc2f139e32c0ccb1a4449bd3506f8e4c687b43": {
+      "src": "荷兰胜率最高，预计以2-1取胜。日本具备反击得分能力，但中场失控将限制其持续施压，荷兰凭借更强的整体实力和定位球威胁取得关键进球。",
+      "zh": "荷兰胜率最高，预计以2-1取胜。日本具备反击得分能力，但中场失控将限制其持续施压，荷兰凭借更强的整体实力和定位球威胁取得关键进球。"
+    },
     "181ce8fb09e462ef05367a541785645ac3bfc8fb7e16bd6cba9894e2e11e2367": {
       "src": "Bayern München visit a Wolfsburg side in dreadful form (1W-3D-6L in last 10) and sitting near the relegation zone. Bayern have 8W in last 10, including a 8-1 demolition of Wolfsburg in the reverse fixture in January 2026, and continue to score freely (4-3, 5-0, 4-2, 3-2 recent results). Tactically Wolfsburg's high-line/duel-heavy approach is exactly what Bayern's Kane-Olise-Díaz-Musiala front line punishes; the Wolves have leaked 3+ goals five times in their last 10. Bayern may rotate slightly with title likely secured and a DFB-Pokal final looming, but the gulf in quality is enormous. Expect a comfortable Bayern win with goals at both ends given Wolfsburg's open recent games (3-6 vs Leverkusen, 2-3 Augsburg).",
       "zh": "拜仁慕尼黑将造访状态糟糕的沃尔夫斯堡（最近10场1胜3平6负），球队接近降级区。拜仁最近10场取得8胜，包括2026年1月的客场8-1大胜沃尔夫斯堡，且持续高效得分（近期战绩4-3、5-0、4-2、3-2）。战术上，沃尔夫斯堡的高位防守和激烈对抗正好被拜仁的凯恩-奥利塞-迪亚兹-穆西亚拉前线所克制；狼队最近10场有5场丢3球以上。拜仁可能会略作轮换，因冠军几乎锁定且德国杯决赛临近，但实力差距巨大。鉴于沃尔夫斯堡近期比赛开放（3-6负勒沃库森，2-3负奥格斯堡），预计拜仁轻松取胜且双方均有进球。"
+    },
+    "18404c9db5d3e44593d8bdf42809f73ad8fa3907ad2f2c57cf8fbf879ab67982": {
+      "src": "PSG dominate possession (~57%) and pass accuracy due to 维蒂尼亚-Ruiz-Neves circulation; Arsenal compress space and rely on transitions plus dead balls, so shot counts stay close with Arsenal generating fewer but high-quality chances.",
+      "zh": "PSG dominate possession (~57%) and pass accuracy due to 维蒂尼亚-Ruiz-Neves circulation; Arsenal compress space and rely on transitions plus dead balls, so shot counts stay close with Arsenal generating fewer but high-quality chances."
     },
     "184c59cad452ac3d19a2e9d31e03eb8248b8bfaf2e11c92ee1ca8acedfb40e7d": {
       "src": "Man City vs Crystal Palace - live score, predicted lineups and H2H stats",
@@ -3381,6 +3421,10 @@
       "src": "Crystal Palace vs Arsenal Lineups, Prediction, Betting Tips & Odd | Oddschecker",
       "zh": "水晶宫 vs 阿森纳 首发阵容、预测、投注建议及赔率 | Oddschecker"
     },
+    "19edf769323026cd2e4bd0dd16c4d59e4484df3b6159f607967d2fdd715299cb": {
+      "src": "Possession should be close, with PSG slightly ahead if 维蒂尼亚 and 若昂·内维斯 help them escape pressure, but Arsenal can keep shot volume competitive through wing attacks and set plays. The forecast therefore points to near-even shots, moderate save counts, and good pass accuracy from both sides rather than a siege by either team.",
+      "zh": "Possession should be close, with PSG slightly ahead if 维蒂尼亚 and 若昂·内维斯 help them escape pressure, but Arsenal can keep shot volume competitive through wing attacks and set plays. The forecast therefore points to near-even shots, moderate save counts, and good pass accuracy from both sides rather than a siege by either team."
+    },
     "1a37d3a5aced264bb85b7a9d6d8afd4ec2b644b42f1abd6cd94b83ce8005dcad": {
       "src": "Bayern will dominate possession (65%+) with superior passing accuracy. They'll generate 15+ shots with 6-7 on target. Köln will rely on counters with fewer shots but higher conversion rate needed. Bayern's defensive actions will be lower due to territorial control.",
       "zh": "拜仁将主导控球（65%以上），传球准确率更高。他们将创造15次以上射门，其中6-7次射正。科隆将依靠反击，射门次数较少但需要更高的转化率。拜仁的防守动作将因场面控制而减少。"
@@ -3392,6 +3436,10 @@
     "1ac44b5eea347e1fbbddd3b84d9ae310813ab348778509dd29f17f8c2ac12e04": {
       "src": "Arsenal statistics, fixtures and results - Premier League 2025/2026 - Sportstats365.com",
       "zh": "阿森纳统计数据、赛程和结果 - 2025/2026 英超 - Sportstats365.com"
+    },
+    "1aee7aa89f9509253ff17df1687f1c6f3f7e9df3d54df775401ec581e66af74e": {
+      "src": "久保建英任意球中柱，日本险些扳平",
+      "zh": "久保建英任意球中柱，日本险些扳平"
     },
     "1afdb04d8d7a60eb973f040b2fe48342408b87bd6bcd7970a5ce1de2548d9be0": {
       "src": "Chelsea squad numbers confirmed for 2025/26 season",
@@ -3553,6 +3601,10 @@
       "src": "Tottenham XI vs Chelsea: Confirmed team news, predicted lineup, injury latest for Premier League - Yahoo Sports",
       "zh": "热刺首发阵容对阵切尔西：英超确认球队消息、预测阵容及最新伤情 - 雅虎体育"
     },
+    "1e01b3f386c39bdef89be14f4484757418a877f7dd4429d13d2269da30bc8e1d": {
+      "src": "Expect an open, transition-heavy game with early intensity from Bayern pressing high. Goals likely spread across both halves; cards on Zaïre-Emery (mismatch vs Díaz), Pavlović and Pacho are plausible. Late subs: Jackson/Goretzka/Laimer for Bayern; Barcola, 卢卡斯·埃尔南德斯, Mayulu for PSG as legs tire.",
+      "zh": "Expect an open, transition-heavy game with early intensity from Bayern pressing high. Goals likely spread across both halves; cards on Zaïre-Emery (mismatch vs Díaz), Pavlović and Pacho are plausible. Late subs: Jackson/Goretzka/Laimer for Bayern; Barcola, 卢卡斯·埃尔南德斯, Mayulu for PSG as legs tire."
+    },
     "1e03596f6e39d08e368aa4c91c8b7e8a0a0a7bd71a090b9f46839c7826c13193": {
       "src": "Spain will likely field a strong XI to build rhythm, featuring Rodri, Pedri, and Laporte. Peru will rely on veterans like Gallese, Yotún, and Carrillo, but they lack the pace to trouble Spain's high line.",
       "zh": "西班牙很可能派出一套强阵来保持节奏，阵中包括罗德里、佩德里和拉波尔特。秘鲁将依赖加列塞、约顿和卡里略等老将，但他们缺乏速度，难以威胁西班牙的高位防线。"
@@ -3568,6 +3620,10 @@
     "1e40d3406a475e8d6285b0d9dd4126c355a6a3f7bdb5e197ec11ce523eba9555": {
       "src": "Arsenal vs Burnley - live score, predicted lineups and H2H stats",
       "zh": "阿森纳对伯恩利——实时比分、预测首发和交锋数据"
+    },
+    "1e4ad45f1eca08d30f35d97b3c82199355b6a0fbe1a7b625676456dbe0c4eea3": {
+      "src": "Sports Mole: Preview: Netherlands vs Japan - prediction, team news, lineups | World Cup 2026",
+      "zh": "Sports Mole: Preview: Netherlands vs Japan - prediction, team news, lineups | World Cup 2026"
     },
     "1e6fe78c75b5b5e4e66967fc0d39a0528aede714c6cadf467b636b75d4419f0f": {
       "src": "Mexico lines up in their preferred 4-3-3 formation with veteran Guillermo Ochoa in goal, Edson Alvarez anchoring midfield, and Gimenez leading the line. South Africa deploys a defensive 5-3-2 shape to neutralize Mexico's wide threat, with pacey winger Bongokuhle Hlongwane tasked with leading counter-attacks, making him the most likely South Africa goalscorer.",
@@ -3592,6 +3648,10 @@
     "1ffb4f7c6d579f1c32f354842cbeb107d6e2e1fde49d31c11c770cd882243c7b": {
       "src": "Penalty cancelled",
       "zh": "点球取消"
+    },
+    "1ffea7a8100125c79931064910c85b344832c77d5060c51651654c48c37a4e42": {
+      "src": "荷兰队排出4-3-3，加克波和德佩领衔锋线，中场由德容梳理；日本队4-2-3-1，上田绮世突前，久保建英负责组织。远藤航缺阵使得佐野海舟或田中碧需要承担更多防守任务。",
+      "zh": "荷兰队排出4-3-3，加克波和德佩领衔锋线，中场由德容梳理；日本队4-2-3-1，上田绮世突前，久保建英负责组织。远藤航缺阵使得佐野海舟或田中碧需要承担更多防守任务。"
     },
     "202c422fe263c7dd91a43c11203c9e853709adcaca7e01cc0846183b85e65a9d": {
       "src": "Germany 2026 World Cup Preview: Die Mannschaft Eager to Erase Recent Failures",
@@ -3689,6 +3749,10 @@
       "src": "Penalty",
       "zh": "点球"
     },
+    "24209fa28545d2b36dcfaac42f373a20c5fd091b9ce04c6b2a73084218936818": {
+      "src": "荷兰队胜率较高（55%），平局25%，日本胜20%。比分预测2-1，荷兰队凭借更强的中场控制力和锋线把握机会能力取胜，但日本队的反击也能制造威胁并取得进球。",
+      "zh": "荷兰队胜率较高（55%），平局25%，日本胜20%。比分预测2-1，荷兰队凭借更强的中场控制力和锋线把握机会能力取胜，但日本队的反击也能制造威胁并取得进球。"
+    },
     "2420e7f8915f8bcb39ee7a0e080b8055e92ecbb54a9a6c799d7a0b7a82024fb8": {
       "src": "City 4-1-4-1 with Donnarumma; Nunes-Khusanov-Guehi-O'Reilly; Rodri shielding; Semenyo, B.Silva, Kovacic, Doku; Haaland. Villa 4-2-3-1 with Martinez (if fit, else Bizot); Cash-Konsa-Torres-Digne; Lindelof-Tielemans; McGinn-Rogers-Buendia; Watkins. Haaland top scorer probability is highest given current scoring streak.",
       "zh": "曼城采用4-1-4-1阵型，门将多纳鲁马；后卫努内斯-库萨诺夫-格伊-奥赖利；罗德里防守屏障；中场塞梅尼奥、贝尔纳多·席尔瓦、科瓦契奇、多库；前锋哈兰德。阿斯顿维拉采用4-2-3-1阵型，门将马丁内斯（若伤愈，否则比佐）；后卫卡什-孔萨-托雷斯-迪涅；中场林德洛夫-蒂勒曼斯；前场麦金-罗杰斯-布恩迪亚；前锋沃特金斯。鉴于当前的进球势头，哈兰德成为最高进球概率的射手。"
@@ -3776,6 +3840,10 @@
     "26d057771f9e6468d3e464e76577a4c5c0769511c843fdd923519dc1ec8012f6": {
       "src": "FotMob West Ham team page",
       "zh": "FotMob 西汉姆联球队页面"
+    },
+    "26d0a6505dcc599b903ce0fc0f18b4c3e2f608696543b0227f59585c449f161a": {
+      "src": "Netherlands hit with World Cup injury crisis ahead of showdown vs. Japan - USA Today",
+      "zh": "Netherlands hit with World Cup injury crisis ahead of showdown vs. Japan - USA Today"
     },
     "271a9666cd9bb044df2fcc9685ff8ce962f7cf4c29106567b0566526bab72176": {
       "src": "Crystal Palace Injuries & Suspensions news | Breaking News",
@@ -3869,6 +3937,10 @@
       "src": "Bayern is expected to win comfortably, reflected in high home win probabilities and a multi-goal margin.",
       "zh": "拜仁预计将轻松获胜，这从高主胜概率和多球差距中可见一斑。"
     },
+    "2989ae74e5026899abe4901b569eeeb75edbc3c25279f6465a0beaab46f7f8e2": {
+      "src": "USA Today: Netherlands hit with World Cup injury crisis ahead of showdown vs. Japan",
+      "zh": "USA Today: Netherlands hit with World Cup injury crisis ahead of showdown vs. Japan"
+    },
     "299c60e354050b7421241d776e0a3dbb72ef42520376eaa30e26b4a7c2a4cc3c": {
       "src": "PSG's starting lineup is likely to feature K. Kvaratskhelia and O. Dembélé up front, with Lee Kang-In and Vitinha in midfield. Arsenal is expected to start with B. Saka and Gabriel Martinelli on the wings, supported by M. Ødegaard in midfield.",
       "zh": "巴黎圣日耳曼的首发阵容可能包括前锋K. 克瓦拉茨赫利亚和奥斯曼·登贝莱，中场有李康仁和维蒂尼亚。阿森纳预计将以B. 萨卡和加布里埃尔·马丁内利在边路首发，中场由马丁·厄德高支持。"
@@ -3888,6 +3960,10 @@
     "2a08e59dd91c69927c658a4bd99f687aa8788a9e8bca0a8493704c4f736abe9f": {
       "src": "Expect an open, transition-heavy game with early intensity from Bayern pressing high. Goals likely spread across both halves; cards on Zaïre-Emery (mismatch vs Díaz), Pavlović and Pacho are plausible. Late subs: Jackson/Goretzka/Laimer for Bayern; Barcola, Lucas Hernández, Mayulu for PSG as legs tire.",
       "zh": "预计比赛将开放且以转换为主，拜仁将早期高位逼抢，强度较大。进球可能分布在上下半场；扎伊雷-埃默里（与迪亚兹对位不利）、帕夫洛维奇和帕乔可能会领到黄牌。末段换人：拜仁可能换上杰克逊/戈雷茨卡/莱默；巴黎圣日耳曼则可能换上巴尔科拉、卢卡斯·埃尔南德斯、马尤卢，因体能下降。"
+    },
+    "2a17898c701aff5117553033a997fad717dca05ae3a7b74408e22579f9357860": {
+      "src": "荷兰和日本在2026世界杯小组赛相遇，荷兰近期状态极佳，过去8场预选赛保持不败，打入26球仅丢3球，后防由范戴克领衔，进攻端加克波、德容等都处于巅峰状态，不过赛前传出荷兰遭遇伤病危机，主要影响球队阵容深度。日本近期状态同样出色，过去10场预选赛拿到7胜2平1负，但赛前主力队长远藤航因伤缺阵，对中场控制力影响很大。战术层面荷兰依靠身体对抗和高位压迫，空中优势明显，日本则依靠技术传递和快速反击，两队风格碰撞，中性场地达拉斯不存在主场优势，荷兰整体阵容实力和大赛经验更占优，因此是本场比赛的小热门。",
+      "zh": "荷兰和日本在2026世界杯小组赛相遇，荷兰近期状态极佳，过去8场预选赛保持不败，打入26球仅丢3球，后防由范戴克领衔，进攻端加克波、德容等都处于巅峰状态，不过赛前传出荷兰遭遇伤病危机，主要影响球队阵容深度。日本近期状态同样出色，过去10场预选赛拿到7胜2平1负，但赛前主力队长远藤航因伤缺阵，对中场控制力影响很大。战术层面荷兰依靠身体对抗和高位压迫，空中优势明显，日本则依靠技术传递和快速反击，两队风格碰撞，中性场地达拉斯不存在主场优势，荷兰整体阵容实力和大赛经验更占优，因此是本场比赛的小热门。"
     },
     "2a47440a19c27e5b0a014b71b8e56847c8954eb27d5ba594668ccf9b37fd8f1e": {
       "src": "Chelsea come into this match exhausted after a 1-0 FA Cup final defeat to Manchester City just three days prior, and are winless in their last seven Premier League games. Tottenham, managed by Roberto De Zerbi, are unbeaten in four and need just a single point to guarantee Premier League survival. Given Spurs' motivation and Chelsea's fatigue and poor league form, a tightly contested draw is the most probable outcome.",
@@ -4036,6 +4112,10 @@
     "2eb8249308b513c2a57321fe3aac60286b73c4e3b189ded5736f4b1c443a4327": {
       "src": "The match is likely cautious early, with Mexico probing and South Africa accepting a lower block before transition moments appear. If Mexico score first, the game should open slightly in the second half, with several wing-led substitutions and a moderate card count from midfield duels.",
       "zh": "比赛开局很可能比较谨慎，墨西哥试探进攻，南非则先接受较低防线，等待反击时机出现。如果墨西哥先取得进球，比赛在下半场应会稍微打开，边路换人会更加频繁，中场对抗带来的黄牌数量也会处于中等水平。"
+    },
+    "2f07bdd8f000e0c2bdd603da37a11af0a08622698820292eae41029fd592c920": {
+      "src": "Netherlands hit with World Cup injury crisis",
+      "zh": "Netherlands hit with World Cup injury crisis"
     },
     "2f186f7cc14501d5180cfff8e062b4b05a16be8e8da67512a43efe88bd16baf4": {
       "src": "Mexico dominates possession (58-62%) with patient build-up, but South Africa's compact shape limits clear chances. Mexico generates more shots (14-16) but fewer on target due to blocked efforts. South Africa stays disciplined with high defensive actions and fouls to break rhythm. Pass accuracy favors Mexico but drops in final third due to aggressive defensive pressure.",
@@ -4313,6 +4393,10 @@
       "src": "Arsenal use 4-2-3-1: Raya; White, Saliba, Gabriel, Hincapié; Zubimendi, Rice; Saka, Eze, Martinelli; Gyökeres — with Ødegaard fit but likely starting on the bench after missing the Fulham game, and Eze rewarded for his sharp cameo in Madrid. Atleti stick to the 4-4-2 from the first leg with Oblak; Llorente, Pubill, Hancko, Ruggeri; Simeone, Cardoso, Koke, Lookman; Griezmann, Álvarez. Gyökeres (in-form, brace v Fulham) and Álvarez (averaging a goal/assist every 80 mins in the CL) are the most likely scorers.",
       "zh": "阿森纳采用4-2-3-1阵型：拉亚；怀特、萨利巴、加布里埃尔、欣卡皮；祖比门迪、赖斯；萨卡、埃泽、马丁内利；乔克雷斯——厄德高状态良好但可能因缺席富勒姆比赛而从替补开始，埃泽因在马德里表现出色获得奖励。马竞延续首回合4-4-2阵型，门将奥布拉克；洛伦特、普比尔、汉科、鲁杰里；西蒙尼、卡多索、科克、卢克曼；格列兹曼、阿尔瓦雷斯。乔克雷斯（状态火热，富勒姆比赛梅开二度）和阿尔瓦雷斯（欧冠平均每80分钟贡献一球或助攻）是最可能的得分手。"
     },
+    "36264e4fbabdc5e9c2a912594ed2508a4cddab739a893f58f4b6bf1f36ec07d9": {
+      "src": "加克波远射被扑出，荷兰角球后范迪克头球偏出",
+      "zh": "加克波远射被扑出，荷兰角球后范迪克头球偏出"
+    },
     "363c5fbd2da6c9377ee20a6fcf711b9277d189a4962ef031b30ed33d6c3a0819": {
       "src": "NewsHub preview",
       "zh": "新闻中心预览"
@@ -4332,6 +4416,10 @@
     "3680eda48a088d27b6b8bd1b862df94629dd3aa2f8551e9d5d3ba9d61deb8a6a": {
       "src": "Bayer Leverkusen fixtures and team info",
       "zh": "勒沃库森赛程及球队信息"
+    },
+    "3686540ddc660f331f361ec17b9e80c225019b47a1f750a44aca5d010bd7c324": {
+      "src": "VAR review for potential penalty",
+      "zh": "VAR review for potential penalty"
     },
     "36e96823780aa3039e534c7f0f42eac14de373d3de59db927391c6f4f9dc7a1d": {
       "src": "Germany Announce 2026 World Cup Squad - HOOLIGAN SOCCER",
@@ -4505,9 +4593,17 @@
       "src": "Bayern Munich Vs VFB Stuttgart Live Streaming, DFB-Pokal 2025-26 Final: Preview, When And Where To Watch | Outlook India",
       "zh": "拜仁慕尼黑 vs 斯图加特 德国杯 2025-26 决赛直播：预览、时间及观看方式 | Outlook 印度"
     },
+    "3c2fae41a765f7865ebc7aa194a46e5b8222cc0a6590bac27eeef2990ed1dd6d": {
+      "src": "预计上半场荷兰队通过控球施压并率先破门，下半场日本队通过换人调整（如换上伊东纯也、中村敬斗）加强进攻并扳回一城，但荷兰队在比赛尾声阶段再次进球锁定胜局。",
+      "zh": "预计上半场荷兰队通过控球施压并率先破门，下半场日本队通过换人调整（如换上伊东纯也、中村敬斗）加强进攻并扳回一城，但荷兰队在比赛尾声阶段再次进球锁定胜局。"
+    },
     "3c5ad0fa534cf04a5e119d805abde61033ce35ab1554f62c3916311b78307f09": {
       "src": "DFB Pokal Semi-finals Preview",
       "zh": "德国杯半决赛预览"
+    },
+    "3caecceacdd7a985dc130efca2e730019e04e30bc2ea061d0d5a79098a85a4e3": {
+      "src": "Champions League Final at neutral Puskas Arena. PSG hold a notable freshness edge — multiple sources (Opta, The Athletic) highlight that Luis Enrique's side is significantly more rested, while Arsenal arrive exhausted from a congested run-in. PSG may also carry psychological weight as defending champions seeking a repeat title, whereas Arsenal chase their first European crown. Tactically, Enrique's fluid 4-3-3 with Dembélé and Kvaratskhelia's width faces Arteta's structured 4-3-3 built on the Saliba–Gabriel defensive axis and Rice's screening. Arsenal's defensive record is elite, but fatigue in the second half could open gaps against PSG's high-tempo transitions. The midfield battle — 维蒂尼亚/Neves/Fabián vs Ødegaard/Rice/Merino — is finely balanced, though PSG's fresher legs may tell after 60 minutes. Saka vs 努诺·门德斯 and Dembélé vs Calafiori are the key wide matchups. Overall, a tight final with PSG's rest and experience giving them a marginal but real edge.",
+      "zh": "Champions League Final at neutral Puskas Arena. PSG hold a notable freshness edge — multiple sources (Opta, The Athletic) highlight that Luis Enrique's side is significantly more rested, while Arsenal arrive exhausted from a congested run-in. PSG may also carry psychological weight as defending champions seeking a repeat title, whereas Arsenal chase their first European crown. Tactically, Enrique's fluid 4-3-3 with Dembélé and Kvaratskhelia's width faces Arteta's structured 4-3-3 built on the Saliba–Gabriel defensive axis and Rice's screening. Arsenal's defensive record is elite, but fatigue in the second half could open gaps against PSG's high-tempo transitions. The midfield battle — 维蒂尼亚/Neves/Fabián vs Ødegaard/Rice/Merino — is finely balanced, though PSG's fresher legs may tell after 60 minutes. Saka vs 努诺·门德斯 and Dembélé vs Calafiori are the key wide matchups. Overall, a tight final with PSG's rest and experience giving them a marginal but real edge."
     },
     "3d057ef47b818f0145b5e8b74abd6da1815cf9e0b9a687a8d5df94407dd8d61f": {
       "src": "The game should start with Chelsea controlling the ball and Brighton looking to jump passing lanes before breaking quickly. Most substitutions are likely after 60 minutes as intensity drops, and the card risk is concentrated in full-backs and holding midfielders dealing with transition fouls.",
@@ -4613,6 +4709,10 @@
       "src": "Leverkusen 1-1 Bayern (Mar 14, 2026) Game Analysis - ESPN",
       "zh": "勒沃库森 1-1 拜仁（2026年3月14日）比赛分析 - ESPN"
     },
+    "3f6bbbba627bea4eb0ce4e5765deeebb72cf7084b89e3152b9046ad17af6b1cd": {
+      "src": "Preview: Netherlands vs Japan - prediction, team news, lineups | World Cup 2026 - Sports Mole",
+      "zh": "Preview: Netherlands vs Japan - prediction, team news, lineups | World Cup 2026 - Sports Mole"
+    },
     "3f78377fb8c267a0e1f33e6062de11bb41c648c6ea7a36169a774ba596c26683": {
       "src": "Chelsea vs Tottenham Premier League preview: Team news and predicted lineups - Spurs Web",
       "zh": "切尔西 vs 热刺 英超赛前预览：球队新闻及预测阵容 - Spurs Web"
@@ -4697,6 +4797,10 @@
       "src": "Preview: Atletico Madrid vs Arsenal - Sports Mole",
       "zh": "预览：马德里竞技 vs 阿森纳 - Sports Mole"
     },
+    "41ccca5fe2888196c7db23c478031c92dba5ebd140942542d1b906185c780ffa": {
+      "src": "荷兰队控球率预计在58%左右，射门数15对10占优。日本队在防守端将贡献更多解围和拦截，犯规数也会相应增加。",
+      "zh": "荷兰队控球率预计在58%左右，射门数15对10占优。日本队在防守端将贡献更多解围和拦截，犯规数也会相应增加。"
+    },
     "41d728f940a112659dc4be969481f76c4a38789e8e089c8ea315d3a595344ac6": {
       "src": "Spurs will dominate possession (around 58-60%) and outshoot Wolves, but Wolves will have high-quality chances from fewer shots. Pass accuracy will favor Tottenham.",
       "zh": "热刺将主导控球（约58-60%）并射门次数超过狼队，但狼队虽射门较少却有高质量机会。传球准确率将有利于热刺。"
@@ -4748,6 +4852,10 @@
     "4328684e95131ec370f14ba7cdc830c4f9e160e180fccdf389999e42dbec3069": {
       "src": "Arsenal XI vs Crystal Palace: Confirmed team news, predicted lineup and injury latest for Premier League - AOL",
       "zh": "阿森纳对阵水晶宫首发阵容：确认的球队消息、预测阵容及最新伤情 英超 - AOL"
+    },
+    "4338334a06ed4441a01ec5e832b857588f64fe13977149609e305353c8610c32": {
+      "src": "日本开局阶段连续反击形成高质量机会，但被门将化解",
+      "zh": "日本开局阶段连续反击形成高质量机会，但被门将化解"
     },
     "437a9dbd0afb528d3c97dd7253f843c8ecd6bfa79cb1049cf548c9f7a3da7632": {
       "src": "City 3-0 Brentford: 2-minute highlights - Manchester City",
@@ -4836,6 +4944,10 @@
     "450ffd0796550ea8a3904184e5ffdd68964fee77649a6317d9ac161a238aeda9": {
       "src": "We expect Bayern to open scoring in the first half due to their attacking dominance, with possible early substitutions in the second half to maintain the intensity. There could be a modest number of fouls and a few yellow cards resulting from Bayern attempting to control the game tempo and Köln attempting to disrupt their rhythm.",
       "zh": "由于拜仁的进攻优势，我们预计拜仁将在上半场率先得分，下半场可能会有早期换人以保持强度。拜仁试图控制比赛节奏，科隆试图打乱他们的节奏，可能会导致适度数量的犯规和几张黄牌。"
+    },
+    "4513fab36f25695f08da9b01c40a12bcf0a1007a6445b49dc3d37b598d6a79bd": {
+      "src": "This Champions League final pits two elite European squads against each other at the Puskas Arena, with PSG holding a critical rest advantage after recent news highlighted Arsenal's fixture congestion leading to fatigue. PSG's squad depth allows Luis Enrique to field a fully refreshed starting XI, while Arsenal's key players like Saka and Ødegaard carry extra minutes from a tight Premier League title race. Tactically, PSG's 4-3-3 build-up, centered on 维蒂尼亚 and Zaïre-Emery's ball progression, will try to exploit Arsenal's high line with the pace of Dembélé and Barcola, while Arsenal's 4-2-3-1 pressing aims to disrupt PSG's buildup through Rice and Merino's midfield duet. 马尔基尼奥斯' leadership at the back for PSG will be tested by Gyökeres' physical presence up front for Arsenal, with Hakimi and Saka's individual matchup on the right flank set to be a game-defining battle.",
+      "zh": "This Champions League final pits two elite European squads against each other at the Puskas Arena, with PSG holding a critical rest advantage after recent news highlighted Arsenal's fixture congestion leading to fatigue. PSG's squad depth allows Luis Enrique to field a fully refreshed starting XI, while Arsenal's key players like Saka and Ødegaard carry extra minutes from a tight Premier League title race. Tactically, PSG's 4-3-3 build-up, centered on 维蒂尼亚 and Zaïre-Emery's ball progression, will try to exploit Arsenal's high line with the pace of Dembélé and Barcola, while Arsenal's 4-2-3-1 pressing aims to disrupt PSG's buildup through Rice and Merino's midfield duet. 马尔基尼奥斯' leadership at the back for PSG will be tested by Gyökeres' physical presence up front for Arsenal, with Hakimi and Saka's individual matchup on the right flank set to be a game-defining battle."
     },
     "451e411c08872f7fcde7ef44218547c709ef9f675a618e89d75a0f3bd50a4bff": {
       "src": "Expect Germany to press early, generate repeated box entries, and likely score first before halftime; if they lead, the game may open slightly as Curaçao have to step out more. Cards are more likely on Curaçao’s side from repeated defensive actions against dribblers and transition-stopping fouls.",
@@ -5065,6 +5177,10 @@
       "src": "Confirmed! ✅ The opening match of FIFA World Cup 2026 ...",
       "zh": "确认！✅ 2026年FIFA世界杯开幕战..."
     },
+    "4c9631d9ec0b3586dc9f64bad88ff221cafafcc188f6277e3c01b8feb10ddf88": {
+      "src": "PSG carry a one-goal aggregate lead after an extremely open first leg, so Bayern are pushed toward a proactive, high-tempo game at Allianz Arena. That state alone raises chance volume, and both clubs are built around elite attackers and aggressive wide threats rather than pure control. Bayern's home edge and likely territorial pressure lift their win chance, but PSG's transition quality and recent high-scoring profile make an away goal very live. The tactical matchup points to Bayern pushing full-backs and midfield runners forward, while PSG can exploit space behind with pace and direct combinations. Head-to-head meetings between these clubs have often been decided by fine margins, yet this tie context is less suited to a cagey script. Key players such as 哈里·凯恩, 贾马尔·穆西亚拉 and 迈克尔·奥利斯 for Bayern, plus 奥斯曼·登贝莱, Khvicha Kvaratskhelia and 德西雷·杜埃 for PSG, all support an open second leg with Bayern slightly favored to win the match but not overwhelmingly to advance.",
+      "zh": "PSG carry a one-goal aggregate lead after an extremely open first leg, so Bayern are pushed toward a proactive, high-tempo game at Allianz Arena. That state alone raises chance volume, and both clubs are built around elite attackers and aggressive wide threats rather than pure control. Bayern's home edge and likely territorial pressure lift their win chance, but PSG's transition quality and recent high-scoring profile make an away goal very live. The tactical matchup points to Bayern pushing full-backs and midfield runners forward, while PSG can exploit space behind with pace and direct combinations. Head-to-head meetings between these clubs have often been decided by fine margins, yet this tie context is less suited to a cagey script. Key players such as 哈里·凯恩, 贾马尔·穆西亚拉 and 迈克尔·奥利斯 for Bayern, plus 奥斯曼·登贝莱, Khvicha Kvaratskhelia and 德西雷·杜埃 for PSG, all support an open second leg with Bayern slightly favored to win the match but not overwhelmingly to advance."
+    },
     "4c98a2b3ab0a74b24cc5da8c460ca75caea8c84a35cf8d74fd54d28248ba2359": {
       "src": "Wolfsburg v Bayern Munich | 9 May 2026 | Goal.com",
       "zh": "沃尔夫斯堡对拜仁慕尼黑 | 2026年5月9日 | Goal.com"
@@ -5100,6 +5216,10 @@
     "4dbfe2fcd2c0b785cd5388c16d0e1b38723ef368536b45fe1252f346efe992bb": {
       "src": "Tottenham predicted XI vs Everton - De Zerbi takes calculated risk as James Maddison starts",
       "zh": "热刺对埃弗顿预测首发阵容 - 德泽尔比冒险起用詹姆斯·麦迪逊首发"
+    },
+    "4dd41fcc6b140d49256cad58d0141a407dccb18bd13ecdeb89a254e8dbb80cff": {
+      "src": "荷兰近期状态出色，近8场世预赛6胜2平保持不败，进攻火力强劲（场均进球超3球），且防守稳固。日本虽在亚洲区表现强势，但关键中场核心远藤航因脚伤缺阵，极大削弱其中场控制与攻防转换能力。历史交锋中荷兰占据心理优势，且本场坐拥达拉斯主场之利。战术上，荷兰拥有范戴克、德容等顶级球员，可有效压制日本偏重边路但中路硬度不足的体系；而日本依赖久保建英、堂安律等人的个人突破，面对荷兰整体防守可能难以持续制造威胁。综合考虑阵容深度、近期状态及关键球员缺阵，荷兰更被看好取胜。",
+      "zh": "荷兰近期状态出色，近8场世预赛6胜2平保持不败，进攻火力强劲（场均进球超3球），且防守稳固。日本虽在亚洲区表现强势，但关键中场核心远藤航因脚伤缺阵，极大削弱其中场控制与攻防转换能力。历史交锋中荷兰占据心理优势，且本场坐拥达拉斯主场之利。战术上，荷兰拥有范戴克、德容等顶级球员，可有效压制日本偏重边路但中路硬度不足的体系；而日本依赖久保建英、堂安律等人的个人突破，面对荷兰整体防守可能难以持续制造威胁。综合考虑阵容深度、近期状态及关键球员缺阵，荷兰更被看好取胜。"
     },
     "4dd5b6ccf2bb5bb00fa4b2e3de7323ee6130db23b2c6cdd311e0bc98bbe40823": {
       "src": "PSG v Bayern Munich preview: team news, tactics and predicted line-ups | NewsHub.co.uk",
@@ -5321,9 +5441,17 @@
       "src": "The match should feature Bayern territorial control, Wolfsburg defending deeper and looking to break quickly. If Bayern score first, the game can open further, creating chances for both sides and late substitute involvement rather than a cagey finish.",
       "zh": "比赛应以拜仁的区域控制为主，沃尔夫斯堡则防守更深并寻求快速反击。如果拜仁先得分，比赛可能进一步开放，为双方创造机会，并让替补球员在后期登场，而非谨慎收场。"
     },
+    "538e1c25ed7a32bd00c936801c749ecdd3c0aef967eb99e05fdd44afa7116c25": {
+      "src": "荷兰主场优势明显，即使伤病困扰，整体实力仍高出日本一档。预计荷兰小胜或平局概率较高，日本爆冷取胜需要超水平发挥。考虑到伤病和天气因素，荷兰难以大比分获胜。",
+      "zh": "荷兰主场优势明显，即使伤病困扰，整体实力仍高出日本一档。预计荷兰小胜或平局概率较高，日本爆冷取胜需要超水平发挥。考虑到伤病和天气因素，荷兰难以大比分获胜。"
+    },
     "53979086f1b856b06d0af7658dfbcb23cfec6199914bb64fdbcf168d1a1c5dd4": {
       "src": "Arsenal enter with far stronger underlying quality, much better recent results, and a major motivation edge in a title-pressure home match, while Burnley arrive winless in 10 and regularly conceding good chances. Arsenal's control-oriented midfield and wide creators should pin Burnley back, especially through Saka and Ødegaard combinations, though some rotation and Burnley's set-piece threat mean a clean sheet is not certain. Recent Arsenal matches have often been managed rather than wild, but the matchup still strongly favors the home side on form, squad depth, tactical territory, and individual duels across the pitch.",
       "zh": "阿森纳以更强的潜在实力、更佳的近期战绩和主场争冠压力下的巨大动力进入比赛，而伯恩利则已连续10场未胜且经常丢失好机会。阿森纳以控球为主的中场和边路创造者应能压制伯恩利，尤其是通过萨卡和厄德高的配合，尽管轮换和伯恩利的定位球威胁意味着零封并不确定。阿森纳近期比赛多以稳健为主，但从状态、阵容深度、战术区域和全场个人对抗来看，主队仍占明显优势。"
+    },
+    "53c2b5590f9d03aa483c8d1814be7b4439ee274e34be1ea8a14fac4fef3ebf3e": {
+      "src": "City 4-1-4-1 with Donnarumma; Nunes-Khusanov-Guehi-O'Reilly; 罗德里 shielding; Semenyo, B.Silva, Kovacic, Doku; Haaland. Villa 4-2-3-1 with Martinez (if fit, else Bizot); Cash-Konsa-Torres-Digne; Lindelof-Tielemans; McGinn-Rogers-Buendia; Watkins. Haaland top scorer probability is highest given current scoring streak.",
+      "zh": "City 4-1-4-1 with Donnarumma; Nunes-Khusanov-Guehi-O'Reilly; 罗德里 shielding; Semenyo, B.Silva, Kovacic, Doku; Haaland. Villa 4-2-3-1 with Martinez (if fit, else Bizot); Cash-Konsa-Torres-Digne; Lindelof-Tielemans; McGinn-Rogers-Buendia; Watkins. Haaland top scorer probability is highest given current scoring streak."
     },
     "5409d34883f6d14c0495229cca5ca7e1a0430da3b8843c0e321491d7e4cff276": {
       "src": "That produces a moderate possession edge for Tottenham, a shots edge for the home side, and a fairly even but not equal shots-on-target split. Leeds should still post useful defensive-action numbers because they are likely to defend more often and contest transitions aggressively.",
@@ -5344,6 +5472,10 @@
     "5475dbcb03159d74c9a106996778a082ab983c7d76785305698b59480a9bfef9": {
       "src": "South Africa Recent Results - DailySports",
       "zh": "南非近期战绩 - DailySports"
+    },
+    "54c62c0485030a2dd212ecd218e33a47993e9cd28724ae60ad741d84b720c09a": {
+      "src": "A cagey first hour sees few chances. The decisive goal comes around the 40th minute from a Dembélé cut‑inside strike assisted by 维蒂尼亚. Arsenal push for an equalizer but are blunted by PSG’s mid‑block. Cards are shown to Rice (frustration) and 马尔基尼奥斯 (professional foul). Substitutions inject pace but fail to break the deadlock.",
+      "zh": "A cagey first hour sees few chances. The decisive goal comes around the 40th minute from a Dembélé cut‑inside strike assisted by 维蒂尼亚. Arsenal push for an equalizer but are blunted by PSG’s mid‑block. Cards are shown to Rice (frustration) and 马尔基尼奥斯 (professional foul). Substitutions inject pace but fail to break the deadlock."
     },
     "54e9f829014356f446759df005a4df2134dc191279e9fcbcb1afe28093043a08": {
       "src": "Arsenal injury list: Players out, potential return dates, predicted lineup for next game vs. Atletico Madrid - Yahoo Sports",
@@ -5368,6 +5500,10 @@
     "55863b33994a0059687dbe3a7002c213ed1281f63c163362c5ad04f47ad68d22": {
       "src": "Bayern München enters this final match of the season in exceptional form (7W 2D 1L), having secured their league position and aiming for a perfect send-off at home. Their attack, led by Kane, Musiala, and Olise, has been prolific, while Köln sits in a precarious relegation battle with poor recent form (1W 5D 4L) and a leaky defense. The tactical mismatch favors Bayern's high press and width against Köln's struggling transition defense, making a home victory highly probable.",
       "zh": "拜仁慕尼黑以极佳状态进入本赛季最后一场比赛（7胜2平1负），已确保联赛位置，目标是在主场完美收官。由凯恩、穆西亚拉和奥利塞领衔的进攻火力强劲，而科隆目前处于降级边缘，近期表现不佳（1胜5平4负），防守漏洞明显。战术对比上，拜仁的高压和宽度优势明显，科隆的防守转换困难，主场胜利极有可能。"
+    },
+    "55864a0902bef3cda160ed95fcbe5454ed551c8a967d17ba188b328d9fc96a1c": {
+      "src": "荷兰持球更多但日本不会被压制太狠(预计55:45)，射门14比11、射正5比4；日本犯规略高、扑救略多，传球成功率荷兰领先约4-5个百分点，符合两队近10场样本。",
+      "zh": "荷兰持球更多但日本不会被压制太狠(预计55:45)，射门14比11、射正5比4；日本犯规略高、扑救略多，传球成功率荷兰领先约4-5个百分点，符合两队近10场样本。"
     },
     "558a59139ea0d0c134eaecab451ec44e82e4a2ab7ede651d7170eb17dd7fdb48": {
       "src": "Mexico are more likely to start a possession-friendly 4-3-3/4-2-3-1 built around technical midfielders and direct wingers, while South Africa should favor a compact 4-2-3-1 with pace outside. Mexico’s likeliest scorers are the central striker and inverted wide forwards attacking the box against a deeper block.",
@@ -5561,6 +5697,10 @@
       "src": "PSG outlasts Bayern Munich 5-4 in instant classic Champions League semifinal - Yahoo Sports",
       "zh": "巴黎圣日耳曼在一场经典的欧冠半决赛中以5-4力克拜仁慕尼黑 - 雅虎体育"
     },
+    "5c827941a95f9210216b509b78356e63ed5f852a71195512614bb717df217c02": {
+      "src": "荷兰预选赛场均控球66.6%，射门17.4次，射正6.5次；日本控球67.4%，射门13.2次，射正5.3次。本场荷兰面对组织严密的日本，控球率会降至52%左右，射门15次左右；日本控球48%，但反击会带来10次射门。两队传球成功率均在85%上下，荷兰防守数据（扑救2次、防守动作15次）略高。",
+      "zh": "荷兰预选赛场均控球66.6%，射门17.4次，射正6.5次；日本控球67.4%，射门13.2次，射正5.3次。本场荷兰面对组织严密的日本，控球率会降至52%左右，射门15次左右；日本控球48%，但反击会带来10次射门。两队传球成功率均在85%上下，荷兰防守数据（扑救2次、防守动作15次）略高。"
+    },
     "5c91b3ae5a64f8fe1c94e7aacec7b513c4c3ba835e8f36f390b53afb97c4785d": {
       "src": "Spurs are expected to control possession and passing volume, but Wolves should stay competitive in shots through counters and set plays. That points to a modest shot edge for the away side, near-even saves, and elevated defensive actions for Wolves due to time spent without the ball.",
       "zh": "热刺预计将控制控球率和传球量，但狼队应通过反击和定位球保持射门竞争力。这意味着客队在射门上略占优势，扑救次数接近持平，狼队因无球时间较多而防守动作增多。"
@@ -5608,6 +5748,10 @@
     "5db5bd87552df73e13e199d5de59d513f2580ba30949e1337d0d9385e4413730": {
       "src": "VfB Stuttgart fixtures",
       "zh": "斯图加特赛程"
+    },
+    "5df38eb411ab37cf5e8a3bd40386c58f3868e82fa410275c6774d1bba2ca44f4": {
+      "src": "日本队长远藤航确认因伤缺阵世界杯",
+      "zh": "日本队长远藤航确认因伤缺阵世界杯"
     },
     "5e2088c3b11c51e4191e441efd9fcb0366c4fbf08ed1aad07d3ccc61bab0b958": {
       "src": "Bulinews Bundesliga headlines",
@@ -5661,9 +5805,17 @@
       "src": "Cautious opening with both teams feeling out the opponent. Mexico controls first half but struggle to break down organized South African defense. Second half opens up as fatigue sets in and Mexico pushes for winner. Goals most likely between 45-70 minutes. South Africa may get a goal on counter-attack if Mexico overcommits.",
       "zh": "开局会比较谨慎，双方都在试探对手。墨西哥掌控上半场，但很难撕开组织严密的南非防线。随着体能下降，下半场会更开放，墨西哥也会加大力度去争取制胜球。最可能的进球时间在45-70分钟之间。如果墨西哥压得过深，南非可能通过反击取得进球。"
     },
+    "5feffd9af160b40823893bc8e0c32a26662a23b8e284faa55838c27055b13b59": {
+      "src": "尽管荷兰存在伤病隐患，日本也极具竞争力，但荷兰核心球员均能出场，整体阵容质量高于缺少核心中场的日本，因此荷兰取胜概率更高，预计本场总进球数中等，会是一场有来有回的对决。",
+      "zh": "尽管荷兰存在伤病隐患，日本也极具竞争力，但荷兰核心球员均能出场，整体阵容质量高于缺少核心中场的日本，因此荷兰取胜概率更高，预计本场总进球数中等，会是一场有来有回的对决。"
+    },
     "5ff89d33418155ab7045a077e88b6bb6d3568ab64d916bec0990393edd3a90d8": {
       "src": "FIFA World Cup on X: \"The opening match of #FIFAWorldCup 2026: Mexico v South Africa\" / X",
       "zh": "X平台上的国际足联世界杯：“#2026年国际足联世界杯 开幕战：墨西哥对阵南非” / X"
+    },
+    "5fff4145b54564842460663e02a9b8fb991274a7125203f8249c8c517c1d4c41": {
+      "src": "荷兰预计4-3-3：门将维尔布鲁根，防线邓弗里斯、范迪克、范德文、阿克；中场德容、赖因德斯、格拉文贝赫；锋线加克波、德佩、马伦。加克波和德佩近期进球感觉好，马伦速度可冲击日本左路。日本因远藤航缺席，可能用4-2-3-1：门将铃木彩艳，后卫菅原、板仓、富安、伊藤洋辉；后腰田中碧、佐野海舟；前腰镰田大地，边路伊东纯也、久保建英；中锋上田绮世。久保建英和伊东纯也是日本主要威胁点。",
+      "zh": "荷兰预计4-3-3：门将维尔布鲁根，防线邓弗里斯、范迪克、范德文、阿克；中场德容、赖因德斯、格拉文贝赫；锋线加克波、德佩、马伦。加克波和德佩近期进球感觉好，马伦速度可冲击日本左路。日本因远藤航缺席，可能用4-2-3-1：门将铃木彩艳，后卫菅原、板仓、富安、伊藤洋辉；后腰田中碧、佐野海舟；前腰镰田大地，边路伊东纯也、久保建英；中锋上田绮世。久保建英和伊东纯也是日本主要威胁点。"
     },
     "601a528370f480e651a8ec3eb3de4a58825ede4dec79c593af99998960f9a4b1": {
       "src": "Germany vs Curaçao Prediction, Stats, H2H - 14 Jun 2026",
@@ -5829,6 +5981,10 @@
       "src": "Germany will dominate possession (approx. 65-70%) and shots, while Curaçao will rely on counter-attacks and set-pieces, resulting in fewer shots but potentially dangerous moments.",
       "zh": "德国将主导控球（约65-70%）和射门，而库拉索将依赖反击和定位球，导致射门较少但可能出现危险时刻。"
     },
+    "67254ed2785a5f8a3ec82a49dab25591169fcc8e3b3b63e9ebbdca0703b5ae23": {
+      "src": "PSG enter the Champions League Final as marginal favorites (45%) over Arsenal (32%) with a 23% chance of extra time/draw. The Opta Analyst and NYT Athletic articles highlight that PSG rotated heavily in Ligue 1 while Arsenal pushed to the wire in a grueling Premier League title race, giving Luis Enrique's side a meaningful fitness edge heading into a one-off final. PSG's squad depth, their incisive front five (Dembélé, Kvaratskhelia, Barcola, 维蒂尼亚), and home-side advantage at a neutral venue that typically favors the attacking bloc tip the balance. Arsenal's defensive structure under Arteta (Saliba–Gabriel CB pairing, Rice screening) is elite, but their fatigue after 55+ matches and lack of squad rotation depth in key areas create vulnerability in extra time. The tactical matchup pits PSG's high-possession, short-passing attack against Arsenal's aggressive counter-press and vertical transitions through Ødegaard and Saka. Neutral-venue H2H is limited, but a 2-1 PSG victory in normal time reflects the narrow but real gap in freshness and squad options.",
+      "zh": "PSG enter the Champions League Final as marginal favorites (45%) over Arsenal (32%) with a 23% chance of extra time/draw. The Opta Analyst and NYT Athletic articles highlight that PSG rotated heavily in Ligue 1 while Arsenal pushed to the wire in a grueling Premier League title race, giving Luis Enrique's side a meaningful fitness edge heading into a one-off final. PSG's squad depth, their incisive front five (Dembélé, Kvaratskhelia, Barcola, 维蒂尼亚), and home-side advantage at a neutral venue that typically favors the attacking bloc tip the balance. Arsenal's defensive structure under Arteta (Saliba–Gabriel CB pairing, Rice screening) is elite, but their fatigue after 55+ matches and lack of squad rotation depth in key areas create vulnerability in extra time. The tactical matchup pits PSG's high-possession, short-passing attack against Arsenal's aggressive counter-press and vertical transitions through Ødegaard and Saka. Neutral-venue H2H is limited, but a 2-1 PSG victory in normal time reflects the narrow but real gap in freshness and squad options."
+    },
     "6738fabd74c16435a5a3c34a810c566a194ff2e74cb90909107570e4bd29f3ef": {
       "src": "Paris Saint-Germain 2026 Stats, Fixtures, Table | StatMuse",
       "zh": "巴黎圣日耳曼2026赛季数据、赛程、积分榜 | StatMuse"
@@ -5909,6 +6065,10 @@
       "src": "2026 World Cup Group E Preview: Germany, Curacao, Ivory Coast & Ecuador | RotoWire",
       "zh": "2026年世界杯E组预览：德国、库拉索、科特迪瓦与厄瓜多尔 | RotoWire"
     },
+    "6a3d9efa15ab0cfe5d60fe9e86243426437f7d80e1b35817edeb02c0c338d1e4": {
+      "src": "Saka and Odegaard will be crucial for Arsenal's chance creation, while PSG will rely heavily on 维蒂尼亚's ball progression and Dembele's isolation plays. Saliba's direct matchup against PSG's central attacker will be a defining battle.",
+      "zh": "Saka and Odegaard will be crucial for Arsenal's chance creation, while PSG will rely heavily on 维蒂尼亚's ball progression and Dembele's isolation plays. Saliba's direct matchup against PSG's central attacker will be a defining battle."
+    },
     "6a9efb6e71f7d0b7eb1ce8cc5a36d4df6242a81b875b64a6fbcbfb707c80c24c": {
       "src": "Crystal Palace vs Everton Prediction, Betting Tips, Lineups & Odds | 10 May 2026",
       "zh": "水晶宫对阵埃弗顿预测、投注技巧、首发阵容与赔率 | 2026年5月10日"
@@ -5941,6 +6101,10 @@
       "src": "Bayern travel to Wolfsburg three days after the high-stakes CL semi-final 2nd leg vs PSG, with the Bundesliga title already secured on matchday 30 (4-2 vs Stuttgart, 19 April). Kompany is virtually certain to rotate heavily — the CL final is May 30 if they advance, and Bayern have set scoring records this season but also showed defensive vulnerability conceding 5 to PSG. Wolfsburg are 17th, fighting relegation, leak goals (3-6 vs Leverkusen, 1-1 Freiburg, 0-0 Gladbach, 4-3 loss vs Freiburg earlier), and play at the Volkswagen Arena where they at least have three undefeated home games. The first leg was an 8-1 Bayern rout but featured a Wolfsburg goal and several first-half chances. Even rotated, Bayern have superior depth (Karl, Bischof, Goretzka, Guerreiro, Jackson, Mike, Chavez, Davies returning) and Wolfsburg's leaky back line creates strong xG asymmetry. Expect an open, end-to-end Bundesliga finale rather than a tight tactical battle.",
       "zh": "拜仁将在与巴黎圣日耳曼的欧冠半决赛次回合三天后客场挑战沃尔夫斯堡，德甲冠军已于第30轮（4-2战胜斯图加特，4月19日）提前锁定。孔帕尼几乎肯定会大幅轮换——如果晋级，欧冠决赛将在5月30日举行。拜仁本赛季创造了进球纪录，但防守端也暴露出漏洞，曾被巴黎圣日耳曼攻入5球。沃尔夫斯堡排名第17，正为保级而战，防线漏洞明显（对勒沃库森3-6、对弗赖堡1-1、对门兴0-0、早前对弗赖堡4-3失利），主场为大众竞技场，至少保持三场不败。首回合拜仁8-1大胜，但沃尔夫斯堡也有进球和多次上半场机会。即使轮换，拜仁仍具备更强阵容深度（卡尔、比肖夫、戈雷茨卡、格雷罗、杰克逊、迈克、查韦斯、戴维斯回归），沃尔夫斯堡防线漏洞导致预期进球差距明显。预计这将是一场开放且攻防转换频繁的德甲收官战，而非紧张的战术对抗。"
     },
+    "6bb02a66759baa74ea58bc70b05bad272d1e1556a31c7476f30651225ad5005d": {
+      "src": "PSG get a slight edge because their squad looks deeper in attacking rotations and the injected headlines consistently point to a rest advantage over Arsenal, which matters in a final likely decided by repeated high-intensity sprints and recovery runs. Tactically, Luis Enrique's side can stretch Arsenal with Hakimi and 努诺·门德斯 plus the dribbling of Dembélé, Barcola and Kvaratskhelia, while Arsenal's structure under Arteta should still create chances through Saka, Ødegaard and late Rice/Merino box arrivals. On a neutral pitch this is not a huge gap, because Arsenal's defensive spine with Saliba and Gabriel can stabilize the game and their set-piece threat is real, but PSG's one-v-one quality and fresher legs make them marginal favorites in a fairly balanced final.",
+      "zh": "PSG get a slight edge because their squad looks deeper in attacking rotations and the injected headlines consistently point to a rest advantage over Arsenal, which matters in a final likely decided by repeated high-intensity sprints and recovery runs. Tactically, Luis Enrique's side can stretch Arsenal with Hakimi and 努诺·门德斯 plus the dribbling of Dembélé, Barcola and Kvaratskhelia, while Arsenal's structure under Arteta should still create chances through Saka, Ødegaard and late Rice/Merino box arrivals. On a neutral pitch this is not a huge gap, because Arsenal's defensive spine with Saliba and Gabriel can stabilize the game and their set-piece threat is real, but PSG's one-v-one quality and fresher legs make them marginal favorites in a fairly balanced final."
+    },
     "6bbf93b11fc0f9e155b94dd4f52916dbf5edba9a6c0bd6580d1ee6f46bef0a9c": {
       "src": "Aston Villa 1-0 Man City (Oct 26, 2025) Final Score - ESPN",
       "zh": "阿斯顿维拉 1-0 曼城（2025年10月26日）最终比分 - ESPN"
@@ -5956,6 +6120,10 @@
     "6c256d7900ec5dcb7c81dd456688d927b1c21940e048f2b7735212e9d1c28167": {
       "src": "Manchester City vs Aston Villa Match Preview & Report | 2025/2026 | Premier League",
       "zh": "曼城对阵阿斯顿维拉比赛前瞻与战报 | 2025/2026 | 英超"
+    },
+    "6c3e10e2d90978e066cabfd7f80cd7ce1a384eca754a22e9223cd3e70b115574": {
+      "src": "高温下日本球员补水暂停",
+      "zh": "高温下日本球员补水暂停"
     },
     "6c42a0181d4a693f387c76a3211b28dd91bf335107c060d121dc3d555213749b": {
       "src": "2026 FIFA World Cup Group J",
@@ -6156,6 +6324,10 @@
     "70f92affc573ee5905b1ac05dd953a238dc8f2941d26ae476aafa680b414bb62": {
       "src": "PSG 5-4 Bayern (Apr 28, 2026) Final Score",
       "zh": "巴黎圣日耳曼 5-4 拜仁（2026年4月28日）决赛比分"
+    },
+    "7106c4f7eef564d4b7e380337f9fcd885ad5950de6bee5681ff279b5d00cb759": {
+      "src": "PSG are most likely to use their fluid 4-3-3 with Dembélé and Kvaratskhelia around a central forward, while Arsenal's strongest final setup is a 4-3-3/4-1-4-1 built around Raya, Saliba, Gabriel, Rice, Ødegaard and Saka. The most likely scorers are the primary high-touch attackers: Dembélé, Kvaratskhelia and 贡萨洛·拉莫斯 for PSG, Saka and Gyökeres for Arsenal.",
+      "zh": "PSG are most likely to use their fluid 4-3-3 with Dembélé and Kvaratskhelia around a central forward, while Arsenal's strongest final setup is a 4-3-3/4-1-4-1 built around Raya, Saliba, Gabriel, Rice, Ødegaard and Saka. The most likely scorers are the primary high-touch attackers: Dembélé, Kvaratskhelia and 贡萨洛·拉莫斯 for PSG, Saka and Gyökeres for Arsenal."
     },
     "7135067543f3353036e5bc7396477fde4125704135f3ca2bd8f257343667cd1b": {
       "src": "Germany vs Curaçao Prediction",
@@ -6377,6 +6549,10 @@
       "src": "Bayern Munich crowned Bundesliga champions for 34th time after victory over VfB Stuttgart | Bundesliga",
       "zh": "拜仁慕尼黑在战胜斯图加特后第34次加冕德甲冠军 | 德甲"
     },
+    "77c80f0b3550c68805c45bcf9192dad5b087ba341d54f626dde9450866a517f5": {
+      "src": "City will likely field a strong XI to honor Guardiola, with Haaland leading the line and Foden eager to impress after missing out on the 英格兰 squad. Villa will rotate heavily, resting key players after their European triumph.",
+      "zh": "City will likely field a strong XI to honor Guardiola, with Haaland leading the line and Foden eager to impress after missing out on the 英格兰 squad. Villa will rotate heavily, resting key players after their European triumph."
+    },
     "77d4ccbf1fc19447544f187bf0912f286ccd82e74ef90850a0cd9eabe10a293b": {
       "src": "Leeds United Scores & Latest Results Today | LiveScore",
       "zh": "利兹联 比分及最新赛果 | LiveScore"
@@ -6549,6 +6725,10 @@
       "src": "Solanke and Maddison are key for Spurs' attack, while Vicario anchors the defense. For Leeds, Piroe and Gnonto will carry the attacking threat in Okafor's absence, with Ampadu crucial in midfield.",
       "zh": "索兰克和麦迪逊是热刺进攻的关键，维卡里奥稳固防线。利兹联方面，皮罗和格农托将在奥卡福缺阵时承担进攻重任，安帕杜在中场发挥关键作用。"
     },
+    "7b1895227fb724fa64484f950eddb780d3da83033e141b7cbfbe5d319efbb1bf": {
+      "src": "荷兰队虽然遭遇伤病潮（部分主力缺阵），但整体阵容深度依然可观，尤其是中后场拥有范迪克、弗朗基·德容等核心。日本队近期状态出色，但队长远藤航的因伤缺阵对中场防守硬度是致命打击。预计荷兰将掌控比赛节奏，日本队则依靠久保建英和前田大然等人的速度打反击。综合来看，荷兰队实力占优，有望小胜。",
+      "zh": "荷兰队虽然遭遇伤病潮（部分主力缺阵），但整体阵容深度依然可观，尤其是中后场拥有范迪克、弗朗基·德容等核心。日本队近期状态出色，但队长远藤航的因伤缺阵对中场防守硬度是致命打击。预计荷兰将掌控比赛节奏，日本队则依靠久保建英和前田大然等人的速度打反击。综合来看，荷兰队实力占优，有望小胜。"
+    },
     "7b2821a1874ef583547e64de6d170e69774cf0ca4d891d9ab887c2d913e949e2": {
       "src": "Kane scores as Bayern Munich claim Bundesliga title with Stuttgart victory | Football News | Al Jazeera",
       "zh": "凯恩进球，拜仁慕尼黑凭借战胜斯图加特夺得德甲冠军 | 足球新闻 | 半岛电视台"
@@ -6665,6 +6845,10 @@
       "src": "Man City v Brentford - 9 May 2026",
       "zh": "曼城对阵布伦特福德 - 2026年5月9日"
     },
+    "7eeab9c7ac6b5e132e42c7420873e2ed8498045cbfe5c3b02026429088111831": {
+      "src": "荷兰首发预计采用4-3-3，由范戴克领衔后防，德容坐镇中场，加克波、布罗贝伊搭档锋线。日本则可能以4-2-3-1应战，久保建英、堂安律、伊东纯也分居前场，上田绮世突前。加克波和久保建英分别是两队最可能的进球者。",
+      "zh": "荷兰首发预计采用4-3-3，由范戴克领衔后防，德容坐镇中场，加克波、布罗贝伊搭档锋线。日本则可能以4-2-3-1应战，久保建英、堂安律、伊东纯也分居前场，上田绮世突前。加克波和久保建英分别是两队最可能的进球者。"
+    },
     "7efa6025b4ae261657e0ad5fda9a1ac05e23089eafeb406b61d3ca627a755b49": {
       "src": "Atletico Madrid vs Arsenal: Champions League – team news, start, lineups | Football News | Al Jazeera",
       "zh": "马德里竞技对阵阿森纳：欧冠——球队新闻、首发阵容 | 足球新闻 | 半岛电视台"
@@ -6684,6 +6868,10 @@
     "7ff5b1ec016967866df4034877cfb7fbbe3f523d0e96c5dc5cf163181472a66a": {
       "src": "Bayern Munich Injuries and Suspensions news | Breaking News",
       "zh": "拜仁慕尼黑伤病和停赛新闻 | 最新消息"
+    },
+    "805e3e646b1c8af31b3f5abeaf63c86d9d6d58e8aed0fbab1ed0bbbaf731b890": {
+      "src": "荷兰胜率最高但并非压倒性优势：阵容质量与深度占优，但伤病危机削弱了部分位置；日本缺少远藤航后中场防守与组织受损，但久保建英和伊东纯也的反击仍具威胁。2-1的比分反映荷兰控场优势与日本偶尔反击得手的平衡。",
+      "zh": "荷兰胜率最高但并非压倒性优势：阵容质量与深度占优，但伤病危机削弱了部分位置；日本缺少远藤航后中场防守与组织受损，但久保建英和伊东纯也的反击仍具威胁。2-1的比分反映荷兰控场优势与日本偶尔反击得手的平衡。"
     },
     "80853935ccb0853b11380258135c99fb3d3ce5a206516bb2913a04873b77ac3a": {
       "src": "Bayer 04 Leverkusen squad",
@@ -6721,6 +6909,10 @@
       "src": "Arsenal's season-long possession, shot volume and pass-completion edge support a match with clear home territorial dominance. Burnley's away concession trend suggests Arsenal should clear mid-to-high teens in shots, while Burnley can still produce a handful of counters and set-piece situations.",
       "zh": "阿森纳赛季整体控球率、射门次数和传球成功率优势支持其在主场拥有明显的领土控制。伯恩利的客场失球趋势表明阿森纳射门数应达到中高十几次，而伯恩利仍能制造少量反击和定位球机会。"
     },
+    "81ef87a1924fe9cbadc64e4c6aa72cb91fd160dd9020628a38eeb304ded329b6": {
+      "src": "硬实力差距+日本失去远藤的中场屏障让荷兰胜率约0.56；日本组织能力与反击效率使爆冷或战平概率合计约0.44，因此选择2-1作为与最高概率桶一致的代表比分。",
+      "zh": "硬实力差距+日本失去远藤的中场屏障让荷兰胜率约0.56；日本组织能力与反击效率使爆冷或战平概率合计约0.44，因此选择2-1作为与最高概率桶一致的代表比分。"
+    },
     "81f8540031331db368c79b972129fbf85e4530c4192f0b89ea7b264311d33662": {
       "src": "This Champions League final pits a rested, tactically fluid PSG under Luis Enrique against an exhausted but highly structured Arsenal side. News reports highlight a significant fatigue gap, with Arsenal having a much denser schedule leading up to the final. PSG's squad is deep and possesses high individual quality in Kvaratskhelia and Barcola. Arsenal's strength lies in their defensive solidity (Saliba/Gabriel) and the creativity of Ødegaard, but the physical toll of their season may lead to late-game lapses. The neutral venue (Puskas Arena) minimizes home advantage, but PSG's freshness gives them a slight edge in a high-stakes final.",
       "zh": "这场欧冠决赛是由休整充分、战术灵活的路易斯·恩里克执教的巴黎圣日耳曼对阵疲惫但结构严密的阿森纳。新闻报道强调了显著的疲劳差距，阿森纳在决赛前赛程更为密集。巴黎圣日耳曼阵容深厚，拥有克瓦拉茨赫利亚和巴尔科拉等高水平球员。阿森纳的优势在于防守稳固（萨利巴/加布里埃尔）和厄德高的创造力，但赛季的体能消耗可能导致比赛后期出现失误。中立场地（普斯卡什竞技场）减少了主场优势，但巴黎圣日耳曼的体能优势使其在这场高风险决赛中略占上风。"
@@ -6736,6 +6928,14 @@
     "823aea1c6e881037d943cfc5460e3fbcbc6beb128fb1a51bc0458f103c9d50bf": {
       "src": "Glasner highlights performance - CPFC",
       "zh": "格拉斯纳重点点评表现 - 水晶宫足球俱乐部"
+    },
+    "824d123456b8934acc31eb7d583e7ed7e3901ccfa8054f7814507bfff2c90974": {
+      "src": "PSG's front three of Dembélé, Kvaratskhelia and Barcola/Doué offers more unpredictability than Arsenal's attack. 维蒂尼亚 controls tempo for PSG while Rice and Ødegaard must win midfield battle for Arsenal. L. Chevalier in goal for PSG vs 大卫·拉亚 for Arsenal is a high-level matchup.",
+      "zh": "PSG's front three of Dembélé, Kvaratskhelia and Barcola/Doué offers more unpredictability than Arsenal's attack. 维蒂尼亚 controls tempo for PSG while Rice and Ødegaard must win midfield battle for Arsenal. L. Chevalier in goal for PSG vs 大卫·拉亚 for Arsenal is a high-level matchup."
+    },
+    "82635b78f4659c207ef16fb6780c8f2d59f873aab5411d265acff8ec2e741447": {
+      "src": "哈里·凯恩 and 贾马尔·穆西亚拉 will be the focal points of Bayern's sustained attacks. For PSG, 奥斯曼·登贝莱 and 布拉德利·巴尔科拉 will be crucial outlets on the break.",
+      "zh": "哈里·凯恩 and 贾马尔·穆西亚拉 will be the focal points of Bayern's sustained attacks. For PSG, 奥斯曼·登贝莱 and 布拉德利·巴尔科拉 will be crucial outlets on the break."
     },
     "8271e70cb9225a857d8b157f6ba7351e3d8fc5040ee3d9407a62bd9e0e519c2e": {
       "src": "Battle in Madrid: Atlético and Arsenal Collide in 2026 Champions League Semifinal — EnforcetheSport.com",
@@ -6805,6 +7005,10 @@
       "src": "Understat Wolves 2025",
       "zh": "Understat 狼队 2025"
     },
+    "8481d253af7bf1e2512270017ac6d31eb9eb10efd8259a7e87e654ee1b5b9a9a": {
+      "src": "Arsenal get a narrow edge on balance because their recent multi-phase structure is usually a little more stable in big matches: they defend the box well, control set pieces, and have enough press resistance through Rice and Ødegaard to avoid long PSG pressure spells. PSG still carry the higher transition threat through Dembélé, Hakimi and Kvaratskhelia, so this is not a one-sided forecast, but on a neutral ground Arsenal’s defensive platform, aerial strength, and ability to create from wide isolations slightly outweigh PSG’s individual flair. With both teams carrying elite attackers and full-backs who push high, the game projects as competitive rather than cagey, though finals usually suppress extremes. Key players such as Saka, Ødegaard, Rice, Dembélé and 维蒂尼亚 are central to the matchup, and the likely H2H-style dynamic is Arsenal trying to survive PSG’s first-wave pace before exploiting rest-defense spaces and dead balls.",
+      "zh": "Arsenal get a narrow edge on balance because their recent multi-phase structure is usually a little more stable in big matches: they defend the box well, control set pieces, and have enough press resistance through Rice and Ødegaard to avoid long PSG pressure spells. PSG still carry the higher transition threat through Dembélé, Hakimi and Kvaratskhelia, so this is not a one-sided forecast, but on a neutral ground Arsenal’s defensive platform, aerial strength, and ability to create from wide isolations slightly outweigh PSG’s individual flair. With both teams carrying elite attackers and full-backs who push high, the game projects as competitive rather than cagey, though finals usually suppress extremes. Key players such as Saka, Ødegaard, Rice, Dembélé and 维蒂尼亚 are central to the matchup, and the likely H2H-style dynamic is Arsenal trying to survive PSG’s first-wave pace before exploiting rest-defense spaces and dead balls."
+    },
     "8498e88894141acbaa7a90a16d0eec2f1d1ee3f3febdf5838f30ca6f8b9ecb4c": {
       "src": "FotMob Leeds team page",
       "zh": "FotMob 利兹联 球队页面"
@@ -6865,6 +7069,14 @@
       "src": "2025–26 Atlético Madrid season - Wikipedia",
       "zh": "2025–26 马德里竞技赛季 - 维基百科"
     },
+    "873e818ecce8aa937a57504f59197a3f8a2f7b6dce1e75b24caef12561a71fc0": {
+      "src": "荷兰利用定位球连续施压，比赛节奏明显转向主队",
+      "zh": "荷兰利用定位球连续施压，比赛节奏明显转向主队"
+    },
+    "87780c8167195d96d5656f433d7d7b4d5fb1a5f38cdf7ae91d43894683484b17": {
+      "src": "荷兰整体阵容质量明显高于日本，拥有范迪克 (Van Dijk)、德容 (De Jong)、加克波 (Gakpo) 等世界级球员，近期预选赛8场6胜2平不败，进攻火力强劲。但赛前报道荷兰遭遇伤病危机，部分主力可能缺阵或体能受限。日本方面则遭受重大打击——队长远藤航 (Wataru Endo) 因脚伤退出，中场防守锚点缺失将严重影响日本的中场控制与对抗能力。日本近期10场7胜2平1负，对亚洲弱旅进球效率高，但对强队（澳大利亚）时暴露了攻坚不足。战术层面，荷兰4-3-3体系利用边路冲击（邓弗里斯 Dumfries 右路）和中场控制，日本4-2-3-1依赖久保建英 (Kubo) 的创造力与快速转换，但缺少远藤航后中场硬度下降。达拉斯球场为中立场地，气候炎热可能影响双方体能。综合考量，荷兰胜率约52%，平局26%，日本逆袭约22%。预计比分2-1，总进球约2.8。",
+      "zh": "荷兰整体阵容质量明显高于日本，拥有范迪克 (Van Dijk)、德容 (De Jong)、加克波 (Gakpo) 等世界级球员，近期预选赛8场6胜2平不败，进攻火力强劲。但赛前报道荷兰遭遇伤病危机，部分主力可能缺阵或体能受限。日本方面则遭受重大打击——队长远藤航 (Wataru Endo) 因脚伤退出，中场防守锚点缺失将严重影响日本的中场控制与对抗能力。日本近期10场7胜2平1负，对亚洲弱旅进球效率高，但对强队（澳大利亚）时暴露了攻坚不足。战术层面，荷兰4-3-3体系利用边路冲击（邓弗里斯 Dumfries 右路）和中场控制，日本4-2-3-1依赖久保建英 (Kubo) 的创造力与快速转换，但缺少远藤航后中场硬度下降。达拉斯球场为中立场地，气候炎热可能影响双方体能。综合考量，荷兰胜率约52%，平局26%，日本逆袭约22%。预计比分2-1，总进球约2.8。"
+    },
     "878563707b647ae0de7b337b5f9f73f39ca72cd0548ed6a6dd4d08f6561c51b9": {
       "src": "Kickoff",
       "zh": "开球"
@@ -6908,6 +7120,10 @@
     "8871803ae4125c4bce0bbfa84c571b3448818c68672e68c8d727ff97e656709f": {
       "src": "Spurs are favored due to home advantage, recent two-game winning streak, deeper attacking talent, and relegation desperation; but Leeds' away resilience and Spurs' defensive frailty keep draw probability significant.",
       "zh": "热刺因主场优势、近期两连胜、更深厚的进攻人才以及保级的迫切性而被看好；但利兹联的客场韧性和热刺的防守脆弱使平局概率依然显著。"
+    },
+    "88770729330b74314b12e9e8a4b241ca57e68b5a4b1d0608b0f58969796f8eac": {
+      "src": "Bayern host PSG at the Allianz needing to overturn a 4-5 aggregate deficit after the highest-scoring CL semi-final leg in history. Bayern's home record this CL campaign is a perfect 6/6 and they have won the last two Allianz meetings vs PSG, while PSG are without 阿什拉夫·哈基米 (hamstring) — a massive defensive and attacking blow on a flank where 路易斯·迪亚斯 already terrorised Zaïre-Emery in Paris. Both managers (Kompany, Enrique) have publicly promised to attack again, and both defences have been leaking goals (16 conceded for Bayern in their last six). Markets price Bayern around -145/-163 (~58–62% to win the match), Polymarket ~56.5%/18.5%/25.5%, with O4.5 priced at -200 — a clear chaos profile. PSG only need a draw to advance and have won six straight away with five clean sheets, but the Hakimi loss plus Bayern's home-must-win urgency tilts the match probabilities to the hosts while leaving the tie roughly 50/50.",
+      "zh": "Bayern host PSG at the Allianz needing to overturn a 4-5 aggregate deficit after the highest-scoring CL semi-final leg in history. Bayern's home record this CL campaign is a perfect 6/6 and they have won the last two Allianz meetings vs PSG, while PSG are without 阿什拉夫·哈基米 (hamstring) — a massive defensive and attacking blow on a flank where 路易斯·迪亚斯 already terrorised Zaïre-Emery in Paris. Both managers (Kompany, Enrique) have publicly promised to attack again, and both defences have been leaking goals (16 conceded for Bayern in their last six). Markets price Bayern around -145/-163 (~58–62% to win the match), Polymarket ~56.5%/18.5%/25.5%, with O4.5 priced at -200 — a clear chaos profile. PSG only need a draw to advance and have won six straight away with five clean sheets, but the Hakimi loss plus Bayern's home-must-win urgency tilts the match probabilities to the hosts while leaving the tie roughly 50/50."
     },
     "887ee89e0ae28a544f6bf48ef85e41b583404a1962c7fb6798e3144e80e96e68": {
       "src": "Chelsea likely 4-2-3-1 with Palmer behind Delap, Garnacho/Neto on flanks; Caicedo + Lavia/Fernández pivot. Spurs in 4-3-3 with Kudus-Solanke-Tel front three, Maddison reportedly back per predicted-XI reports, Bentancur/Palhinha/Bergvall midfield.",
@@ -6953,9 +7169,17 @@
       "src": "PSG hold 55% possession, using short build‑up to tire Arsenal. Shots are 12‑10 in PSG’s favour, with 5 vs 4 on target. Pass accuracy is high for both (~85%), but Arsenal’s deeper defensive actions (22 vs 20) reflect their rearguard effort. Fouls are even, and the save count slightly favors Raya (4) over Chevalier (3).",
       "zh": "巴黎圣日耳曼控球率55%，通过短传推进消耗阿森纳。射门数巴黎圣日耳曼12比10领先，射正5比4。两队传球准确率均高（约85%），但阿森纳更深层的防守动作（22比20）反映了他们的后防努力。犯规数相当，门将扑救次数稍微偏向拉亚（4次）胜过舍瓦利耶（3次）。"
     },
+    "8979507218dbc79b8a54884a4b913f75a20b3208e353a4643f0fdfb2ea714d5a": {
+      "src": "Chelsea are likely to use a 4-2-3-1 built around Caicedo and 恩佐·费尔南德斯 controlling midfield with Palmer drifting inside, while Tottenham's strongest setup is a 4-3-3 with Maddison linking to Solanke and wide runners. Palmer and João Pedro are Chelsea's likeliest scorers, but Solanke is the clearest single scoring threat because Chelsea have recently struggled to suppress central box touches.",
+      "zh": "Chelsea are likely to use a 4-2-3-1 built around Caicedo and 恩佐·费尔南德斯 controlling midfield with Palmer drifting inside, while Tottenham's strongest setup is a 4-3-3 with Maddison linking to Solanke and wide runners. Palmer and João Pedro are Chelsea's likeliest scorers, but Solanke is the clearest single scoring threat because Chelsea have recently struggled to suppress central box touches."
+    },
     "898fcbb413ad9a98ea8a7fe373a7a398763e5558456f1ea986545c642ce67ede": {
       "src": "Bayer Leverkusen and Bayern München face off in a highly anticipated DFB Pokal semi-final. Leverkusen's tactical discipline under Xabi Alonso and home advantage at the BayArena make them formidable, but Bayern's attacking firepower and depth give them a slight edge. Recent form suggests a tight, high-scoring affair, with Bayern likely edging it out or pushing it to extra time.",
       "zh": "勒沃库森与拜仁慕尼黑将在备受期待的德国杯半决赛中交锋。勒沃库森在哈维·阿隆索的战术纪律指导下，加上拜耳竞技场的主场优势，使他们实力强劲，但拜仁的攻击火力和阵容深度略占优势。近期状态显示比赛将紧张且进球较多，拜仁可能小胜或将比赛拖入加时。"
+    },
+    "899b1b7b0a213e6bd2778bbc29a2909a2171c00ca13f25c016f3987e9d7010db": {
+      "src": "Manchester City host Aston Villa at the Etihad in the final round of the Premier League season. This is reportedly Pep Guardiola's farewell match at the Etihad (North Stand renamed in his honor), which should galvanize City and the home crowd. City have generally been dominant at home with Haaland, Foden, Cherki and a returning 罗德里 providing top-end quality. Aston Villa under Emery have been a competent, well-organized side and historically tricky for City (recent wins in 2024 and 2025 H2H), but Villa typically defend deep and counter — a style City handle better at home than away. Villa may also be rotating depending on final-day stakes. Expect City to dominate possession and territory; Haaland is a strong goal threat against any opposition. I lean toward a comfortable but not overwhelming City home win, with some chance Villa nick a goal on transitions given Watkins/Rogers pace.",
+      "zh": "Manchester City host Aston Villa at the Etihad in the final round of the Premier League season. This is reportedly Pep Guardiola's farewell match at the Etihad (North Stand renamed in his honor), which should galvanize City and the home crowd. City have generally been dominant at home with Haaland, Foden, Cherki and a returning 罗德里 providing top-end quality. Aston Villa under Emery have been a competent, well-organized side and historically tricky for City (recent wins in 2024 and 2025 H2H), but Villa typically defend deep and counter — a style City handle better at home than away. Villa may also be rotating depending on final-day stakes. Expect City to dominate possession and territory; Haaland is a strong goal threat against any opposition. I lean toward a comfortable but not overwhelming City home win, with some chance Villa nick a goal on transitions given Watkins/Rogers pace."
     },
     "89b702cbb6c0ffd8721b9dd530a05be34142fd2bc453af4426d97428d2f11b38": {
       "src": "Botswana and Niger are both lower-tier CAF nations characterized by defensive solidity and struggles in open-play chance creation. Botswana holds a slight edge due to home advantage and the leadership of Thatayaone Ditlhokwe in defense. Niger relies heavily on Victorien Adebayor for transitions but often struggles on the road. Expect a low-event, cagey friendly with few clear-cut chances, likely decided by a single goal or ending in a draw.",
@@ -6968,6 +7192,10 @@
     "89e8ef9ea2a336518390f8dd3627fb1fcfea41b692c27669ec8acb0579f09ec3": {
       "src": "Expect a tactical opening 25 minutes with limited chances, Atleti pressing in midfield bursts and Arsenal absorbing for transitions. First goal more likely after the 30th minute via set-piece (Atleti's strength) or counter (Arsenal). Both benches will be used heavily — Sorloth/Lookman vs Trossard/Eze in the 60-75 window. Yellow cards skew Atleti (Lenglet, Llorente, Cardoso are card-prone) and tactical fouls are likely to disrupt Arsenal's transitions. No penalty most likely.",
       "zh": "预计前25分钟战术性较强，机会有限，马竞在中场施压爆发，阿森纳则吸收压力进行反击。首个进球更可能在第30分钟后通过定位球（马竞的强项）或反击（阿森纳）产生。双方替补席将被大量使用——60至75分钟窗口内索尔洛斯/卢克曼对阵特罗萨德/埃泽。黄牌偏向马竞（朗格莱、略伦特、卡多索易领牌），战术犯规可能打断阿森纳的反击。最可能无点球。"
+    },
+    "89fce1b80524f4190440b043891dba12df1e195a00d12a8921ea063a8b403349": {
+      "src": "PSG's front five of Dembélé, Kvaratskhelia, and Barcola (all pacey, press-resistant) overload Arsenal's fullbacks, especially against Martinelli and Saka who will have high defensive workrate. 贡萨洛·拉莫斯 leads the line with physical presence and movement. Arsenal's key threat is Ødegaard threading balls to Gyökeres and Saka in transition; Rice's screening is critical to limiting 维蒂尼亚 and 若昂·内维斯.",
+      "zh": "PSG's front five of Dembélé, Kvaratskhelia, and Barcola (all pacey, press-resistant) overload Arsenal's fullbacks, especially against Martinelli and Saka who will have high defensive workrate. 贡萨洛·拉莫斯 leads the line with physical presence and movement. Arsenal's key threat is Ødegaard threading balls to Gyökeres and Saka in transition; Rice's screening is critical to limiting 维蒂尼亚 and 若昂·内维斯."
     },
     "8a093014283c291a68161ac27f0929ebec11594d5c32822d0491a8145b0d7cb9": {
       "src": "Botswana get a small home boost but Niger have historically been roughly equivalent on paper and have produced match-winners up top, so I spread mass with a marginal home edge and a heavy draw share. Headline 1-0 reflects the most-likely home win bucket without overcommitting to a clean sheet narrative.",
@@ -7016,6 +7244,10 @@
     "8c1b9a8ecf28aab6959744972cd7f2fd20cbe1a3b2162a00cc4162b07b057270": {
       "src": "Wolves vs Tottenham: predictions, stats, tips & odds",
       "zh": "狼队对热刺：预测、数据、投注技巧与赔率"
+    },
+    "8c2f4953039aec56b323054a8b7db5ea6d088c1c97bd8d52751f0f398bff6bed": {
+      "src": "荷兰预计以4-2-3-1/4-3-3切换，Van Dijk、Aké、de Jong、Reijnders构成中轴，Gakpo和Depay是最可信的进球点。日本预计继续以机动型4-2-3-1出战，Kubo、Junya Ito、Daichi Kamada支撑Ueda，缺少Endo后双后腰的防守覆盖会更吃紧。",
+      "zh": "荷兰预计以4-2-3-1/4-3-3切换，Van Dijk、Aké、de Jong、Reijnders构成中轴，Gakpo和Depay是最可信的进球点。日本预计继续以机动型4-2-3-1出战，Kubo、Junya Ito、Daichi Kamada支撑Ueda，缺少Endo后双后腰的防守覆盖会更吃紧。"
     },
     "8c40d89c3cbe3f67bacfa9e9232b61e6e4a81ffa75d53c7f0f883cf014e6f90d": {
       "src": "Paris vs Bayern Champions League preview: Where to watch, predicted line-ups, form, coach's thoughts | UEFA Champions League | UEFA.com",
@@ -7080,6 +7312,10 @@
     "8e91743a24bd885d243cfcf6034e16d47fd917c69a9bfa9af76040847f4a0334": {
       "src": "Possession will be relatively even with slight edge to Niger (52-48) based on their marginally higher shot volume in recent games. Both teams will struggle to create quality chances: low shots on target (2-3 each), few corners. High foul counts likely due to technical limitations rather than aggression. Pass accuracy in low 70s reflecting direct play and pitch conditions.",
       "zh": "控球率会相对均衡，但尼日尔会凭借近期略高的射门量略占上风（52-48）。两队都难以创造高质量机会：射正数都偏低（各2-3次），角球也不多。由于技术限制而非对抗激烈，犯规数可能较高。传球成功率在70%出头，反映出直接打法和场地条件的影响。"
+    },
+    "8e925dc4b7b51b9f9e6e96d228177d5f2f56a459da5ab878e112f498aa020ff1": {
+      "src": "PSG's starting XI features their first-choice Champions League lineup, with Safonov in goal behind a backline of Hakimi, 马尔基尼奥斯, Beraldo, and 努诺·门德斯, while the midfield pairs the technical 维蒂尼亚 and 法比安·鲁伊斯 with the dynamic Zaïre-Emery. Up front, Dembélé, Ramos, and Barcola start as their most in-form attacking trio. Arsenal field their strongest available side, with Raya in goal behind White, Saliba, Gabriel, and Timber, Rice and Merino holding the midfield behind Ødegaard, Saka, and Martinelli, with Gyökeres as the starting striker. 贡萨洛·拉莫斯 and 布卡约·萨卡 are the most likely scorers, given their respective knockout stage tallies this season.",
+      "zh": "PSG's starting XI features their first-choice Champions League lineup, with Safonov in goal behind a backline of Hakimi, 马尔基尼奥斯, Beraldo, and 努诺·门德斯, while the midfield pairs the technical 维蒂尼亚 and 法比安·鲁伊斯 with the dynamic Zaïre-Emery. Up front, Dembélé, Ramos, and Barcola start as their most in-form attacking trio. Arsenal field their strongest available side, with Raya in goal behind White, Saliba, Gabriel, and Timber, Rice and Merino holding the midfield behind Ødegaard, Saka, and Martinelli, with Gyökeres as the starting striker. 贡萨洛·拉莫斯 and 布卡约·萨卡 are the most likely scorers, given their respective knockout stage tallies this season."
     },
     "8eaa566e23190b06297c81658ab12f75b9f607e44b8181cca6085ce08a876818": {
       "src": "Bayern will likely deploy their strongest lineup featuring Neuer in goal, a stable defense with Kim Min-Jae and Upamecano, midfield anchored by Kimmich, Goretzka, and Musiala, and attack led by Kane, Gnabry, and Diaz. Köln will stay with a defensive formation to resist Bayern's attack, relying on players like Ache and Bülter upfront to capitalize on counterattacks.",
@@ -7253,6 +7489,10 @@
       "src": "Chelsea project as the stronger side on squad quality, depth and likely control of territory, but Brighton at the Amex remain dangerous because of their aggressive build-up, wide rotations and ability to create transition moments against teams that press high. The matchup points to Chelsea having more possession and higher shot volume, yet Brighton's home edge and attacking talent make a clean away win less certain than raw talent suggests. Head-to-head trends in recent seasons have often produced open games, and key attackers on both sides are capable of deciding it, so the forecast leans Chelsea narrowly rather than heavily.",
       "zh": "切尔西在阵容质量、深度和可能的控球方面被认为更强，但布莱顿在阿美克斯球场依然危险，因为他们的积极组织进攻、宽广的轮换以及在对阵高位逼抢球队时制造反击机会的能力。对阵形势显示切尔西将拥有更多控球和更高射门次数，但布莱顿的主场优势和攻击天赋使得客场净胜不如单纯实力差距所示那么确定。近几个赛季的交锋往往产生开放的比赛，双方关键攻击手都有能力决定比赛，因此预测倾向于切尔西小胜而非大胜。"
     },
+    "9387985c1d6f0d50adf55cc2dd0259c64beecf10d9515eb54111d5bfbfd0461b": {
+      "src": "久保建英中路突破制造威胁反击",
+      "zh": "久保建英中路突破制造威胁反击"
+    },
     "938aac09b5bbe3dc032d59aa9dbca8ddbf796552dc76b2d6f46311d1db5e65de": {
       "src": "Atletico are most likely to use a compact 4-4-2/4-2-3-1 hybrid with Oblak, Le Normand and Giménez central, Llorente/Molina providing width, and Griezmann supporting Álvarez. Arsenal should keep their usual possession spine with Raya, Saliba, Gabriel, Rice and Ødegaard, plus Saka and Martinelli stretching Atletico's block and Gyökeres/Havertz offering penalty-box presence.",
       "zh": "马竞最可能采用紧凑的4-4-2/4-2-3-1混合阵型，奥布拉克、勒诺曼和希门尼斯居中，略伦特/莫利纳提供宽度，格列兹曼支援阿尔瓦雷斯。阿森纳应保持惯常的控球核心，阵容包括拉亚、萨利巴、加布里埃尔、赖斯和厄德高，加上萨卡和马丁内利拉开马竞防线，乔克雷斯/哈弗茨提供禁区威胁。"
@@ -7305,6 +7545,10 @@
       "src": "EPL: Crystal Palace vs. Arsenal Picks, Odds & Preview (May 24)",
       "zh": "英超：水晶宫对阿森纳推荐、赔率与前瞻（5月24日）"
     },
+    "94c3720b47d7545a9042ff4af176decd05f502bca7dd8045cfc967b72f9bd7ad": {
+      "src": "荷兰预计由范戴克领衔防线，德容和库普梅纳斯(Teun Koopmeiners)组成中场双核，加克波和德佩(Memphis Depay)担任锋线。日本方面，远藤航缺阵后，守田英正(Kaishu Sano)和田中碧(Ao Tanaka)需承担更多防守任务，久保建英和堂安律(Ritsu Doan)是主要进攻威胁。",
+      "zh": "荷兰预计由范戴克领衔防线，德容和库普梅纳斯(Teun Koopmeiners)组成中场双核，加克波和德佩(Memphis Depay)担任锋线。日本方面，远藤航缺阵后，守田英正(Kaishu Sano)和田中碧(Ao Tanaka)需承担更多防守任务，久保建英和堂安律(Ritsu Doan)是主要进攻威胁。"
+    },
     "94d45fa062d490011b4344fb5075bcfbf01dea9e87784ae6a6b9a7f422bc4e62": {
       "src": "Man City injury, suspension news and return dates for Crystal Palace clash: Abdukodir Khusanov, Rodri, Josko Gvardiol latest - Sports Mole",
       "zh": "曼城伤病、停赛新闻及水晶宫比赛回归日期：阿卜杜科迪尔·库萨诺夫、罗德里、约什科·格瓦尔迪奥尔 最新消息 - Sports Mole"
@@ -7320,6 +7564,10 @@
     "94e9f1dad73913335b3ad3a5cb972dc467860cdfdbeabb5f4afc010ba04cddd8": {
       "src": "PSG's front five of Dembélé, Kvaratskhelia, and Barcola (all pacey, press-resistant) overload Arsenal's fullbacks, especially against Martinelli and Saka who will have high defensive workrate. Gonçalo Ramos leads the line with physical presence and movement. Arsenal's key threat is Ødegaard threading balls to Gyökeres and Saka in transition; Rice's screening is critical to limiting Vitinha and João Neves.",
       "zh": "巴黎圣日耳曼的前场五人组登贝莱、克瓦拉茨赫利亚和巴尔科拉（均速度快，抗压能力强）对阿森纳边后卫形成压制，尤其是对马丁内利和萨卡，他们的防守工作强度很高。贡萨洛·拉莫斯以身体对抗和跑动引领锋线。阿森纳的关键威胁是厄德高在转换中传球给约克雷斯和萨卡；赖斯的屏障作用对限制维蒂尼亚和若昂·内维斯至关重要。"
+    },
+    "9568f525beba012e2bc992a0055b873eff3709e811cb46aee2452d2bcece79c4": {
+      "src": "Preview: Netherlands vs Japan - prediction, team news, lineups",
+      "zh": "Preview: Netherlands vs Japan - prediction, team news, lineups"
     },
     "95ae971407d1cc925155778a0829382ad2022e50c16c3f41a3c12475b068cba2": {
       "src": "Bayer 04 Leverkusen Players, 2025-2026 Squad",
@@ -7437,6 +7685,10 @@
       "src": "South Africa vs. Panama (Mar 27, 2026) Live Score - ESPN",
       "zh": "南非对巴拿马（2026年3月27日）实时比分 - ESPN"
     },
+    "99d0a57f181e88d901967f7051a684f60acfbcb020b8f4435ab98a2927e88693": {
+      "src": "Goals most likely between 25–40 min (PSG) and 60–75 min (Arsenal equaliser or PSG second). A red card is unlikely given the stakes, but tactical fouls by Rice on Kvaratskhelia and 马尔基尼奥斯 on Saka could yield yellows. Substitutions around 60–65 min (PSG refreshing the front line, Arteta pushing for the equaliser) will shape the final 30 minutes.",
+      "zh": "Goals most likely between 25–40 min (PSG) and 60–75 min (Arsenal equaliser or PSG second). A red card is unlikely given the stakes, but tactical fouls by Rice on Kvaratskhelia and 马尔基尼奥斯 on Saka could yield yellows. Substitutions around 60–65 min (PSG refreshing the front line, Arteta pushing for the equaliser) will shape the final 30 minutes."
+    },
     "99d5b613a30f88d2752c9fbd79f5b7edf621dffbf5a5428776f7391ddd1c0b75": {
       "src": "Mexico Vs Portugal, International Friendly: Goncalo Ramos Hits Post In Stalemate At Renovated Azteca | Outlook India",
       "zh": "墨西哥对葡萄牙，国际友谊赛：贡萨洛·拉莫斯在翻新的阿兹特克体育场击中门柱，双方战平 | Outlook India"
@@ -7444,6 +7696,10 @@
     "99d7b842dadc8b893e85dea1c71cbd59b6aa9b6f7cecaffe0e7002a467271fdb": {
       "src": "Germany-Ghana | European Qualifiers 2026 | UEFA.com",
       "zh": "德国-加纳 | 2026年欧洲区预选赛 | 欧足联官网"
+    },
+    "99efd9dd3654058d6e8ce4788df78227a355b0b5520d2c4e70900edf15cdcade": {
+      "src": "FIFA World Cup 2026: Japan dealt gut punch as Samurai Blue lose captain Endo Wataru to foot injury - olympics.com",
+      "zh": "FIFA World Cup 2026: Japan dealt gut punch as Samurai Blue lose captain Endo Wataru to foot injury - olympics.com"
     },
     "99ffd6b12c520e7fa0561cb451e0418ad1eaab7d1ffd9103a280e525386c84ba": {
       "src": "Expect a slow first half with few chances, likely 0-0 at HT. If a goal arrives it will probably come from a set-piece or individual moment in the 55-75 min window. Few cards expected in a low-intensity friendly. Substitutions will be experimental around 60-70 min.",
@@ -7489,6 +7745,10 @@
       "src": "Arsenal are expected to dominate early, scoring in the first half to settle nerves, followed by more goals in the second half as Burnley tires.",
       "zh": "预计阿森纳将早早占据主导，半场破门缓解紧张情绪，下半场伯恩利体力下降，阿森纳将继续扩大比分。"
     },
+    "9ba0aa99ea63b2cf68d26812e5521ff3168a92fd21af4dfdbb1fbf0363045cca": {
+      "src": "PSG’s expected XI is built around 维蒂尼亚/Neves control and wide acceleration from Dembélé and Kvaratskhelia, while Arsenal’s likely XI leans on Rice plus Ødegaard to connect into Saka and Martinelli around Havertz. The scorer list prioritizes high-volume shooters, penalty takers, and the most dangerous transition targets.",
+      "zh": "PSG’s expected XI is built around 维蒂尼亚/Neves control and wide acceleration from Dembélé and Kvaratskhelia, while Arsenal’s likely XI leans on Rice plus Ødegaard to connect into Saka and Martinelli around Havertz. The scorer list prioritizes high-volume shooters, penalty takers, and the most dangerous transition targets."
+    },
     "9bba95bbf8e7364c93b1b0dddbac0fca31f7c2a26c79f440f81d8949fb7ae14a": {
       "src": "Bayern Munich - Schedule 25/26",
       "zh": "拜仁慕尼黑 - 25/26赛季赛程"
@@ -7496,6 +7756,10 @@
     "9bbc55cfafd229d56f39d3757c20d0877bed29e0300c04ce10b6c9c1381fc080": {
       "src": "Premier League predicted lineups",
       "zh": "英超预测首发阵容"
+    },
+    "9bc26bf94cc29e2e19deb7a859e0c2569f8dcf5b75d27de446e49a8a296c7f0d": {
+      "src": "PSG field their strongest XI with Safonov in goal, Hakimi and 努诺·门德斯 providing width, 马尔基尼奥斯-Pacho at centre-back, and the 维蒂尼亚-Neves-Fabián midfield trio. Dembélé and Kvaratskhelia flank 贡萨洛·拉莫斯. Arsenal counter with Raya, Timber-Saliba-Gabriel-Calafiori at the back, Rice-Merino-Ødegaard in midfield, and Saka-Gyökeres-Martinelli in attack. Gyökeres gets the nod over Havertz for his elite finishing against PSG's high line.",
+      "zh": "PSG field their strongest XI with Safonov in goal, Hakimi and 努诺·门德斯 providing width, 马尔基尼奥斯-Pacho at centre-back, and the 维蒂尼亚-Neves-Fabián midfield trio. Dembélé and Kvaratskhelia flank 贡萨洛·拉莫斯. Arsenal counter with Raya, Timber-Saliba-Gabriel-Calafiori at the back, Rice-Merino-Ødegaard in midfield, and Saka-Gyökeres-Martinelli in attack. Gyökeres gets the nod over Havertz for his elite finishing against PSG's high line."
     },
     "9bc2c5a76103dc7ac34d6cb6b9661948faaafd85705b6cb205f66a1d24e2cd00": {
       "src": "Leverkusen vs Bayern München - live score, predicted lineups and H2H stats",
@@ -7513,6 +7777,10 @@
       "src": "Man City vs Crystal Palace preview - Sports Mole",
       "zh": "曼城 vs 水晶宫 赛前预览 - Sports Mole"
     },
+    "9c2d6d49149510f280eb35009d5f3e71abd04b5ae6d3499c17619bab9f32acc2": {
+      "src": "荷兰场均射门17.4次、射正6.5次，进攻数据占优；日本场均射门13.2次、射正5.3次。荷兰控球率约60%-65%，场面主动；日本需要在反击中寻找机会，整体统计荷兰占优。",
+      "zh": "荷兰场均射门17.4次、射正6.5次，进攻数据占优；日本场均射门13.2次、射正5.3次。荷兰控球率约60%-65%，场面主动；日本需要在反击中寻找机会，整体统计荷兰占优。"
+    },
     "9c36e6c2ee81d77849de338296da65210638e7e93394cf668ef541bd59d5a829": {
       "src": "65% possession for Bayern reflects their control-oriented play. Shot disparity (20-8) stems from Bayern's sustained pressure. Higher Köln fouls (15 vs 10) result from defensive chasing. Pass accuracy gap (90%-80%) shows Bayern's technical superiority. Defensive actions favor Köln (30 vs 20) due to deeper defending.",
       "zh": "拜仁控球率65%反映其控制型打法。射门次数差距（20比8）源于拜仁持续施压。科隆犯规较多（15比10）因防守追赶。传球准确率差距（90%比80%）显示拜仁技术优势。防守动作科隆占优（30比20），因其防线更深。"
@@ -7524,6 +7792,10 @@
     "9cadcd2540914c2d5d0e362e871fb5a32e9c8bbadf3bd67e1a515a37ebdda4ee": {
       "src": "Bayern are forecast to lead possession, passes, and shots, while Wolfsburg should post a respectable defensive-actions count from extended out-of-possession phases. The shot map expectation is Bayern with more box touches and shots on target, offset by Wolfsburg recording several counters and forced saves.",
       "zh": "预计拜仁将在控球、传球和射门方面领先，而沃尔夫斯堡则应在长时间无球阶段展现出可观的防守动作数量。射门地图预期显示拜仁在禁区触球和射正次数上占优，但沃尔夫斯堡将通过多次反击和被迫扑救进行抵消。"
+    },
+    "9d2dbe217f241b225d4e139fad5765272763841b90bb6e1a9aee14e56906f27d": {
+      "src": "荷兰队近期状态出色，世界杯欧洲区预选赛8场6胜2平保持不败，场均进球超过3个，展现出强大的进攻火力。球队拥有范戴克(Virgil van Dijk)、德容(Frenkie de Jong)、加克波(Cody Gakpo)等世界级球星，整体阵容深度明显优于日本。然而荷兰面临严重伤病危机，多名主力可能缺阵。日本队亚洲区预选赛10场7胜2平1负，表现稳健，但队长远藤航(Wataru Endo)因脚部受伤缺席，对中场拦截和组织影响巨大。日本技术流打法面对荷兰高压和身体对抗可能受限，但久保建英(Takefusa Kubo)、三笘薰等边路球员具备突破能力。历史交锋荷兰占优，但日本近年进步明显。比赛在达拉斯进行，高温湿热天气对双方都是考验，可能降低比赛节奏。",
+      "zh": "荷兰队近期状态出色，世界杯欧洲区预选赛8场6胜2平保持不败，场均进球超过3个，展现出强大的进攻火力。球队拥有范戴克(Virgil van Dijk)、德容(Frenkie de Jong)、加克波(Cody Gakpo)等世界级球星，整体阵容深度明显优于日本。然而荷兰面临严重伤病危机，多名主力可能缺阵。日本队亚洲区预选赛10场7胜2平1负，表现稳健，但队长远藤航(Wataru Endo)因脚部受伤缺席，对中场拦截和组织影响巨大。日本技术流打法面对荷兰高压和身体对抗可能受限，但久保建英(Takefusa Kubo)、三笘薰等边路球员具备突破能力。历史交锋荷兰占优，但日本近年进步明显。比赛在达拉斯进行，高温湿热天气对双方都是考验，可能降低比赛节奏。"
     },
     "9d87f5445446bd674b023ff35a9f5a919311591826c48a94a7e3d3cc3f923741": {
       "src": "Germany enter with a massive squad-quality edge, deeper bench, and far higher baseline attacking output than Curaçao, whose main strengths are organization, physical duels, and a few Eredivisie-level transition threats. Even allowing for opening-match nerves, Germany should control territory and possession, with Musiala/Wirtz/Havertz type creators well suited to breaking a compact block; Curaçao’s path is to stay narrow, defend set pieces, and counter into space. There is little meaningful H2H weight here, so form, talent gap, and tactical matchup dominate, while Germany’s likely superiority in press resistance and final-third combinations points to a comfortable home win rather than an upset.",
@@ -7757,6 +8029,10 @@
       "src": "West Ham vs Leeds Prediction, Betting Tips, Lineups & Odds | 24 May 2026",
       "zh": "西汉姆联对利兹联预测、投注技巧、首发与赔率 | 2026年5月24日"
     },
+    "a3b5d4214448879973bab4020a32962f4a0f628f037b5263b782887fe2101814": {
+      "src": "荷兰胜赔率定在0.45，平局0.30，日本胜0.25。荷兰虽有伤病，但范迪克、加克波、德佩等核心仍在，且历史对阵亚洲球队胜率高；日本缺少远藤航后中路防守下降，但边路速度和组织仍具威胁，平局和客胜概率不可忽视。",
+      "zh": "荷兰胜赔率定在0.45，平局0.30，日本胜0.25。荷兰虽有伤病，但范迪克、加克波、德佩等核心仍在，且历史对阵亚洲球队胜率高；日本缺少远藤航后中路防守下降，但边路速度和组织仍具威胁，平局和客胜概率不可忽视。"
+    },
     "a3b7c85f5e7619da111cf2c6736fedcffeca34edee1cb5658faf51ca1741dba7": {
       "src": "Crystal Palace statistics, fixtures and results - Premier League 2025/2026 - Sportstats365.com",
       "zh": "水晶宫 统计、赛程及结果 - 2025/2026 英超 - Sportstats365.com"
@@ -7764,6 +8040,10 @@
     "a3be50afdb7a3cef8930043aef20bf98dcebfc6d7273c7c8e57edf6815c3999c": {
       "src": "SC Freiburg squad",
       "zh": "弗赖堡阵容"
+    },
+    "a3c7ef4e67efc3159e6a9c6fe384f2a5880c808fcb2488f9e276efa2e739369b": {
+      "src": "City likely go 4-2-3-1 with Cherki-Foden-Doku behind Haaland per recent reports; 罗德里-Reijnders double pivot. Villa likely 4-4-2/4-2-3-1 with Watkins up top, Rogers as the creative hub, McGinn/Onana in midfield, Martinez in goal.",
+      "zh": "City likely go 4-2-3-1 with Cherki-Foden-Doku behind Haaland per recent reports; 罗德里-Reijnders double pivot. Villa likely 4-4-2/4-2-3-1 with Watkins up top, Rogers as the creative hub, McGinn/Onana in midfield, Martinez in goal."
     },
     "a40bee19f0a9eb31fce14612b37e52fb6e5866bbe7633bc9d95cfa19fab6c498": {
       "src": "Live Commentary - S. Africa vs Panama | 31.03.2026",
@@ -7881,6 +8161,10 @@
       "src": "SportsGambler preview",
       "zh": "SportsGambler 赛前预览"
     },
+    "a6df0f5cd6197369d2aa8ef609fce75b69e4f533f895b95c599059d7baf424ae": {
+      "src": "荷兰控球率预计55-60%，但受天气影响传球精度可能下降。日本控球约40-45%，依靠快速转换寻找机会。荷兰射门次数占优(15-18次)，日本射正效率可能更高。双方角球数接近，荷兰定位球威胁更大。",
+      "zh": "荷兰控球率预计55-60%，但受天气影响传球精度可能下降。日本控球约40-45%，依靠快速转换寻找机会。荷兰射门次数占优(15-18次)，日本射正效率可能更高。双方角球数接近，荷兰定位球威胁更大。"
+    },
     "a6eacc64623e3ba3ebc6c2fcd55b4d30287fd8d28d79c9bfc86ab4af1e42a4f9": {
       "src": "FC Bayern first team",
       "zh": "拜仁慕尼黑一线队"
@@ -7997,6 +8281,10 @@
       "src": "Bayern should edge possession and pass accuracy because of their midfield structure, while Leverkusen’s home aggression keeps shot volume respectable. The projected save counts reflect both sides generating chances, with Leverkusen’s goalkeeper likely busier overall.",
       "zh": "拜仁因其中场结构应占据控球和传球准确率优势，而勒沃库森主场的积极进攻保持射门量可观。预计扑救次数反映双方均有机会，勒沃库森门将整体上更忙碌。"
     },
+    "aa816fbecf857bef8c8469b5c705f6ccf628403ca2023b1a935291dabe457166": {
+      "src": "荷兰预计4-3-3，加克波左路、德佩中锋、马伦(Malen)右路，德容居后；日本沿用3-4-2-1，远藤缺阵由田中碧(Tanaka)+佐野海舟(Sano)双后腰，久保与镰田前腰，上田绫世(Ueda)中锋。进球热点集中在加克波、德佩与久保。",
+      "zh": "荷兰预计4-3-3，加克波左路、德佩中锋、马伦(Malen)右路，德容居后；日本沿用3-4-2-1，远藤缺阵由田中碧(Tanaka)+佐野海舟(Sano)双后腰，久保与镰田前腰，上田绫世(Ueda)中锋。进球热点集中在加克波、德佩与久保。"
+    },
     "aaaf99b6cddc6d9dbc420c847b29a9189fe6f02c39985f9ee27fbbcdc0d46e03": {
       "src": "Line-ups: FC Bayern vs. Leverkusen - Bundesliga 25/26",
       "zh": "首发：拜仁对勒沃库森 - 德甲 25/26"
@@ -8028,6 +8316,10 @@
     "abaca9cd5928cc5f830eb2d18633015693e84929e9f409b2e51888949f13d50f": {
       "src": "PSG vs Arsenal: Opta Supercomputer Champions League Final Prediction",
       "zh": "巴黎圣日耳曼对阿森纳：Opta超级计算机欧冠决赛预测"
+    },
+    "abe692692f7fb43167f3a467a7c1a2529eb7d224e839a39b0e6b0f20c48e4236": {
+      "src": "荷兰整体纸面实力、后场制空与中场出球质量仍略高一档，近期世预赛进攻火力也很强，连续多场打出高射门和高控球；日本同样状态出色，转换速度、边路推进和前场逼抢很有威胁，但赛前关于队长远藤航缺阵的消息会削弱其中场拦截与保护中卫线的能力。战术上，荷兰若由弗伦基·德容与赖因德斯控制节奏，可压住日本的第一波逼抢，不过日本的久保建英、伊东纯也在反击中足以制造单点爆破，因此更像是荷兰优势不大的小胜而非碾压。",
+      "zh": "荷兰整体纸面实力、后场制空与中场出球质量仍略高一档，近期世预赛进攻火力也很强，连续多场打出高射门和高控球；日本同样状态出色，转换速度、边路推进和前场逼抢很有威胁，但赛前关于队长远藤航缺阵的消息会削弱其中场拦截与保护中卫线的能力。战术上，荷兰若由弗伦基·德容与赖因德斯控制节奏，可压住日本的第一波逼抢，不过日本的久保建英、伊东纯也在反击中足以制造单点爆破，因此更像是荷兰优势不大的小胜而非碾压。"
     },
     "abeec671310e3067771c7b03fcb54f99a458a56ba98182130a8466c1988056cc": {
       "src": "Man City injury news: Pep Guardiola issues reassuring update on two stars names before crucial Crystal Palace clash - Sports Mole",
@@ -8132,6 +8424,10 @@
     "ae6e86045abdfb87eda8cce178855a5c614095b7098885949016271028cbb4f1": {
       "src": "FC Koln 1-3 Bayern Munich - Bundesliga 2025/2026 Statistical Preview",
       "zh": "科隆1-3拜仁慕尼黑 - 2025/2026赛季德甲统计预览"
+    },
+    "ae6ed65dae85c2f8e0eeea5540bb8094dd27b7601088620f2db6e7bd4554336b": {
+      "src": "荷兰首发以德容和赖因德斯掌控中场，加克波和德佩承担进攻输出，邓弗里斯右路提供宽度。日本因远藤航缺阵，田中碧与镰田大地搭档中场，久保建英担任前场核心，上田绮世为锋线支点。阵型对位上荷兰4-3-3的中场三角对日本4-2-3-1的双后腰有人数优势。",
+      "zh": "荷兰首发以德容和赖因德斯掌控中场，加克波和德佩承担进攻输出，邓弗里斯右路提供宽度。日本因远藤航缺阵，田中碧与镰田大地搭档中场，久保建英担任前场核心，上田绮世为锋线支点。阵型对位上荷兰4-3-3的中场三角对日本4-2-3-1的双后腰有人数优势。"
     },
     "ae8ad57b621340bdd6496b055e3c4648e807397ea437ae8d359ffd97e801290c": {
       "src": "The win probability distribution is slightly in favor of PSG due to their home advantage and strong attacking lineup. However, Arsenal has a good away record, making this a competitive match.",
@@ -8264,6 +8560,10 @@
     "b3496ecc5e68ced4c283739db7412273a095250e60e0301c79df29970e72b2b8": {
       "src": "EPL: Man City vs. Crystal Palace Picks, Odds & Preview (May 13)",
       "zh": "英超：曼城对水晶宫投注技巧、赔率与前瞻（5月13日）"
+    },
+    "b35337d4a5a8d7a0419f3921660d180f6d73596212420b9df05678386b050406": {
+      "src": "我给荷兰更高胜率，主要基于中后场个体质量、定位球威胁和禁区内终结点更多；但日本近期稳定性很强，平局与客胜概率不能压得过低。比分倾向2-1，既反映荷兰上限，也保留日本反击破门的现实可能。",
+      "zh": "我给荷兰更高胜率，主要基于中后场个体质量、定位球威胁和禁区内终结点更多；但日本近期稳定性很强，平局与客胜概率不能压得过低。比分倾向2-1，既反映荷兰上限，也保留日本反击破门的现实可能。"
     },
     "b357a2de1266f5e8cdab1ad869f3045efdec61856d91e77ecac8643366a90aec": {
       "src": "Squad of Burnley 2025-26 Premier League | BDFutbol",
@@ -8417,6 +8717,10 @@
       "src": "Wolves are projected in a back three/five with João Gomes and André central to screening and transitions, while Hwang is their clearest attacking threat. Tottenham's likely XI keeps technical quality on the pitch with Maddison, Kudus and Solanke, but defensive selection is shaped by reported doubts around Udogie and broader back-line instability.",
       "zh": "狼队预计采用三后卫/五后卫阵型，若昂·戈麦斯和安德烈居中负责防守屏障和转换，而黄喜灿是他们最明显的进攻威胁。热刺的可能首发阵容保持了技术质量，拥有麦迪逊、库杜斯和索兰克，但防守选择受乌多吉的疑虑及整体后防线不稳定的影响。"
     },
+    "b79e428ffaebd2e97bf6341aa3b4052bd60c889e3791b85203d57b104d05a4f9": {
+      "src": "Saka and Odegaard will be crucial for Arsenal's creativity, while Dembele and Kvaratskhelia will lead PSG's attacks. Saliba and 马尔基尼奥斯 will be key in defense.",
+      "zh": "Saka and Odegaard will be crucial for Arsenal's creativity, while Dembele and Kvaratskhelia will lead PSG's attacks. Saliba and 马尔基尼奥斯 will be key in defense."
+    },
     "b7a28c16201889bfd24b713b06ee20d3a13b900a8b6749bcb1bb7536bd2ba94f": {
       "src": "Tottenham vs Leeds predictions: Taking a step closer to survival | Goal.com South Africa",
       "zh": "热刺对利兹联预测：向保级更进一步 | Goal.com 南非"
@@ -8432,6 +8736,10 @@
     "b830ed4e71502f6689895ebad44a47e6af892a92ff260acfe5f0522ef9520db4": {
       "src": "Leverkusen 1-1 Bayern Mar 14 2026",
       "zh": "勒沃库森 1-1 拜仁 2026年3月14日"
+    },
+    "b84bcdbac14b6aff9464d195461513243c7d2090742272bb58545ec1fe5acd4c": {
+      "src": "荷兰的伤病问题主要影响替补深度，核心主力范戴克、德容、加克波、德佩都能首发出战，沿用球队惯用的4-3-3阵型。日本方面远藤航缺阵，田中碧将顶替进入首发，保持传统的4-2-3-1阵型，由久保建英、伊藤淳也和上田绮魏领衔进攻，根据近期状态，加克波和德佩是荷兰最可能的进球者，上田绮魏则是日本最有希望破门的球员。",
+      "zh": "荷兰的伤病问题主要影响替补深度，核心主力范戴克、德容、加克波、德佩都能首发出战，沿用球队惯用的4-3-3阵型。日本方面远藤航缺阵，田中碧将顶替进入首发，保持传统的4-2-3-1阵型，由久保建英、伊藤淳也和上田绮魏领衔进攻，根据近期状态，加克波和德佩是荷兰最可能的进球者，上田绮魏则是日本最有希望破门的球员。"
     },
     "b84c7044f23cd7f09119a661a9e6d87cebebaa5a5f59593b62f401588b2ea33b": {
       "src": "Mexico 2026 Squad - ESPN",
@@ -8485,6 +8793,10 @@
       "src": "Chelsea vs Tottenham Prediction, Betting Tips, Lineups & Odds | 19 May 2026",
       "zh": "切尔西对热刺预测、投注技巧、首发阵容和赔率 | 2026年5月19日"
     },
+    "b94ea06d620c94b3aedd11f3e81388388416c86c031a68577e41b3d02cc75210": {
+      "src": "久保建英内切射门被扑出",
+      "zh": "久保建英内切射门被扑出"
+    },
     "b968ad3beb2d304c12dee989a8785dc81c72cb1424fb43629586d3355c8769d0": {
       "src": "Bavarian Football Works",
       "zh": "巴伐利亚足球工作室"
@@ -8496,6 +8808,14 @@
     "b9a28a7022466342a7041b97fea1e418c83aa27841be55f175936cbcbafa9192": {
       "src": "Tottenham are pushing for a top-four finish and have a strong home record under Ange Postecoglou. Leeds, fighting relegation, will likely adopt a defensive approach but struggle against high-pressing teams. Injuries to key Leeds defenders give Spurs a significant advantage.",
       "zh": "热刺正努力争取前四名，并且在安格·波斯特科格鲁执教下拥有强劲的主场战绩。利兹联为保级而战，可能采取防守策略，但面对高压逼抢的球队会很吃力。利兹联关键后卫的伤病给热刺带来了显著优势。"
+    },
+    "b9be6149e96612879c6c0dead8e6ca88ee52e02bc7b3212b96e7ca3a8a1fa679": {
+      "src": "PSG start Chevalier; a back four of Hakimi, 马尔基尼奥斯, Pacho, 努诺·门德斯; a midfield trio of 维蒂尼亚, 若昂·内维斯, 法比安·鲁伊斯; and an attacking trident of Dembélé, Kvaratskhelia, with 贡萨洛·拉莫斯 up front. Arsenal counter with Raya; White, Saliba, Gabriel, Calafiori; Rice, Ødegaard, Zubimendi; and Saka, Gyökeres, Martinelli.",
+      "zh": "PSG start Chevalier; a back four of Hakimi, 马尔基尼奥斯, Pacho, 努诺·门德斯; a midfield trio of 维蒂尼亚, 若昂·内维斯, 法比安·鲁伊斯; and an attacking trident of Dembélé, Kvaratskhelia, with 贡萨洛·拉莫斯 up front. Arsenal counter with Raya; White, Saliba, Gabriel, Calafiori; Rice, Ødegaard, Zubimendi; and Saka, Gyökeres, Martinelli."
+    },
+    "b9c2875995856f28840361eac5c6ec5954ed28a10889f02384e76ae5fa1c770a": {
+      "src": "预计荷兰上半场通过加克波或德佩率先破门（20-50分钟区间），日本在下半场初段通过久保建英或堂安律的快速反击扳回一球，随后荷兰在60-75分钟利用定位球或边路传中再入一球锁定胜局。双方各1-2张黄牌，日本因中场硬度不足可能更多犯规。",
+      "zh": "预计荷兰上半场通过加克波或德佩率先破门（20-50分钟区间），日本在下半场初段通过久保建英或堂安律的快速反击扳回一球，随后荷兰在60-75分钟利用定位球或边路传中再入一球锁定胜局。双方各1-2张黄牌，日本因中场硬度不足可能更多犯规。"
     },
     "b9c4d1c5c665e637a931fc2772725e18b1bfa578f601b31811f9a0d3bbe5a70c": {
       "src": "Curaçao squad World Cup 2026: Which players have made it to the showpiece in USA, Mexico and Canada? | Goal.com",
@@ -8544,6 +8864,10 @@
     "bc37ed9bb10b402f6d0a3ccf2689b76de6876de36e08f0ceb77f3ac0a1e6499c": {
       "src": "Arsenal Injuries | Full Injury List, Player return dates & Latest News",
       "zh": "阿森纳伤病情况 | 完整伤病名单、球员回归日期及最新消息"
+    },
+    "bc4a96feb701ff82755c801879578f66455a99b8f5d7741af1e8c35b64fefaeb": {
+      "src": "预计荷兰先靠定位球或中路渗透在20-40分钟取得领先，日本60-75分钟通过换上前田大然(Maeda)/伊东纯也(Ito)增加冲击并扳回一球，荷兰下半场再下一城锁定胜局；炎热天气会带来较多换人与抽筋停顿。",
+      "zh": "预计荷兰先靠定位球或中路渗透在20-40分钟取得领先，日本60-75分钟通过换上前田大然(Maeda)/伊东纯也(Ito)增加冲击并扳回一球，荷兰下半场再下一城锁定胜局；炎热天气会带来较多换人与抽筋停顿。"
     },
     "bc4ad22bcbb215f8b0354477168907d75b7fcdff6dc9269fc5fda06c4171a179": {
       "src": "Mexico dominates possession (~62%), generates ~14 shots vs ~9, with higher pass accuracy. South Africa relies on transitions and set pieces, fouls slightly higher due to defensive duties at altitude.",
@@ -8669,6 +8993,10 @@
       "src": "Arsenal will hold majority possession (~62%) with higher pass accuracy; Palace will rely on direct play, fewer but quality chances, and more defensive actions and fouls.",
       "zh": "阿森纳将掌控大部分控球权（约62%）且传球准确率更高；水晶宫将依赖直接打法，机会较少但质量较高，同时更多防守动作和犯规。"
     },
+    "c1859b151c59e57cce473e6716950496adce5badd5e5789f9e2dc1ec73993cf2": {
+      "src": "门前混战，VAR复核越位有效进球",
+      "zh": "门前混战，VAR复核越位有效进球"
+    },
     "c1a2ff1efdf652b4a7e7a2d9d85d97858afb24672c129c947ab662cf72c97a3a": {
       "src": "The first half is expected to be cagey, with both teams probing without committing too many players forward, leading to the first goal likely coming in the 60th-75th minute as PSG breaks through Arsenal's tiring midfield. A second substitution wave in the 80th minute sees both teams bring on fresh attacking players, with PSG likely to have more impact from their bench due to greater depth. No red cards are predicted, with only a handful of yellow cards for tactical fouls in the middle of the park as both teams try to slow transition attacks.",
       "zh": "上半场预计谨慎，双方试探但不派出过多球员前压，首个进球可能出现在第60至75分钟，巴黎圣日耳曼突破阿森纳疲惫的中场。第80分钟第二波换人，双方换上新鲜进攻球员，巴黎圣日耳曼因阵容深度更大可能影响更大。预计无红牌，仅有少数战术犯规黄牌，双方试图减缓过渡进攻节奏。"
@@ -8757,6 +9085,10 @@
       "src": "VfB Stuttgart latest news",
       "zh": "斯图加特最新消息"
     },
+    "c4303432f5a4e38fb7935238d3d664db2a225a23311b2d693414267a6dfd96e9": {
+      "src": "两队近期预选赛都保持了不错的控球率，荷兰受伤病影响进攻控制稍微下降，日本缺少主力中场后控球率也会低于平均水平，荷兰的场均射门数高于日本，这一优势会延续到本场比赛，双方传球准确率都处于较高水平，差距不大。",
+      "zh": "两队近期预选赛都保持了不错的控球率，荷兰受伤病影响进攻控制稍微下降，日本缺少主力中场后控球率也会低于平均水平，荷兰的场均射门数高于日本，这一优势会延续到本场比赛，双方传球准确率都处于较高水平，差距不大。"
+    },
     "c438a5e83914c9e24895664bebb9a46542c2b181ef30bc83a69b240c541d3a33": {
       "src": "Harry Kane & Co granted extra time off by Kompany",
       "zh": "哈里·凯恩及其队友获孔帕尼批准额外休假"
@@ -8792,6 +9124,10 @@
     "c53181e5e301122ee4f37f3177eb8c0d44efbd985a1a2cdca7856370259feffc": {
       "src": "Germany vs Curaçao Prediction & Head to Head » Betfair™",
       "zh": "德国对库拉索预测及历史交锋 » Betfair™"
+    },
+    "c54194a92cf5433df8930f6fe18b2c0b3e0b27d573f8bb4ac932b5a89e8c020d": {
+      "src": "预计上半场节奏较快，荷兰率先破门；日本下半场通过边路配合扳平；随后荷兰利用角球或二次进攻再度领先。双方各有一次换人调整，比赛末段可能出现黄牌警告。",
+      "zh": "预计上半场节奏较快，荷兰率先破门；日本下半场通过边路配合扳平；随后荷兰利用角球或二次进攻再度领先。双方各有一次换人调整，比赛末段可能出现黄牌警告。"
     },
     "c553abe89d0c37aca24ff3d50babb99786d4870ae79c10b09696de92fd98a108": {
       "src": "South Africa 1-2 Panama (Mar 31, 2026) - ESPN",
@@ -8844,6 +9180,10 @@
     "c6bb3084319c745d8b6257c14853f9ff7a528b49791336996c2f4022c2da1b94": {
       "src": "Wolves vs. Tottenham prediction, odds, Premier League picks",
       "zh": "狼队对热刺预测、赔率、英超推荐"
+    },
+    "c6d8308c992d6c94acc62a691dfb3f81c0485ba273965cff1cbc22eed0108294": {
+      "src": "PSG go 4-3-3 with Safonov-Zaïre-Emery-马尔基尼奥斯-Pacho-Mendes / Neves-维蒂尼亚-Ruiz / Doué-Dembélé-Kvaratskhelia; Hakimi to bench. Arsenal in 4-3-3 with Raya / Mosquera-Saliba-Gabriel-Calafiori / Rice-Zubimendi-Ødegaard / Saka-Havertz-Trossard. Kvaratskhelia and Dembélé top scorer picks; Saka the Arsenal threat.",
+      "zh": "PSG go 4-3-3 with Safonov-Zaïre-Emery-马尔基尼奥斯-Pacho-Mendes / Neves-维蒂尼亚-Ruiz / Doué-Dembélé-Kvaratskhelia; Hakimi to bench. Arsenal in 4-3-3 with Raya / Mosquera-Saliba-Gabriel-Calafiori / Rice-Zubimendi-Ødegaard / Saka-Havertz-Trossard. Kvaratskhelia and Dembélé top scorer picks; Saka the Arsenal threat."
     },
     "c72e65ce1963faa7affe29656a0252690f88443464ddf194570b9ad58fe02748": {
       "src": "Atletico Madrid vs Arsenal: Champions League team news, start, lineups - Al Jazeera",
@@ -9081,6 +9421,10 @@
       "src": "Matches | VfL Wolfsburg",
       "zh": "比赛 | 沃尔夫斯堡"
     },
+    "cf06658d01da6712821f1c19e930a7ddcd4eb0831497b36ab48d304173be1c83": {
+      "src": "PSG enter as defending Champions League holders with a more rested squad (per The Athletic/Opta), Luis Enrique's settled tactical structure, and an electric front line of Dembélé, Kvaratskhelia and Barcola supported by 维蒂尼亚 and 若昂·内维斯. Arsenal reach their first ever CL final under Arteta with elite defensive metrics (Saliba/Gabriel/Raya) and Gyökeres-Eze-Saka providing the goals, but congestion/fatigue is flagged across multiple pre-match pieces. Tactically it's the 'irresistible force vs immovable object' — PSG's positional rotations and press resistance vs Arsenal's deep block and set-piece threat. Edge to PSG on rest, finalist experience, and a tournament-best xG trail, but Arsenal's defensive structure keeps the margin tight; expect a tense, normal-event final with PSG nicking it.",
+      "zh": "PSG enter as defending Champions League holders with a more rested squad (per The Athletic/Opta), Luis Enrique's settled tactical structure, and an electric front line of Dembélé, Kvaratskhelia and Barcola supported by 维蒂尼亚 and 若昂·内维斯. Arsenal reach their first ever CL final under Arteta with elite defensive metrics (Saliba/Gabriel/Raya) and Gyökeres-Eze-Saka providing the goals, but congestion/fatigue is flagged across multiple pre-match pieces. Tactically it's the 'irresistible force vs immovable object' — PSG's positional rotations and press resistance vs Arsenal's deep block and set-piece threat. Edge to PSG on rest, finalist experience, and a tournament-best xG trail, but Arsenal's defensive structure keeps the margin tight; expect a tense, normal-event final with PSG nicking it."
+    },
     "cf5ea1904f8b11dba7ef673748088f12da73ba66a700da4dcde1855601d72dd5": {
       "src": "Arsenal should have clear possession and pass-accuracy superiority, more shots, and more corners because the game is likely to be played in Burnley's half. Burnley can still force a few saves through counters or set pieces, but their defensive action count should be high from prolonged without-ball phases.",
       "zh": "阿森纳应在控球率和传球准确率上占优，射门和角球次数更多，因为比赛很可能在伯恩利半场进行。伯恩利仍可通过反击或定位球制造几次扑救，但其防守动作次数应因长时间无球状态而较高。"
@@ -9120,6 +9464,10 @@
     "cfe7a9b15eefe22b7c76a74d2fcf16a20e253df2c6735ad46e9261e8e8a925e0": {
       "src": "Mexico is slightly favored due to home advantage and squad depth, but South Africa’s recent scoring form and historical edge suggest a tight contest. A narrow home win or draw is most likely; an away win is plausible but less probable given travel and venue pressure.",
       "zh": "墨西哥因主场优势和阵容深度略占上风，但南非近期的进球状态和历史上的优势表明这会是一场胶着对决。最可能的结果是主队小胜或平局；考虑到旅行和场地压力，客胜也有可能，但概率更低。"
+    },
+    "cfef3957ae2556faa8056c184bf5dac5d8551fadda44fe38a8b7ce74a4437d83": {
+      "src": "比赛节奏预计由荷兰主导，上半场可能出现试探性进攻，下半场随着体能下降与战术调整，比赛开放度上升。日本队受阵容缺损影响，反击效率恐受限，黄牌可能在双方中场对抗中出现。",
+      "zh": "比赛节奏预计由荷兰主导，上半场可能出现试探性进攻，下半场随着体能下降与战术调整，比赛开放度上升。日本队受阵容缺损影响，反击效率恐受限，黄牌可能在双方中场对抗中出现。"
     },
     "d0044f04b8a7e0aa23a578eacf1af6a51bdd4602e11345f04a3fcc1093060189": {
       "src": "Bayer Leverkusen | Bundesliga",
@@ -9345,6 +9693,10 @@
       "src": "SAFA",
       "zh": "南非足协"
     },
+    "d6f987705c70aa9850fb25a84a9b407843816648334c87918f59f3b0bd0f8873": {
+      "src": "Expected starters are based on the senior cores listed in the squads, with Bayern built around Kane, Musiala and Olise in a front-foot 4-2-3-1 and PSG using a fluid 4-3-3 with Dembélé, Kvaratskhelia and Barcola. Kane and Dembélé are the likeliest scorers because of volume and centrality, while Musiala, Olise, Hakimi and 维蒂尼亚 are strong creator candidates.",
+      "zh": "Expected starters are based on the senior cores listed in the squads, with Bayern built around Kane, Musiala and Olise in a front-foot 4-2-3-1 and PSG using a fluid 4-3-3 with Dembélé, Kvaratskhelia and Barcola. Kane and Dembélé are the likeliest scorers because of volume and centrality, while Musiala, Olise, Hakimi and 维蒂尼亚 are strong creator candidates."
+    },
     "d75b75c0055f4029e1bfeb0471251ae69b891512ce4d82a26b63818ed643a1b5": {
       "src": "PSG's front three of Dembélé, Kvaratskhelia and Barcola/Doué offers more unpredictability than Arsenal's attack. Vitinha controls tempo for PSG while Rice and Ødegaard must win midfield battle for Arsenal. L. Chevalier in goal for PSG vs David Raya for Arsenal is a high-level matchup.",
       "zh": "巴黎圣日耳曼的登贝莱、克瓦拉茨赫利亚和巴科拉/多埃组成的锋线比阿森纳的进攻更具不可预测性。维蒂尼亚掌控巴黎节奏，而赖斯和厄德高必须为阿森纳赢得中场争夺。巴黎门将L. 什瓦利耶对阵阿森纳门将大卫·拉亚，是一场高水平的对决。"
@@ -9417,6 +9769,10 @@
       "src": "2026 FIFA World Cup Group D",
       "zh": "2026年国际足联世界杯 D组"
     },
+    "d8e6c9cf43a3522dbd6dbca24aec73bc08656e2a55970f3a0cb88f56e9b6e4a4": {
+      "src": "荷兰角球进攻制造二次射门机会",
+      "zh": "荷兰角球进攻制造二次射门机会"
+    },
     "d94e495d21cbdc5ad17250888a7cdb2d03baa40e312da65d5de6747565b5c548": {
       "src": "Germany vs Curacao Betting Tips & Match Predictions",
       "zh": "德国对库拉索投注技巧与比赛预测"
@@ -9488,6 +9844,10 @@
     "daa908c88bc82e1df7dfd8017e037c037568cfabb092a8468e661910c28d706a": {
       "src": "PSG's superior rest and deeper rotation across the season give them the narrow edge; win probability ~0.45 vs Arsenal ~0.32, with draw ~0.23. A 2-1 scoreline (PSG win) best reflects the expected balance: enough for PSG to break down Arsenal's structured defense without Arsenal being entirely shut out, given their quality on the counter.",
       "zh": "巴黎圣日耳曼因赛季中更充足的休息和更深的轮换阵容略占优势；胜率约为0.45，阿森纳约为0.32，平局约为0.23。2-1（巴黎圣日耳曼胜）的比分最能反映预期的平衡：巴黎圣日耳曼足以打破阿森纳的有组织防守，但阿森纳凭借其反击能力不会被完全封锁。"
+    },
+    "daa9f85483552ed5cd4040c12b47440dfe40193e29121abc5d483a8132337298": {
+      "src": "荷兰主场优势明显，球队整体配置豪华，攻防均衡，在缺少核心远藤航的日本面前应能掌控节奏。主胜概率约为50%，平局约27%，日本客场取胜约23%。预计总进球约2.5个，比分倾向于荷兰2-0或2-1取胜。",
+      "zh": "荷兰主场优势明显，球队整体配置豪华，攻防均衡，在缺少核心远藤航的日本面前应能掌控节奏。主胜概率约为50%，平局约27%，日本客场取胜约23%。预计总进球约2.5个，比分倾向于荷兰2-0或2-1取胜。"
     },
     "dab011af9288f4b9ce3a063972787675c59fe78dac9af04c51a60a50d3a9403c": {
       "src": "Mexico's home advantage at Estadio Azteca (high altitude) and deeper squad quality make them favorites, but their recent 5 draws in 10 matches shows inconsistency. South Africa's 5 wins from 10 includes beating strong teams. The 2010 World Cup draw (1-1) in South Africa proves these teams are evenly matched. Mexico's technical superiority should create enough chances, but South Africa's organized defense and counter-attacking threat will keep this competitive. A 2-1 Mexico win is most likely outcome.",
@@ -9633,6 +9993,10 @@
       "src": "SC Freiburg stats",
       "zh": "弗赖堡数据统计"
     },
+    "de925250df67301fa045477b8f313e16b1596ca19fd8e9fbebfc861b9d8d9996": {
+      "src": "ESPN: Netherlands vs Japan at World Cup 2026",
+      "zh": "ESPN: Netherlands vs Japan at World Cup 2026"
+    },
     "deb5bf4b6301495a2f0bed807d3496fb9f699e34fc55cb688fdd230e4b33ec0f": {
       "src": "Arsenal - Premier Injuries",
       "zh": "阿森纳 - 英超伤病情况"
@@ -9652,6 +10016,10 @@
     "df23285de2f0de7a211c547b62ae97f997207707cd2f1a72579f01e407fd4a23": {
       "src": "Most goals will arrive in the second half, after both managers make their first batch of substitutions to test fringe players. There will be very few cards given the friendly low-stakes context, with no major disciplinary incidents expected, and Peru’s late consolation goal will likely come from a set piece or quick counter in the final 20 minutes.",
       "zh": "大多数进球会出现在下半场，在双方主帅完成第一批换人、考察边缘球员之后。由于比赛性质是低压力的友谊赛，黄牌会非常少，预计不会出现重大纪律事件，而秘鲁的末段安慰球很可能来自定位球或最后20分钟的一次快速反击。"
+    },
+    "df4dac2e91416864d9157bb86e6799283ca7c8f06fd091f46edb340435c38630": {
+      "src": "荷兰预计祭出4-3-3阵型，范戴克领衔后防，中场由弗朗基·德容坐镇调度，锋线加克波与孟菲斯·德佩极具威胁。日本方面，失去远藤航后中场防守覆盖下降，田中碧与伊东纯也需承担更多责任，锋线久保建英仍是最大威胁点。",
+      "zh": "荷兰预计祭出4-3-3阵型，范戴克领衔后防，中场由弗朗基·德容坐镇调度，锋线加克波与孟菲斯·德佩极具威胁。日本方面，失去远藤航后中场防守覆盖下降，田中碧与伊东纯也需承担更多责任，锋线久保建英仍是最大威胁点。"
     },
     "df5ba2aca711a0674a6a5acbdb391f839ff55b0a54997e9f5fe8daaa1ccab2d4": {
       "src": "Germany World Cup Odds: Group E, Squad and Final Predictions",
@@ -9684,6 +10052,10 @@
     "e0a107ed29f721e0e12dfdb41829422a24e070e05815aea955ea2ee87ff446c8": {
       "src": "PSG’s expected XI is built around Vitinha/Neves control and wide acceleration from Dembélé and Kvaratskhelia, while Arsenal’s likely XI leans on Rice plus Ødegaard to connect into Saka and Martinelli around Havertz. The scorer list prioritizes high-volume shooters, penalty takers, and the most dangerous transition targets.",
       "zh": "巴黎圣日耳曼预计首发围绕维蒂尼亚/内维斯的控制展开，边路由登贝莱和克瓦拉茨赫利亚加速推进；阿森纳可能首发依赖赖斯和厄德高连接萨卡与马丁内利，围绕哈弗茨组织进攻。射手名单优先考虑高射门量球员、点球主罚者及最具威胁的反击目标。"
+    },
+    "e0a95a51e35c3b5276af9188a336b609aeee6f53abb23f7e93343f0b28f47e9f": {
+      "src": "两队开场都会谨慎试探，进球更可能出现在下半场，荷兰会从边路发起进攻制造机会，日本则伺机打反击，预计双方各有1-2张战术犯规带来的黄牌，换人会集中在60-80分钟，教练都希望通过换人名额冲击对方防线。",
+      "zh": "两队开场都会谨慎试探，进球更可能出现在下半场，荷兰会从边路发起进攻制造机会，日本则伺机打反击，预计双方各有1-2张战术犯规带来的黄牌，换人会集中在60-80分钟，教练都希望通过换人名额冲击对方防线。"
     },
     "e0b4a59855fa6369c9f8d1a8188e22a8d3beb46da640960e052f058efb76aa14": {
       "src": "Germany dominate possession (~70%), heavy shot volume (18-22), high pass accuracy (88%+). Curaçao defend in numbers — high defensive actions, more fouls, low possession but resolute.",
@@ -9728,6 +10100,10 @@
     "e1e8c662b146239f90ae263957c7801f62e05be6f61f05560eba281a7128fb98": {
       "src": "VfL Wolfsburg Team News - Fox Sports",
       "zh": "沃尔夫斯堡球队新闻 - Fox Sports"
+    },
+    "e25fb7cca0707062569d2421d8e6a93158899b76355cd603009e3aae19a6eed2": {
+      "src": "Japan lose captain Endo Wataru to foot injury",
+      "zh": "Japan lose captain Endo Wataru to foot injury"
     },
     "e26cf6913ba76d62b2fb29f1deeea65d58556269a9a1e75ba62353aaf125364b": {
       "src": "Chelsea enter Wembley as clear favorites on squad quality despite a brutal 3W-7L stretch that includes heavy Premier League defeats; their losses have come against elite opposition (Man City, Brighton, Man United, PSG) while their FA Cup performances have been emphatic (7-0 vs Port Vale, 4-2 vs Wrexham). Leeds, recently promoted, are sturdy and well-drilled but limited in attacking quality, with Piroe/Calvert-Lewin/Okafor as attacking options and a recent run heavy on draws (5 in 10). The talent gulf — Palmer, Estêvão, Garnacho, Neto, Caicedo, Fernández, Delap vs Leeds' mid-table profile — should manifest at a neutral Wembley with a full week's rest and a clear target (the cup is now Chelsea's only realistic trophy). Tactically, Leeds' mid-block can frustrate but their full-backs (Bogle/Justin) will be exposed by Chelsea's wide creators, while Chelsea's set-piece threat through Adarabioyo/Fofana is significant. Expect Chelsea to dominate possession and territory but with a manageable goal output given Leeds' defensive discipline.",
@@ -9869,9 +10245,17 @@
       "src": "Atleti 1-1 Arsenal highlights: Viktor Gyökeres and Julián Alvarez on target in Champions League semi-final first leg | UEFA Champions League | UEFA.com",
       "zh": "马竞1-1阿森纳集锦：维克托·约克雷斯和胡利安·阿尔瓦雷斯在欧冠半决赛首回合破门 | 欧冠 | 欧足联.com"
     },
+    "e6c36218b11766597c5d6baeee5004abeebaec16df5e77a3472eb5cdafef3e8d": {
+      "src": "比赛预计上半场试探为主，荷兰凭借身体优势逐渐掌控节奏。进球可能出现在下半场60-75分钟区间，日本可能通过反击或定位球制造威胁。双方防守动作较大，可能出现2-3张黄牌。",
+      "zh": "比赛预计上半场试探为主，荷兰凭借身体优势逐渐掌控节奏。进球可能出现在下半场60-75分钟区间，日本可能通过反击或定位球制造威胁。双方防守动作较大，可能出现2-3张黄牌。"
+    },
     "e6d0614732a3eb4697f29c3ebd8ad53a7f3aff4744affe371b8c69898c81db51": {
       "src": "Given the overwhelming prevalence of draws in both teams' recent form—Botswana with 5 draws in 7 games and Niger with 6 in 10—and their consistent failure to score more than one goal per match, a draw is the highest-probability result. Home advantage is negligible in neutral-venue friendlies, and neither side has shown the attacking quality to consistently break down even modest defenses.",
       "zh": "鉴于两队近期状态中平局的压倒性占比——博茨瓦纳7场有5场平局，尼日尔10场有6场平局——而且他们都持续无法单场打进超过1球，平局是概率最高的结果。中立场地友谊赛里主场优势几乎可以忽略，而双方都没有展现出能稳定撕开哪怕是普通防线的进攻质量。"
+    },
+    "e6dacdfbdd778b79e99bbd58052c0cf28baa8de55571992d4a95e0ddc06f415d": {
+      "src": "两队近期都有较高控球数据，但本场更可能是荷兰略占球权、日本让出部分控球换取纵向冲击。射门数应当接近但荷兰禁区触球与定位球质量稍优，因此主队射正和角球小幅领先。",
+      "zh": "两队近期都有较高控球数据，但本场更可能是荷兰略占球权、日本让出部分控球换取纵向冲击。射门数应当接近但荷兰禁区触球与定位球质量稍优，因此主队射正和角球小幅领先。"
     },
     "e6ddf4cc67707bffa964dc1f349c80284c0b632a25d02bf399257f7ff5f18c73": {
       "src": "Alphonso Davies fällt mehrere Wochen aus",
@@ -10093,6 +10477,10 @@
       "src": "South Africa squad World Cup 2026: Which players will make it to the showpiece in USA, Mexico and Canada? | Goal.com South Africa",
       "zh": "南非队2026世界杯阵容：哪些球员将亮相美国、墨西哥和加拿大的盛会？ | Goal.com 南非"
     },
+    "eda1b4ccfa5ac1c89b959e2922aa569b5a5493b0bc0c21d9370774ed84b20290": {
+      "src": "预计上半场荷兰控球主导，第30分钟加克波左路内切破门取得领先。下半场日本加强逼抢，第70分钟上田绮世接伊东传中头球扳平，但荷兰随即反扑，第78分钟德佩利用反击再下一城。全场荷兰2-1获胜。比赛中有3-4张黄牌，集中在日本防守线（板仓、富安）和德容身上。",
+      "zh": "预计上半场荷兰控球主导，第30分钟加克波左路内切破门取得领先。下半场日本加强逼抢，第70分钟上田绮世接伊东传中头球扳平，但荷兰随即反扑，第78分钟德佩利用反击再下一城。全场荷兰2-1获胜。比赛中有3-4张黄牌，集中在日本防守线（板仓、富安）和德容身上。"
+    },
     "edb22163c83939ca82207a36360e881a49e77221c6ed0440d3231a574c43141d": {
       "src": "Germany faces Curaçao in a massive mismatch between a football powerhouse and World Cup debutants. Germany's superior squad quality, technical ability, and international experience should dominate against Curaçao's defensive approach. The Germans will control possession and create numerous chances, while Curaçao will rely on counter-attacks and set pieces. With Germany needing to secure three points in their group opener and Curaçao making history, the motivation favors the home side.",
       "zh": "德国将在一场足球强国与世界杯新秀之间的巨大悬殊对决中迎战库拉索。德国凭借更强的阵容质量、技术能力和国际经验，应能主导比赛，对抗库拉索的防守策略。德国将控制控球权并创造大量机会，而库拉索则依赖反击和定位球。鉴于德国需要在小组首战中拿下三分，而库拉索正创造历史，动力明显偏向主队。"
@@ -10104,6 +10492,10 @@
     "edd044c927c18a521bc81e009ba60a6993901e266cd194e9412a2196253b05e6": {
       "src": "Sky Sports Tottenham fixtures",
       "zh": "天空体育热刺赛程"
+    },
+    "edefd4f74429ab169e1a62b27d7c333143dfdb9611cce0105ae35e6f591aa1b8": {
+      "src": "比赛大概率是荷兰先通过控球和边中结合取得领先，日本在下半场利用提速与换人阶段制造扳平或缩小比分的机会。由于双方边路对抗频繁、转换回追压力大，黄牌更可能出现在中后场防守球员身上。",
+      "zh": "比赛大概率是荷兰先通过控球和边中结合取得领先，日本在下半场利用提速与换人阶段制造扳平或缩小比分的机会。由于双方边路对抗频繁、转换回追压力大，黄牌更可能出现在中后场防守球员身上。"
     },
     "edf4f2265299b9b5e85e9783b117fcc0e25b58f44ccf8672bbd9a5be86e98f92": {
       "src": "The win distribution is close because Arsenal are elite in control and rest-defense, but PSG's marginal freshness and wider range of match-winners push the home bucket slightly above draw and away. A 2-1 PSG score hint fits a competitive final with both teams capable of scoring but not a full chaos game.",
@@ -10148,6 +10540,10 @@
     "ef3779e601ddd501c888aa03c70914d4a02171338041c6bc4979713a5fc94585": {
       "src": "Cagey opening 25 minutes typical of finals, with PSG probing through Kvaratskhelia vs Mosquera. Goals likely cluster 30-65 minutes once teams open up. Expect ~3 yellow cards (Rice, Pacho candidates), 5-6 substitutions, and a real chance of extra time given how tight the matchup is.",
       "zh": "决赛典型的谨慎开局25分钟，巴黎圣日耳曼通过克瓦拉茨赫利亚对阵莫斯克拉进行试探。进球可能集中在30至65分钟，当双方开始开放比赛。预计约3张黄牌（赖斯、帕乔可能），5至6次换人，鉴于比赛紧张，极有可能进入加时赛。"
+    },
+    "ef7626471dec00e409601b93f519bf554488eaaf445e712e8f13e76f8aa70e17": {
+      "src": "荷兰队近期状态火热，最近8场保持不败（6胜2平），进攻端火力凶猛，场均进球超过3个，整体实力与板凳深度均在日本之上。日本队虽然近期战绩同样出色（7胜2平1负），但就在赛前传来噩耗——队长远藤航（Endo Wataru）因脚伤无缘世界杯，这极大削弱了日本的中场拦截与组织能力，且荷兰在历史交锋中占据优势。综合来看，荷兰整体实力占优，看好荷兰主场获胜。",
+      "zh": "荷兰队近期状态火热，最近8场保持不败（6胜2平），进攻端火力凶猛，场均进球超过3个，整体实力与板凳深度均在日本之上。日本队虽然近期战绩同样出色（7胜2平1负），但就在赛前传来噩耗——队长远藤航（Endo Wataru）因脚伤无缘世界杯，这极大削弱了日本的中场拦截与组织能力，且荷兰在历史交锋中占据优势。综合来看，荷兰整体实力占优，看好荷兰主场获胜。"
     },
     "ef846154c00dede19f8b673e16f73a352c5aad0fbbf155983ebd1064edb8c523": {
       "src": "Bayern dominate possession (~65%), 16-18 shots vs 8-10, high pass accuracy. Köln pack midfield, foul more, take fewer corners. Saves split roughly 3 to 4 each given both teams should score.",
@@ -10317,6 +10713,10 @@
       "src": "Low-stakes friendly between two African sides in modest form. Botswana drew 1-1 with Angola on June 5 and have been defensively compact but goal-shy (only one win in their last seven, mostly low-scoring draws). Niger lost 0-1 to Mauritania on June 8, just one day before this fixture, which forces heavy rotation, fatigue and travel concerns despite Adebayor and Sosah giving them attacking threat. Home advantage in Gaborone, Botswana's better rest (4 days), and Niger's back-to-back schedule push the balance slightly toward the Zebras, but Niger's recent matches have actually produced more shots and chance volume. Expect a cagey, scrappy friendly with limited fluency, decided by one moment from a set piece or transition; draw probability stays high.",
       "zh": "这是一场在状态平平的两支非洲球队之间进行的低风险友谊赛。博茨瓦纳在6月5日与安哥拉踢成1-1，球队防守紧凑但进球乏力（近7场只赢1场，而且大多是低比分平局）。尼日尔在6月8日以0-1输给毛里塔尼亚，距离本场比赛仅一天，这会迫使他们大幅轮换，并带来疲劳和旅途方面的隐忧，尽管阿德巴约和索萨能提供进攻威胁。比赛地点在博茨瓦纳的哈博罗内，博茨瓦纳休息时间更充足（4天），再加上尼日尔背靠背作战，天平略微倾向于斑马军团，但尼日尔近期比赛实际上创造了更多射门和机会。预计这会是一场谨慎、凌乱、流畅度有限的友谊赛，可能由定位球或转换中的一次瞬间决定；平局概率依然很高。"
     },
+    "f45c4de69d0cf0469eea0275252ea6d05ca1cc708bd6ff7a5b1f9c2cb4533850": {
+      "src": "Bayern likely revert to a 4-2-3-1 with Kane up top, Olise/Díaz wide and Musiala in the 10 — Kompany needs creativity. PSG should keep their 4-3-3 around 维蒂尼亚-Neves-Ruiz with Dembélé-Doué-Kvaratskhelia, though one of Doué/Dembélé may be limited by the reported injury blow, opening minutes for Barcola or Ramos. Kane and Dembélé are the most likely scorers given role and form.",
+      "zh": "Bayern likely revert to a 4-2-3-1 with Kane up top, Olise/Díaz wide and Musiala in the 10 — Kompany needs creativity. PSG should keep their 4-3-3 around 维蒂尼亚-Neves-Ruiz with Dembélé-Doué-Kvaratskhelia, though one of Doué/Dembélé may be limited by the reported injury blow, opening minutes for Barcola or Ramos. Kane and Dembélé are the most likely scorers given role and form."
+    },
     "f48271cb3f81d4dbf83f1b1321522f5260bab09d75491c10213edc9e0cd89dbe": {
       "src": "Arsenal football club results",
       "zh": "阿森纳足球俱乐部赛果"
@@ -10352,6 +10752,10 @@
     "f59630df0f6b95bdc2d7df954aeb2a2101ee0c79c7b8d875606a3555c0601700": {
       "src": "Bayern host PSG at the Allianz needing to overturn a 4-5 aggregate deficit after the highest-scoring CL semi-final leg in history. Bayern's home record this CL campaign is a perfect 6/6 and they have won the last two Allianz meetings vs PSG, while PSG are without Achraf Hakimi (hamstring) — a massive defensive and attacking blow on a flank where Luis Díaz already terrorised Zaïre-Emery in Paris. Both managers (Kompany, Enrique) have publicly promised to attack again, and both defences have been leaking goals (16 conceded for Bayern in their last six). Markets price Bayern around -145/-163 (~58–62% to win the match), Polymarket ~56.5%/18.5%/25.5%, with O4.5 priced at -200 — a clear chaos profile. PSG only need a draw to advance and have won six straight away with five clean sheets, but the Hakimi loss plus Bayern's home-must-win urgency tilts the match probabilities to the hosts while leaving the tie roughly 50/50.",
       "zh": "拜仁在安联球场主场迎战巴黎圣日耳曼，需逆转4-5的总比分劣势，上一场欧冠半决赛次回合创造了历史最高得分纪录。拜仁本赛季欧冠主场战绩完美6胜6负，且近两次安联球场对阵巴黎圣日耳曼均获胜，而巴黎圣日耳曼缺少阿什拉夫·哈基米（腿筋伤势），这对防守和进攻都是巨大打击，尤其是在路易斯·迪亚斯已在巴黎让扎伊尔-埃默里苦不堪言的边路。两队主帅（孔帕尼、恩里克）均公开承诺继续进攻，双方防线近六场比赛均失16球，防守漏洞明显。市场给拜仁主场胜出赔率约为-145/-163（约58-62%胜率），Polymarket概率为56.5%/18.5%/25.5%，大于4.5球赔率为-200，明显呈现混乱局面。巴黎圣日耳曼只需平局即可晋级，且客场六连胜中五场零封，但哈基米缺阵加上拜仁主场必胜的紧迫感，使比赛胜率倾向主队，整体晋级形势约为五五开。"
+    },
+    "f5cf4ecdfdce9c0da210119446d39bbb1269ab427f9d429e4802c432a468f765": {
+      "src": "荷兰高位压迫迫使日本后场失误，创造射门机会",
+      "zh": "荷兰高位压迫迫使日本后场失误，创造射门机会"
     },
     "f5e0cd6b1414a3818db75bcdd3f6fe12f399740d39ba1df3294066e6ee19d073": {
       "src": "Pre-match prediction for a tight friendly between two relatively evenly matched sides, with Botswana holding a slight edge due to home advantage.",
@@ -10445,6 +10849,10 @@
       "src": "PSG vs Arsenal: Champions League final Preview, Prediction & Lineups",
       "zh": "巴黎圣日耳曼 vs 阿森纳：欧洲冠军联赛决赛预览、预测及首发阵容"
     },
+    "f8dd161701d28d2a2098ccf1595c279fd87eb7758d4f10bec6c74e78e7d2fdee": {
+      "src": "荷兰整体硬实力明显高于日本：范戴克(Van Dijk)领衔的后防、德容(De Jong)+赖恩德斯(Reijnders)+格拉文贝赫(Gravenberch)的中场配置以及加克波(Gakpo)、德佩(Memphis Depay)的攻击线在球员价值与个人能力上都占优；近10场预选赛保持不败、场均射门17+、控球66%以上，状态正面。日本以森保一三中卫体系为主，久保建英(Kubo)、堂安律(Doan)、镰田大地(Kamada)的进攻群有创造力，但本场失去队长远藤航(Endo)因脚伤缺阵，中场拦截与对抗下降，对德容、赖恩德斯的渗透抵抗力减弱。同时报道显示荷兰自身存在伤病困扰，可能影响后防与边路深度。达拉斯6月炎热高湿环境对欧洲球队体能不利，会拉低荷兰高位逼抢强度，这给日本利用速度反击留下空间。综合判断荷兰胜率显著领先但远非压倒性，比赛大概率走向一场进球数中等、节奏开放的对攻局，最可能比分2-1。",
+      "zh": "荷兰整体硬实力明显高于日本：范戴克(Van Dijk)领衔的后防、德容(De Jong)+赖恩德斯(Reijnders)+格拉文贝赫(Gravenberch)的中场配置以及加克波(Gakpo)、德佩(Memphis Depay)的攻击线在球员价值与个人能力上都占优；近10场预选赛保持不败、场均射门17+、控球66%以上，状态正面。日本以森保一三中卫体系为主，久保建英(Kubo)、堂安律(Doan)、镰田大地(Kamada)的进攻群有创造力，但本场失去队长远藤航(Endo)因脚伤缺阵，中场拦截与对抗下降，对德容、赖恩德斯的渗透抵抗力减弱。同时报道显示荷兰自身存在伤病困扰，可能影响后防与边路深度。达拉斯6月炎热高湿环境对欧洲球队体能不利，会拉低荷兰高位逼抢强度，这给日本利用速度反击留下空间。综合判断荷兰胜率显著领先但远非压倒性，比赛大概率走向一场进球数中等、节奏开放的对攻局，最可能比分2-1。"
+    },
     "f8f68b744ef04dbc7e85dd22d491fde9421fd35640d8539fb491c6311faae5af": {
       "src": "Wolves fixtures - FotMob",
       "zh": "狼队赛程 - FotMob"
@@ -10464,6 +10872,10 @@
     "f9ce2f6e543022600dd4ecf86dcc53bd436b997adbbcf00f2e5c95f9a4029174": {
       "src": "Thailand's recent average possession of 56% will see them edge overall ball control at ~54%, but China's direct counter-attack style will keep their total shot count close to Thailand's. China's higher recent foul rate of 15 per game will be reflected in the stat line, while Thailand's higher pass accuracy comes from their preference for sustained build-up play.",
       "zh": "泰国近期56%的平均控球率将使他们在整体控球上以约54%的优势略胜一筹，但中国直接的反击风格会让双方总射门数与泰国接近。中国近期每场15次的更高犯规率也会体现在数据上，而泰国更高的传球成功率则来自他们偏好持续组织进攻的打法。"
+    },
+    "f9e4cf623d2cafef1b37af229ec0c6cc1c33b1d8a50a6f8d10341f4ed9210d02": {
+      "src": "Bayern reverts to first-choice 4-2-3-1 with Neuer, Stanišić-Upamecano-Tah-Davies, Kimmich-Pavlović behind Olise-Musiala-Díaz and Kane. PSG goes 4-3-3 with Safonov; Zaïre-Emery covering at RB for Hakimi, 马尔基尼奥斯-Pacho-Mendes; 维蒂尼亚-Neves-法比安·鲁伊斯; Doué-Dembélé-Kvaratskhelia. Kane (54 goals, scored in 5 straight CL knockouts), Olise, Díaz and Dembélé/Kvara are the obvious scorer pool.",
+      "zh": "Bayern reverts to first-choice 4-2-3-1 with Neuer, Stanišić-Upamecano-Tah-Davies, Kimmich-Pavlović behind Olise-Musiala-Díaz and Kane. PSG goes 4-3-3 with Safonov; Zaïre-Emery covering at RB for Hakimi, 马尔基尼奥斯-Pacho-Mendes; 维蒂尼亚-Neves-法比安·鲁伊斯; Doué-Dembélé-Kvaratskhelia. Kane (54 goals, scored in 5 straight CL knockouts), Olise, Díaz and Dembélé/Kvara are the obvious scorer pool."
     },
     "fa09f84c17138fa1d8fd8631b74716f82920ad8d9612de9c5eb1cbf5bb181634": {
       "src": "The win distribution leans away because Tottenham's average chance creation and individual quality are a bit higher, but Wolves' home advantage and lower-event game profile keep draw and home-win chances substantial. A 1-2 away win is the top single scoreline, with 1-1 and 1-0/0-1 also carrying real weight.",
@@ -10488,6 +10900,10 @@
     "fab07e0923069d9002f4c66a18c19d937ecbf557a35d515e2e46372fdea29bc0": {
       "src": "Stuttgart are favored with a 55% win probability, reflecting their strong home record and overall squad quality. A draw (leading to extra time) is at 25%, and a Freiburg win at 20%.",
       "zh": "斯图加特以55%的胜率被看好，反映了他们强劲的主场战绩和整体阵容质量。平局（进入加时赛）概率为25%，弗赖堡获胜概率为20%。"
+    },
+    "fab8a1ddd987c3ec21806301feb228a1074c10cccef74716bd788710707b53e1": {
+      "src": "荷兰队整体实力和大赛经验优于日本，但赛前遭遇伤病潮，多名常规主力可能缺阵，防线默契度存疑。日本队技术流打法成熟，但队长远藤航因脚伤缺席，中场拦截和组织能力被严重削弱。荷兰近期预选赛火力凶猛（8场27球），日本则多场零封且控球率极高。考虑到中立场地与荷兰的个体能力优势，荷兰胜面稍大，但日本的反击和韧性足以制造平局甚至爆冷。综合评估为‘正常’比赛节奏，总进球2-3个，荷兰2-1胜出。",
+      "zh": "荷兰队整体实力和大赛经验优于日本，但赛前遭遇伤病潮，多名常规主力可能缺阵，防线默契度存疑。日本队技术流打法成熟，但队长远藤航因脚伤缺席，中场拦截和组织能力被严重削弱。荷兰近期预选赛火力凶猛（8场27球），日本则多场零封且控球率极高。考虑到中立场地与荷兰的个体能力优势，荷兰胜面稍大，但日本的反击和韧性足以制造平局甚至爆冷。综合评估为‘正常’比赛节奏，总进球2-3个，荷兰2-1胜出。"
     },
     "fadaf733b514dc48e2fafac9c8225f84dcb13c920c3f6a85b20bcc73079e536a": {
       "src": "Arsenal get a narrow edge on balance because their recent multi-phase structure is usually a little more stable in big matches: they defend the box well, control set pieces, and have enough press resistance through Rice and Ødegaard to avoid long PSG pressure spells. PSG still carry the higher transition threat through Dembélé, Hakimi and Kvaratskhelia, so this is not a one-sided forecast, but on a neutral ground Arsenal’s defensive platform, aerial strength, and ability to create from wide isolations slightly outweigh PSG’s individual flair. With both teams carrying elite attackers and full-backs who push high, the game projects as competitive rather than cagey, though finals usually suppress extremes. Key players such as Saka, Ødegaard, Rice, Dembélé and Vitinha are central to the matchup, and the likely H2H-style dynamic is Arsenal trying to survive PSG’s first-wave pace before exploiting rest-defense spaces and dead balls.",
@@ -10644,6 +11060,10 @@
     "ff1eb7e57176d411c76fd54d1b247d9d359742d05f692c1b431132b496b23275": {
       "src": "Expect West Ham to start fast for a crowd-driven opening; Leeds' direct counters via James/Gnonto and Calvert-Lewin will threaten throughout. Cards likely on Diouf (six PL yellows already) and Souček given the stakes. Set-pieces (WHU lead the league for corners/match) and a late substitution-driven push are the key game-state levers.",
       "zh": "预计西汉姆联开局迅速，借助主场氛围；利兹联通过詹姆斯/格农托和卡尔弗特-卢因的直接反击将持续威胁。鉴于比赛重要性，迪乌夫（已有6张英超黄牌）和苏切克可能领黄牌。定位球（西汉姆联英超角球数领先）和后期换人推动是关键比赛因素。"
+    },
+    "ff2952dd111b19edac22291ef12e0db83b3f36bb3509fe5328bb5ab9f4f57419": {
+      "src": "荷兰角球进攻，范戴克头球偏出",
+      "zh": "荷兰角球进攻，范戴克头球偏出"
     },
     "ff31d1a716a3d5c1d23231c1edb39c7d83926c9aab8c5bc3b2eaf69644ccb16e": {
       "src": "Bayern Munich vs Stuttgart Prediction & Betting Tips - DFB Pokal",

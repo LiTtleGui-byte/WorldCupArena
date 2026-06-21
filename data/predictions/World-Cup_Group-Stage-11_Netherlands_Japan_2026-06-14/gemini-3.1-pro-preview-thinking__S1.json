@@ -1,0 +1,940 @@
+{
+  "fixture_id": "World-Cup_Group-Stage-11_Netherlands_Japan_2026-06-14",
+  "model_id": "gemini-3.1-pro-preview-thinking",
+  "setting": "S1",
+  "submitted_at": "2026-06-13T12:21:47.333812+00:00",
+  "prediction": {
+    "fixture_id": "World-Cup_Group-Stage-11_Netherlands_Japan_2026-06-14",
+    "model_id": "worldcup-predictor-v1",
+    "setting": "S1",
+    "submitted_at": "2026-06-12T20:00:00Z",
+    "reasoning": {
+      "overall": "荷兰队虽然遭遇伤病潮（部分主力缺阵），但整体阵容深度依然可观，尤其是中后场拥有范迪克、弗朗基·德容等核心。日本队近期状态出色，但队长远藤航的因伤缺阵对中场防守硬度是致命打击。预计荷兰将掌控比赛节奏，日本队则依靠久保建英和前田大然等人的速度打反击。综合来看，荷兰队实力占优，有望小胜。",
+      "t1_result": "荷兰队胜率较高（55%），平局25%，日本胜20%。比分预测2-1，荷兰队凭借更强的中场控制力和锋线把握机会能力取胜，但日本队的反击也能制造威胁并取得进球。",
+      "t2_player": "荷兰队排出4-3-3，加克波和德佩领衔锋线，中场由德容梳理；日本队4-2-3-1，上田绮世突前，久保建英负责组织。远藤航缺阵使得佐野海舟或田中碧需要承担更多防守任务。",
+      "t3_events": "预计上半场荷兰队通过控球施压并率先破门，下半场日本队通过换人调整（如换上伊东纯也、中村敬斗）加强进攻并扳回一城，但荷兰队在比赛尾声阶段再次进球锁定胜局。",
+      "t4_stats": "荷兰队控球率预计在58%左右，射门数15对10占优。日本队在防守端将贡献更多解围和拦截，犯规数也会相应增加。"
+    },
+    "win_probs": {
+      "home": 0.55,
+      "draw": 0.25,
+      "away": 0.2
+    },
+    "headline_score": "2-1",
+    "expected_goal_diff": 0.75,
+    "match_profile": "normal",
+    "expected_total_goals": 2.55,
+    "lineups": {
+      "home": {
+        "starting": [
+          {
+            "name": "Bart Verbruggen",
+            "position": "GK"
+          },
+          {
+            "name": "Denzel Dumfries",
+            "position": "DF"
+          },
+          {
+            "name": "Virgil van Dijk",
+            "position": "DF"
+          },
+          {
+            "name": "Nathan Aké",
+            "position": "DF"
+          },
+          {
+            "name": "Mickey van de Ven",
+            "position": "DF"
+          },
+          {
+            "name": "Frenkie de Jong",
+            "position": "MF"
+          },
+          {
+            "name": "Tijjani Reijnders",
+            "position": "MF"
+          },
+          {
+            "name": "Teun Koopmeiners",
+            "position": "MF"
+          },
+          {
+            "name": "Cody Mathès Gakpo",
+            "position": "FW"
+          },
+          {
+            "name": "Memphis Depay",
+            "position": "FW"
+          },
+          {
+            "name": "Donyell Malen",
+            "position": "FW"
+          }
+        ],
+        "bench": [
+          {
+            "name": "Mark Flekken",
+            "position": "GK"
+          },
+          {
+            "name": "Robin Roefs",
+            "position": "GK"
+          },
+          {
+            "name": "Lutsharel Geertruida",
+            "position": "DF"
+          },
+          {
+            "name": "Jorrel Hato",
+            "position": "DF"
+          },
+          {
+            "name": "Jan Paul van Hecke",
+            "position": "DF"
+          },
+          {
+            "name": "Mats Wieffer",
+            "position": "DF"
+          },
+          {
+            "name": "Marten de Roon",
+            "position": "MF"
+          },
+          {
+            "name": "Ryan Gravenberch",
+            "position": "MF"
+          },
+          {
+            "name": "Quinten Ryan Crispito Timber",
+            "position": "MF"
+          },
+          {
+            "name": "Guus Berend Til",
+            "position": "MF"
+          },
+          {
+            "name": "Crysencio Summerville",
+            "position": "FW"
+          },
+          {
+            "name": "Wout Weghorst",
+            "position": "FW"
+          }
+        ]
+      },
+      "away": {
+        "starting": [
+          {
+            "name": "Zion Suzuki",
+            "position": "GK"
+          },
+          {
+            "name": "Yukinari Sugawara",
+            "position": "DF"
+          },
+          {
+            "name": "Ko Itakura",
+            "position": "DF"
+          },
+          {
+            "name": "Takehiro Tomiyasu",
+            "position": "DF"
+          },
+          {
+            "name": "Hiroki Ito",
+            "position": "DF"
+          },
+          {
+            "name": "Ao Tanaka",
+            "position": "MF"
+          },
+          {
+            "name": "Kaishu Sano",
+            "position": "MF"
+          },
+          {
+            "name": "Ritsu Doan",
+            "position": "FW"
+          },
+          {
+            "name": "Takefusa Kubo",
+            "position": "FW"
+          },
+          {
+            "name": "Daizen Maeda",
+            "position": "FW"
+          },
+          {
+            "name": "Ayase Ueda",
+            "position": "FW"
+          }
+        ],
+        "bench": [
+          {
+            "name": "Keisuke Osako",
+            "position": "GK"
+          },
+          {
+            "name": "Tomoki Hayakawa",
+            "position": "GK"
+          },
+          {
+            "name": "Shogo Taniguchi",
+            "position": "DF"
+          },
+          {
+            "name": "Tsuyoshi Watanabe",
+            "position": "DF"
+          },
+          {
+            "name": "Ayumu Seko",
+            "position": "DF"
+          },
+          {
+            "name": "Yuto Nagatomo",
+            "position": "DF"
+          },
+          {
+            "name": "Junnosuke Suzuki",
+            "position": "DF"
+          },
+          {
+            "name": "Daichi Kamada",
+            "position": "MF"
+          },
+          {
+            "name": "Junya Ito",
+            "position": "FW"
+          },
+          {
+            "name": "Keito Nakamura",
+            "position": "FW"
+          },
+          {
+            "name": "Koki Ogawa",
+            "position": "FW"
+          },
+          {
+            "name": "Shuto Machino",
+            "position": "FW"
+          }
+        ]
+      }
+    },
+    "formations": {
+      "home": "4-3-3",
+      "away": "4-2-3-1"
+    },
+    "scorers": [
+      {
+        "player": "Cody Mathès Gakpo",
+        "team": "home",
+        "p": 0.45,
+        "minute_range": [
+          20,
+          60
+        ]
+      },
+      {
+        "player": "Memphis Depay",
+        "team": "home",
+        "p": 0.35,
+        "minute_range": [
+          60,
+          90
+        ]
+      },
+      {
+        "player": "Ayase Ueda",
+        "team": "away",
+        "p": 0.3,
+        "minute_range": [
+          45,
+          80
+        ]
+      }
+    ],
+    "assisters": [
+      {
+        "player": "Frenkie de Jong",
+        "team": "home",
+        "p": 0.25,
+        "minute": 35
+      },
+      {
+        "player": "Takefusa Kubo",
+        "team": "away",
+        "p": 0.25,
+        "minute": 65
+      }
+    ],
+    "substitutions": [
+      {
+        "team": "home",
+        "off": "Donyell Malen",
+        "on": "Crysencio Summerville",
+        "minute": 65
+      },
+      {
+        "team": "home",
+        "off": "Teun Koopmeiners",
+        "on": "Ryan Gravenberch",
+        "minute": 70
+      },
+      {
+        "team": "away",
+        "off": "Daizen Maeda",
+        "on": "Keito Nakamura",
+        "minute": 60
+      },
+      {
+        "team": "away",
+        "off": "Ritsu Doan",
+        "on": "Junya Ito",
+        "minute": 65
+      }
+    ],
+    "cards": [
+      {
+        "player": "Mickey van de Ven",
+        "team": "home",
+        "color": "yellow",
+        "minute": 40
+      },
+      {
+        "player": "Kaishu Sano",
+        "team": "away",
+        "color": "yellow",
+        "minute": 55
+      },
+      {
+        "player": "Ko Itakura",
+        "team": "away",
+        "color": "yellow",
+        "minute": 75
+      }
+    ],
+    "penalties": [],
+    "own_goals": [],
+    "key_events": [
+      {
+        "team": "away",
+        "minute": 35,
+        "label": "VAR review for potential penalty",
+        "player": "Takefusa Kubo",
+        "type": "VAR"
+      }
+    ],
+    "motm_probs": [
+      {
+        "player": "Cody Mathès Gakpo",
+        "team": "home",
+        "p": 0.3
+      },
+      {
+        "player": "Frenkie de Jong",
+        "team": "home",
+        "p": 0.2
+      },
+      {
+        "player": "Takefusa Kubo",
+        "team": "away",
+        "p": 0.15
+      }
+    ],
+    "stats": {
+      "possession": {
+        "home": 58.0,
+        "away": 42.0
+      },
+      "shots": {
+        "home": 15.0,
+        "away": 10.0
+      },
+      "shots_on_target": {
+        "home": 6.0,
+        "away": 4.0
+      },
+      "corners": {
+        "home": 6.0,
+        "away": 4.0
+      },
+      "pass_accuracy": {
+        "home": 88.0,
+        "away": 82.0
+      },
+      "fouls": {
+        "home": 11.0,
+        "away": 13.0
+      },
+      "saves": {
+        "home": 3.0,
+        "away": 4.0
+      },
+      "defensive_actions": {
+        "home": 45.0,
+        "away": 60.0
+      }
+    },
+    "score_dist": [
+      {
+        "score": "1-0",
+        "p": 0.129
+      },
+      {
+        "score": "1-1",
+        "p": 0.123
+      },
+      {
+        "score": "2-0",
+        "p": 0.108
+      },
+      {
+        "score": "2-1",
+        "p": 0.097
+      },
+      {
+        "score": "0-0",
+        "p": 0.081
+      },
+      {
+        "score": "0-1",
+        "p": 0.072
+      },
+      {
+        "score": "3-0",
+        "p": 0.061
+      },
+      {
+        "score": "1-2",
+        "p": 0.055
+      },
+      {
+        "score": "3-1",
+        "p": 0.055
+      },
+      {
+        "score": "2-2",
+        "p": 0.046
+      },
+      {
+        "score": "0-2",
+        "p": 0.032
+      },
+      {
+        "score": "4-0",
+        "p": 0.026
+      },
+      {
+        "score": "3-2",
+        "p": 0.025
+      },
+      {
+        "score": "4-1",
+        "p": 0.023
+      },
+      {
+        "score": "1-3",
+        "p": 0.017
+      },
+      {
+        "score": "2-3",
+        "p": 0.014
+      },
+      {
+        "score": "4-2",
+        "p": 0.011
+      },
+      {
+        "score": "0-3",
+        "p": 0.01
+      },
+      {
+        "score": "5-0",
+        "p": 0.009
+      },
+      {
+        "score": "5-1",
+        "p": 0.006
+      }
+    ],
+    "most_likely_score": "1-0",
+    "over_under_probs": {
+      "over_1_5": 0.718,
+      "over_2_5": 0.455,
+      "over_3_5": 0.232,
+      "over_4_5": 0.088
+    }
+  },
+  "raw_prediction": {
+    "fixture_id": "World-Cup_Group-Stage-11_Netherlands_Japan_2026-06-14",
+    "model_id": "worldcup-predictor-v1",
+    "setting": "S1",
+    "submitted_at": "2026-06-12T20:00:00Z",
+    "reasoning": {
+      "overall": "荷兰队虽然遭遇伤病潮（部分主力缺阵），但整体阵容深度依然可观，尤其是中后场拥有范迪克、弗朗基·德容等核心。日本队近期状态出色，但队长远藤航的因伤缺阵对中场防守硬度是致命打击。预计荷兰将掌控比赛节奏，日本队则依靠久保建英和前田大然等人的速度打反击。综合来看，荷兰队实力占优，有望小胜。",
+      "t1_result": "荷兰队胜率较高（55%），平局25%，日本胜20%。比分预测2-1，荷兰队凭借更强的中场控制力和锋线把握机会能力取胜，但日本队的反击也能制造威胁并取得进球。",
+      "t2_player": "荷兰队排出4-3-3，加克波和德佩领衔锋线，中场由德容梳理；日本队4-2-3-1，上田绮世突前，久保建英负责组织。远藤航缺阵使得佐野海舟或田中碧需要承担更多防守任务。",
+      "t3_events": "预计上半场荷兰队通过控球施压并率先破门，下半场日本队通过换人调整（如换上伊东纯也、中村敬斗）加强进攻并扳回一城，但荷兰队在比赛尾声阶段再次进球锁定胜局。",
+      "t4_stats": "荷兰队控球率预计在58%左右，射门数15对10占优。日本队在防守端将贡献更多解围和拦截，犯规数也会相应增加。"
+    },
+    "win_probs": {
+      "home": 0.55,
+      "draw": 0.25,
+      "away": 0.2
+    },
+    "headline_score": "2-1",
+    "expected_goal_diff": 0.8,
+    "match_profile": "normal",
+    "expected_total_goals": 2.6,
+    "lineups": {
+      "home": {
+        "starting": [
+          {
+            "name": "Bart Verbruggen",
+            "position": "GK"
+          },
+          {
+            "name": "Denzel Dumfries",
+            "position": "DF"
+          },
+          {
+            "name": "Virgil van Dijk",
+            "position": "DF"
+          },
+          {
+            "name": "Nathan Aké",
+            "position": "DF"
+          },
+          {
+            "name": "Mickey van de Ven",
+            "position": "DF"
+          },
+          {
+            "name": "Frenkie de Jong",
+            "position": "MF"
+          },
+          {
+            "name": "Tijjani Reijnders",
+            "position": "MF"
+          },
+          {
+            "name": "Teun Koopmeiners",
+            "position": "MF"
+          },
+          {
+            "name": "Cody Mathès Gakpo",
+            "position": "FW"
+          },
+          {
+            "name": "Memphis Depay",
+            "position": "FW"
+          },
+          {
+            "name": "Donyell Malen",
+            "position": "FW"
+          }
+        ],
+        "bench": [
+          {
+            "name": "Mark Flekken",
+            "position": "GK"
+          },
+          {
+            "name": "Robin Roefs",
+            "position": "GK"
+          },
+          {
+            "name": "Lutsharel Geertruida",
+            "position": "DF"
+          },
+          {
+            "name": "Jorrel Hato",
+            "position": "DF"
+          },
+          {
+            "name": "Jan Paul van Hecke",
+            "position": "DF"
+          },
+          {
+            "name": "Mats Wieffer",
+            "position": "DF"
+          },
+          {
+            "name": "Marten de Roon",
+            "position": "MF"
+          },
+          {
+            "name": "Ryan Gravenberch",
+            "position": "MF"
+          },
+          {
+            "name": "Quinten Ryan Crispito Timber",
+            "position": "MF"
+          },
+          {
+            "name": "Guus Berend Til",
+            "position": "MF"
+          },
+          {
+            "name": "Crysencio Summerville",
+            "position": "FW"
+          },
+          {
+            "name": "Wout Weghorst",
+            "position": "FW"
+          }
+        ]
+      },
+      "away": {
+        "starting": [
+          {
+            "name": "Zion Suzuki",
+            "position": "GK"
+          },
+          {
+            "name": "Yukinari Sugawara",
+            "position": "DF"
+          },
+          {
+            "name": "Ko Itakura",
+            "position": "DF"
+          },
+          {
+            "name": "Takehiro Tomiyasu",
+            "position": "DF"
+          },
+          {
+            "name": "Hiroki Ito",
+            "position": "DF"
+          },
+          {
+            "name": "Ao Tanaka",
+            "position": "MF"
+          },
+          {
+            "name": "Kaishu Sano",
+            "position": "MF"
+          },
+          {
+            "name": "Ritsu Doan",
+            "position": "FW"
+          },
+          {
+            "name": "Takefusa Kubo",
+            "position": "FW"
+          },
+          {
+            "name": "Daizen Maeda",
+            "position": "FW"
+          },
+          {
+            "name": "Ayase Ueda",
+            "position": "FW"
+          }
+        ],
+        "bench": [
+          {
+            "name": "Keisuke Osako",
+            "position": "GK"
+          },
+          {
+            "name": "Tomoki Hayakawa",
+            "position": "GK"
+          },
+          {
+            "name": "Shogo Taniguchi",
+            "position": "DF"
+          },
+          {
+            "name": "Tsuyoshi Watanabe",
+            "position": "DF"
+          },
+          {
+            "name": "Ayumu Seko",
+            "position": "DF"
+          },
+          {
+            "name": "Yuto Nagatomo",
+            "position": "DF"
+          },
+          {
+            "name": "Junnosuke Suzuki",
+            "position": "DF"
+          },
+          {
+            "name": "Daichi Kamada",
+            "position": "MF"
+          },
+          {
+            "name": "Junya Ito",
+            "position": "FW"
+          },
+          {
+            "name": "Keito Nakamura",
+            "position": "FW"
+          },
+          {
+            "name": "Koki Ogawa",
+            "position": "FW"
+          },
+          {
+            "name": "Shuto Machino",
+            "position": "FW"
+          }
+        ]
+      }
+    },
+    "formations": {
+      "home": "4-3-3",
+      "away": "4-2-3-1"
+    },
+    "scorers": [
+      {
+        "player": "Cody Mathès Gakpo",
+        "team": "home",
+        "p": 0.45,
+        "minute_range": [
+          20,
+          60
+        ]
+      },
+      {
+        "player": "Memphis Depay",
+        "team": "home",
+        "p": 0.35,
+        "minute_range": [
+          60,
+          90
+        ]
+      },
+      {
+        "player": "Ayase Ueda",
+        "team": "away",
+        "p": 0.3,
+        "minute_range": [
+          45,
+          80
+        ]
+      }
+    ],
+    "assisters": [
+      {
+        "player": "Frenkie de Jong",
+        "team": "home",
+        "p": 0.25,
+        "minute": 35
+      },
+      {
+        "player": "Takefusa Kubo",
+        "team": "away",
+        "p": 0.25,
+        "minute": 65
+      }
+    ],
+    "substitutions": [
+      {
+        "team": "home",
+        "off": "Donyell Malen",
+        "on": "Crysencio Summerville",
+        "minute": 65
+      },
+      {
+        "team": "home",
+        "off": "Teun Koopmeiners",
+        "on": "Ryan Gravenberch",
+        "minute": 70
+      },
+      {
+        "team": "away",
+        "off": "Daizen Maeda",
+        "on": "Keito Nakamura",
+        "minute": 60
+      },
+      {
+        "team": "away",
+        "off": "Ritsu Doan",
+        "on": "Junya Ito",
+        "minute": 65
+      }
+    ],
+    "cards": [
+      {
+        "player": "Mickey van de Ven",
+        "team": "home",
+        "color": "yellow",
+        "minute": 40
+      },
+      {
+        "player": "Kaishu Sano",
+        "team": "away",
+        "color": "yellow",
+        "minute": 55
+      },
+      {
+        "player": "Ko Itakura",
+        "team": "away",
+        "color": "yellow",
+        "minute": 75
+      }
+    ],
+    "penalties": [],
+    "own_goals": [],
+    "key_events": [
+      {
+        "team": "away",
+        "minute": 35,
+        "label": "VAR review for potential penalty",
+        "player": "Takefusa Kubo",
+        "type": "VAR"
+      }
+    ],
+    "motm_probs": [
+      {
+        "player": "Cody Mathès Gakpo",
+        "team": "home",
+        "p": 0.3
+      },
+      {
+        "player": "Frenkie de Jong",
+        "team": "home",
+        "p": 0.2
+      },
+      {
+        "player": "Takefusa Kubo",
+        "team": "away",
+        "p": 0.15
+      }
+    ],
+    "stats": {
+      "possession": {
+        "home": 58.0,
+        "away": 42.0
+      },
+      "shots": {
+        "home": 15.0,
+        "away": 10.0
+      },
+      "shots_on_target": {
+        "home": 6.0,
+        "away": 4.0
+      },
+      "corners": {
+        "home": 6.0,
+        "away": 4.0
+      },
+      "pass_accuracy": {
+        "home": 88.0,
+        "away": 82.0
+      },
+      "fouls": {
+        "home": 11.0,
+        "away": 13.0
+      },
+      "saves": {
+        "home": 3.0,
+        "away": 4.0
+      },
+      "defensive_actions": {
+        "home": 45.0,
+        "away": 60.0
+      }
+    }
+  },
+  "sources": [],
+  "leakage_audit": {
+    "leaked": false,
+    "leaked_sources": []
+  },
+  "cost_usd": 0.059766,
+  "tokens": {
+    "input": 10390,
+    "output": 7755
+  },
+  "tool_calls": 0,
+  "wall_seconds": 67.10745167732239,
+  "repair_retries": 0,
+  "validation_errors": [],
+  "error": null,
+  "raw_text": "{\n  \"fixture_id\": \"World-Cup_Group-Stage-11_Netherlands_Japan_2026-06-14\",\n  \"model_id\": \"worldcup-predictor-v1\",\n  \"setting\": \"S1\",\n  \"submitted_at\": \"2026-06-12T20:00:00Z\",\n  \"reasoning\": {\n    \"overall\": \"荷兰队虽然遭遇伤病潮（部分主力缺阵），但整体阵容深度依然可观，尤其是中后场拥有范迪克、弗朗基·德容等核心。日本队近期状态出色，但队长远藤航的因伤缺阵对中场防守硬度是致命打击。预计荷兰将掌控比赛节奏，日本队则依靠久保建英和前田大然等人的速度打反击。综合来看，荷兰队实力占优，有望小胜。\",\n    \"t1_result\": \"荷兰队胜率较高（55%），平局25%，日本胜20%。比分预测2-1，荷兰队凭借更强的中场控制力和锋线把握机会能力取胜，但日本队的反击也能制造威胁并取得进球。\",\n    \"t2_player\": \"荷兰队排出4-3-3，加克波和德佩领衔锋线，中场由德容梳理；日本队4-2-3-1，上田绮世突前，久保建英负责组织。远藤航缺阵使得佐野海舟或田中碧需要承担更多防守任务。\",\n    \"t3_events\": \"预计上半场荷兰队通过控球施压并率先破门，下半场日本队通过换人调整（如换上伊东纯也、中村敬斗）加强进攻并扳回一城，但荷兰队在比赛尾声阶段再次进球锁定胜局。\",\n    \"t4_stats\": \"荷兰队控球率预计在58%左右，射门数15对10占优。日本队在防守端将贡献更多解围和拦截，犯规数也会相应增加。\"\n  },\n  \"win_probs\": {\n    \"home\": 0.55,\n    \"draw\": 0.25,\n    \"away\": 0.20\n  },\n  \"headline_score\": \"2-1\",\n  \"expected_goal_diff\": 0.8,\n  \"match_profile\": \"normal\",\n  \"expected_total_goals\": 2.6,\n  \"lineups\": {\n    \"home\": {\n      \"starting\": [\n        { \"name\": \"Bart Verbruggen\", \"position\": \"GK\" },\n        { \"name\": \"Denzel Dumfries\", \"position\": \"DF\" },\n        { \"name\": \"Virgil van Dijk\", \"position\": \"DF\" },\n        { \"name\": \"Nathan Aké\", \"position\": \"DF\" },\n        { \"name\": \"Mickey van de Ven\", \"position\": \"DF\" },\n        { \"name\": \"Frenkie de Jong\", \"position\": \"MF\" },\n        { \"name\": \"Tijjani Reijnders\", \"position\": \"MF\" },\n        { \"name\": \"Teun Koopmeiners\", \"position\": \"MF\" },\n        { \"name\": \"Cody Mathès Gakpo\", \"position\": \"FW\" },\n        { \"name\": \"Memphis Depay\", \"position\": \"FW\" },\n        { \"name\": \"Donyell Malen\", \"position\": \"FW\" }\n      ],\n      \"bench\": [\n        { \"name\": \"Mark Flekken\", \"position\": \"GK\" },\n        { \"name\": \"Robin Roefs\", \"position\": \"GK\" },\n        { \"name\": \"Lutsharel Geertruida\", \"position\": \"DF\" },\n        { \"name\": \"Jorrel Hato\", \"position\": \"DF\" },\n        { \"name\": \"Jan Paul van Hecke\", \"position\": \"DF\" },\n        { \"name\": \"Mats Wieffer\", \"position\": \"DF\" },\n        { \"name\": \"Marten de Roon\", \"position\": \"MF\" },\n        { \"name\": \"Ryan Gravenberch\", \"position\": \"MF\" },\n        { \"name\": \"Quinten Ryan Crispito Timber\", \"position\": \"MF\" },\n        { \"name\": \"Guus Berend Til\", \"position\": \"MF\" },\n        { \"name\": \"Crysencio Summerville\", \"position\": \"FW\" },\n        { \"name\": \"Wout Weghorst\", \"position\": \"FW\" }\n      ]\n    },\n    \"away\": {\n      \"starting\": [\n        { \"name\": \"Zion Suzuki\", \"position\": \"GK\" },\n        { \"name\": \"Yukinari Sugawara\", \"position\": \"DF\" },\n        { \"name\": \"Ko Itakura\", \"position\": \"DF\" },\n        { \"name\": \"Takehiro Tomiyasu\", \"position\": \"DF\" },\n        { \"name\": \"Hiroki Ito\", \"position\": \"DF\" },\n        { \"name\": \"Ao Tanaka\", \"position\": \"MF\" },\n        { \"name\": \"Kaishu Sano\", \"position\": \"MF\" },\n        { \"name\": \"Ritsu Doan\", \"position\": \"FW\" },\n        { \"name\": \"Takefusa Kubo\", \"position\": \"FW\" },\n        { \"name\": \"Daizen Maeda\", \"position\": \"FW\" },\n        { \"name\": \"Ayase Ueda\", \"position\": \"FW\" }\n      ],\n      \"bench\": [\n        { \"name\": \"Keisuke Osako\", \"position\": \"GK\" },\n        { \"name\": \"Tomoki Hayakawa\", \"position\": \"GK\" },\n        { \"name\": \"Shogo Taniguchi\", \"position\": \"DF\" },\n        { \"name\": \"Tsuyoshi Watanabe\", \"position\": \"DF\" },\n        { \"name\": \"Ayumu Seko\", \"position\": \"DF\" },\n        { \"name\": \"Yuto Nagatomo\", \"position\": \"DF\" },\n        { \"name\": \"Junnosuke Suzuki\", \"position\": \"DF\" },\n        { \"name\": \"Daichi Kamada\", \"position\": \"MF\" },\n        { \"name\": \"Junya Ito\", \"position\": \"FW\" },\n        { \"name\": \"Keito Nakamura\", \"position\": \"FW\" },\n        { \"name\": \"Koki Ogawa\", \"position\": \"FW\" },\n        { \"name\": \"Shuto Machino\", \"position\": \"FW\" }\n      ]\n    }\n  },\n  \"formations\": {\n    \"home\": \"4-3-3\",\n    \"away\": \"4-2-3-1\"\n  },\n  \"scorers\": [\n    {\n      \"player\": \"Cody Mathès Gakpo\",\n      \"team\": \"home\",\n      \"p\": 0.45,\n      \"minute_range\": [20, 60]\n    },\n    {\n      \"player\": \"Memphis Depay\",\n      \"team\": \"home\",\n      \"p\": 0.35,\n      \"minute_range\": [60, 90]\n    },\n    {\n      \"player\": \"Ayase Ueda\",\n      \"team\": \"away\",\n      \"p\": 0.30,\n      \"minute_range\": [45, 80]\n    }\n  ],\n  \"assisters\": [\n    {\n      \"player\": \"Frenkie de Jong\",\n      \"team\": \"home\",\n      \"p\": 0.25,\n      \"minute\": 35\n    },\n    {\n      \"player\": \"Takefusa Kubo\",\n      \"team\": \"away\",\n      \"p\": 0.25,\n      \"minute\": 65\n    }\n  ],\n  \"substitutions\": [\n    {\n      \"team\": \"home\",\n      \"off\": \"Donyell Malen\",\n      \"on\": \"Crysencio Summerville\",\n      \"minute\": 65\n    },\n    {\n      \"team\": \"home\",\n      \"off\": \"Teun Koopmeiners\",\n      \"on\": \"Ryan Gravenberch\",\n      \"minute\": 70\n    },\n    {\n      \"team\": \"away\",\n      \"off\": \"Daizen Maeda\",\n      \"on\": \"Keito Nakamura\",\n      \"minute\": 60\n    },\n    {\n      \"team\": \"away\",\n      \"off\": \"Ritsu Doan\",\n      \"on\": \"Junya Ito\",\n      \"minute\": 65\n    }\n  ],\n  \"cards\": [\n    {\n      \"player\": \"Mickey van de Ven\",\n      \"team\": \"home\",\n      \"color\": \"yellow\",\n      \"minute\": 40\n    },\n    {\n      \"player\": \"Kaishu Sano\",\n      \"team\": \"away\",\n      \"color\": \"yellow\",\n      \"minute\": 55\n    },\n    {\n      \"player\": \"Ko Itakura\",\n      \"team\": \"away\",\n      \"color\": \"yellow\",\n      \"minute\": 75\n    }\n  ],\n  \"penalties\": [],\n  \"own_goals\": [],\n  \"key_events\": [\n    {\n      \"team\": \"away\",\n      \"minute\": 35,\n      \"label\": \"VAR review for potential penalty\",\n      \"player\": \"Takefusa Kubo\",\n      \"type\": \"VAR\"\n    }\n  ],\n  \"motm_probs\": [\n    {\n      \"player\": \"Cody Mathès Gakpo\",\n      \"team\": \"home\",\n      \"p\": 0.30\n    },\n    {\n      \"player\": \"Frenkie de Jong\",\n      \"team\": \"home\",\n      \"p\": 0.20\n    },\n    {\n      \"player\": \"Takefusa Kubo\",\n      \"team\": \"away\",\n      \"p\": 0.15\n    }\n  ],\n  \"stats\": {\n    \"possession\": {\n      \"home\": 58.0,\n      \"away\": 42.0\n    },\n    \"shots\": {\n      \"home\": 15.0,\n      \"away\": 10.0\n    },\n    \"shots_on_target\": {\n      \"home\": 6.0,\n      \"away\": 4.0\n    },\n    \"corners\": {\n      \"home\": 6.0,\n      \"away\": 4.0\n    },\n    \"pass_accuracy\": {\n      \"home\": 88.0,\n      \"away\": 82.0\n    },\n    \"fouls\": {\n      \"home\": 11.0,\n      \"away\": 13.0\n    },\n    \"saves\": {\n      \"home\": 3.0,\n      \"away\": 4.0\n    },\n    \"defensive_actions\": {\n      \"home\": 45.0,\n      \"away\": 60.0\n    }\n  }\n}",
+  "thinking_text": "```json\n{\n  \"fixture_id\": \"World-Cup_Group-Stage-11_Netherlands_Japan_2026-06-14\",\n  \"model_id\": \"assistant\",\n  \"setting\": \"S1\",\n  \"submitted_at\": \"2026-06-12T20:00:00Z\",\n  \"lineups\": {\n    \"home\": {\n      \"starting\": [\n        { \"name\": \"Bart Verbruggen\", \"position\": \"GK\" },\n        { \"name\": \"Denzel Dumfries\", \"position\": \"DF\" },\n        { \"name\": \"Virgil van Dijk\", \"position\": \"DF\" },\n        { \"name\": \"Nathan Aké\", \"position\": \"DF\" },\n        { \"name\": \"Mickey van de Ven\", \"position\": \"DF\" },\n        { \"name\": \"Frenkie de Jong\", \"position\": \"MF\" },\n        { \"name\": \"Tijjani Reijnders\", \"position\": \"MF\" },\n        { \"name\": \"Teun Koopmeiners\", \"position\": \"MF\" },\n        { \"name\": \"Cody Mathès Gakpo\", \"position\": \"FW\" },\n        { \"name\": \"Memphis Depay\", \"position\": \"FW\" },\n        { \"name\": \"Donyell Malen\", \"position\": \"FW\" }\n      ],\n      \"bench\": [\n        { \"name\": \"Mark Flekken\", \"position\": \"GK\" },\n        { \"name\": \"Robin Roefs\", \"position\": \"DF\" },\n        { \"name\": \"Lutsharel Geertruida\", \"position\": \"DF\" },\n        { \"name\": \"Jorrel Hato\", \"position\": \"DF\" },\n        { \"name\": \"Jan Paul van Hecke\", \"position\": \"DF\" },\n        { \"name\": \"Mats Wieffer\", \"position\": \"MF\" },\n        { \"name\": \"Marten de Roon\", \"position\": \"MF\" },\n        { \"name\": \"Ryan Gravenberch\", \"position\": \"MF\" },\n        { \"name\": \"Quinten Timber\", \"position\": \"MF\" },\n        { \"name\": \"Guus Til\", \"position\": \"MF\" },\n        { \"name\": \"Crysencio Summerville\", \"position\": \"FW\" },\n        { \"name\": \"Wout Weghorst\", \"position\": \"FW\" }\n      ]\n    },\n    \"away\": {\n      \"starting\": [\n        { \"name\": \"Zion Suzuki\", \"position\": \"GK\" },\n        { \"name\": \"Yukinari Sugawara\", \"position\": \"DF\" },\n        { \"name\": \"Ko Itakura\", \"position\": \"DF\" },\n        { \"name\": \"Takehiro Tomiyasu\", \"position\": \"DF\" },\n        { \"name\": \"Hiroki Ito\", \"position\": \"DF\" },\n        { \"name\": \"Ao Tanaka\", \"position\": \"MF\" },\n        { \"name\": \"Kaishu Sano\", \"position\": \"MF\" },\n        { \"name\": \"Ritsu Doan\", \"position\": \"FW\" },\n        { \"name\": \"Takefusa Kubo\", \"position\": \"FW\" },\n        { \"name\": \"Daizen Maeda\", \"position\": \"FW\" },\n        { \"name\": \"Ayase Ueda\", \"position\": \"FW\" }\n      ],\n      \"bench\": [\n        { \"name\": \"Keisuke Osako\", \"position\": \"GK\" },\n        { \"name\": \"Tomoki Hayakawa\", \"position\": \"DF\" },\n        { \"name\": \"Shogo Taniguchi\", \"position\": \"DF\" },\n        { \"name\": \"Tsuyoshi Watanabe\", \"position\": \"DF\" },\n        { \"name\": \"Ayumu Seko\", \"position\": \"DF\" },\n        { \"name\": \"Yuto Nagatomo\", \"position\": \"DF\" },\n        { \"name\": \"Junnosuke Suzuki\", \"position\": \"GK\" },\n        { \"name\": \"Daichi Kamada\", \"position\": \"MF\" },\n        { \"name\": \"Junya Ito\", \"position\": \"FW\" },\n        { \"name\": \"Keito Nakamura\", \"position\": \"FW\" },\n        { \"name\": \"Koki Ogawa\", \"position\": \"FW\" },\n        { \"name\": \"Shuto Machino\", \"position\": \"\n\n",
+  "score_calibration": {
+    "applied": true,
+    "method": "winprob_poisson_generator_v1",
+    "model_weight": 0.62,
+    "favorite_margin": 0.0,
+    "lambda_home": 1.65,
+    "lambda_away": 0.9,
+    "target_total_goals": 2.581,
+    "target_goal_diff": 0.8,
+    "target_outcome_probs": {
+      "home": 0.55,
+      "draw": 0.25,
+      "away": 0.2
+    },
+    "forced_headline_outcome": "home",
+    "score_hint_used": "2-1",
+    "fitted_outcomes": {
+      "home": 0.55,
+      "draw": 0.245,
+      "away": 0.205
+    },
+    "before": {
+      "headline_score": "2-1",
+      "most_likely_score": "1-0",
+      "win_probs": {
+        "home": 0.55,
+        "draw": 0.25,
+        "away": 0.2
+      },
+      "score_dist_head": [
+        {
+          "score": "1-0",
+          "p": 0.127
+        },
+        {
+          "score": "1-1",
+          "p": 0.123
+        },
+        {
+          "score": "2-0",
+          "p": 0.108
+        },
+        {
+          "score": "2-1",
+          "p": 0.097
+        },
+        {
+          "score": "0-0",
+          "p": 0.08
+        }
+      ]
+    },
+    "after": {
+      "most_likely_score": "1-0",
+      "score_dist_head": [
+        {
+          "score": "1-0",
+          "p": 0.129
+        },
+        {
+          "score": "1-1",
+          "p": 0.123
+        },
+        {
+          "score": "2-0",
+          "p": 0.108
+        },
+        {
+          "score": "2-1",
+          "p": 0.097
+        },
+        {
+          "score": "0-0",
+          "p": 0.081
+        }
+      ]
+    }
+  }
+}
