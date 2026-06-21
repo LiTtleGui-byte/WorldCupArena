@@ -88,16 +88,12 @@
       "team_id": 10932
     },
     "colombia": {
-      "api_name": "Colombia",
-      "logo": "https://media.api-sports.io/football/teams/8.png",
       "name": "Colombia",
-      "team_id": 8
+      "logo": "https://media.api-sports.io/football/teams/8.png"
     },
     "croatia": {
-      "api_name": "Croatia",
-      "logo": "https://media.api-sports.io/football/teams/3.png",
       "name": "Croatia",
-      "team_id": 3
+      "logo": "https://media.api-sports.io/football/teams/3.png"
     },
     "crystal palace": {
       "logo": "https://media.api-sports.io/football/teams/52.png",
@@ -118,10 +114,8 @@
       "logo": "https://media.api-sports.io/football/teams/770.png"
     },
     "dr congo": {
-      "api_name": "Congo DR",
-      "logo": "https://media.api-sports.io/football/teams/1508.png",
       "name": "DR Congo",
-      "team_id": 1508
+      "logo": "https://media.api-sports.io/football/teams/1508.png"
     },
     "ecuador": {
       "name": "Ecuador",
@@ -132,10 +126,8 @@
       "logo": "https://media.api-sports.io/football/teams/32.png"
     },
     "england": {
-      "api_name": "England",
-      "logo": "https://media.api-sports.io/football/teams/10.png",
       "name": "England",
-      "team_id": 10
+      "logo": "https://media.api-sports.io/football/teams/10.png"
     },
     "everton": {
       "logo": "https://media.api-sports.io/football/teams/45.png",
@@ -150,10 +142,8 @@
       "name": "Germany"
     },
     "ghana": {
-      "api_name": "Ghana",
-      "logo": "https://media.api-sports.io/football/teams/1504.png",
       "name": "Ghana",
-      "team_id": 1504
+      "logo": "https://media.api-sports.io/football/teams/1504.png"
     },
     "haiti": {
       "name": "Haiti",
@@ -223,10 +213,8 @@
       "logo": "https://media.api-sports.io/football/teams/1090.png"
     },
     "panama": {
-      "api_name": "Panama",
-      "logo": "https://media.api-sports.io/football/teams/11.png",
       "name": "Panama",
-      "team_id": 11
+      "logo": "https://media.api-sports.io/football/teams/11.png"
     },
     "paraguay": {
       "name": "Paraguay",
@@ -242,10 +230,8 @@
       "team_id": 30
     },
     "portugal": {
-      "api_name": "Portugal",
-      "logo": "https://media.api-sports.io/football/teams/27.png",
       "name": "Portugal",
-      "team_id": 27
+      "logo": "https://media.api-sports.io/football/teams/27.png"
     },
     "qatar": {
       "name": "Qatar",
@@ -323,10 +309,8 @@
       "logo": "https://media.api-sports.io/football/teams/7.png"
     },
     "uzbekistan": {
-      "api_name": "Uzbekistan",
-      "logo": "https://media.api-sports.io/football/teams/1568.png",
       "name": "Uzbekistan",
-      "team_id": 1568
+      "logo": "https://media.api-sports.io/football/teams/1568.png"
     },
     "vfb stuttgart": {
       "logo": "https://media.api-sports.io/football/teams/172.png",
