@@ -2462,6 +2462,7 @@ function renderPrematchDetailsPanel(idx) {
   const f = _predFixtures[idx] || {};
   const reasoning = p.reasoning || {};
   const scoreDist = (p.score_dist || []).slice().sort((a, b) => (b.p || 0) - (a.p || 0));
+  const top3 = scoreDist.slice(0, 3);
   const wp = p.win_probs || winProbsFromScoreDist(scoreDist) || {};
   const wpPct = winProbPctLabels(wp);
   const hName = f.home || t("home");
