@@ -394,11 +394,27 @@ def _replace_alias(text: str, alias: str, zh: str) -> str:
 
 
 def localize_reasoning_text(text: str, mapping: dict[str, str]) -> str:
+    if not mapping:
+        return text
     protected, spans = _protect_code_spans(text)
-    out = protected
-    for alias, zh in mapping.items():
-        out = _replace_alias(out, alias, zh)
-    return _restore_code_spans(out, spans)
+    # Only aliases that actually occur as a substring can ever match — pre-scan and drop
+    # the rest. The context mapping injects ~1.3k static aliases while a fixture's reasoning
+    # mentions a handful; this is output-preserving (an absent alias never matched anyway).
+    present = [(alias, zh) for alias, zh in mapping.items() if alias in protected]
+    if present:
+        # One combined alternation compiled once, instead of re.compile per alias per call
+        # (was ~1.3k fresh compiles per reasoning string, thrashing Python's 512-entry regex
+        # cache). `mapping` is pre-sorted longest-first (see _context_name_mapping), and regex
+        # alternation prefers the earliest-listed match at a position, so longer aliases
+        # (e.g. "Bruno Silva") still win over shorter ones ("Silva").
+        repl = dict(present)
+        combined = re.compile(
+            r"(?<![A-Za-zÀ-ÖØ-öø-ÿ0-9])("
+            + "|".join(re.escape(alias) for alias, _ in present)
+            + r")(?![A-Za-zÀ-ÖØ-öø-ÿ0-9])"
+        )
+        protected = combined.sub(lambda m: repl[m.group(1)], protected)
+    return _restore_code_spans(protected, spans)
 
 
 def _localized_team_label(fixture: dict[str, Any] | None, side: str) -> str:
