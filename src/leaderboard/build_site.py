@@ -1674,11 +1674,30 @@ def main() -> None:
     _save_api_football_logo_cache()
 
     rounded_payload = _round3(payload)
-    for out_path in (OUT_EN, OUT):
-        out_path.write_text(json.dumps(rounded_payload, ensure_ascii=False, separators=(",", ":")))
     from .translate_site_data import translate_payload_to_zh
-    OUT_ZH.write_text(json.dumps(translate_payload_to_zh(rounded_payload), ensure_ascii=False, separators=(",", ":")))
-    print(f"wrote {OUT}, {OUT_ZH}, {OUT_EN} "
+    zh_payload = translate_payload_to_zh(rounded_payload)
+
+    def _dump(obj) -> str:
+        return json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
+
+    # Full payloads — UNCHANGED contract. pred-cards and any external consumer keep
+    # reading data.zh.json / data.json / data.en.json with history inline.
+    for out_path in (OUT_EN, OUT):
+        out_path.write_text(_dump(rounded_payload))
+    OUT_ZH.write_text(_dump(zh_payload))
+
+    # Split payloads for fast first paint. `history` is ~80% of the bytes, grows every
+    # match, and is below the fold — so the page fetches data.live.<lang>.json (everything
+    # except history) up front, renders, then lazy-loads data.history.<lang>.json off the
+    # critical path. Old clients fall back to the full files above (app.js handles both).
+    for full_path, full in ((OUT, rounded_payload), (OUT_EN, rounded_payload), (OUT_ZH, zh_payload)):
+        hist_name = full_path.name.replace("data.", "data.history.", 1)
+        live = {k: v for k, v in full.items() if k != "history"}
+        live["_history_url"] = hist_name
+        full_path.with_name(full_path.name.replace("data.", "data.live.", 1)).write_text(_dump(live))
+        full_path.with_name(hist_name).write_text(_dump({"history": full.get("history") or []}))
+
+    print(f"wrote {OUT}, {OUT_ZH}, {OUT_EN} (+ data.live.* / data.history.* split) "
           f"(model_native_payload=1, "
           f"leaderboard_models={len(payload['leaderboard']['main'])}, "
           f"incoming={len(incoming)}, "
