@@ -103,6 +103,14 @@ const WORLDCUPARENA_BRAND = "WorldCupArena";
 const I18N = {
   zh: {
     html_lang: "zh-CN",
+    share_card_button: "生成分享图",
+    share_card_title: "分享这场预测",
+    share_card_brief: "速览",
+    share_card_full: "完整",
+    share_card_hint: "长按图片保存到相册,转发给朋友 · 桌面可点「下载」",
+    share_card_download: "下载图片",
+    share_card_share: "分享",
+    share_card_error: "图片加载失败,请稍后再试",
     page_title: "WorldCupArena — AI 足球预测排行榜",
     meta_description: "用真实足球比赛评测大模型和 Deep Research Agent 的预测能力，包含实时排行榜和即将进行比赛的模型预测。",
     lang_button: "English",
@@ -338,6 +346,14 @@ const I18N = {
   },
   en: {
     html_lang: "en",
+    share_card_button: "Share image",
+    share_card_title: "Share this prediction",
+    share_card_brief: "Brief",
+    share_card_full: "Full",
+    share_card_hint: "Long-press to save, then forward · or click Download",
+    share_card_download: "Download",
+    share_card_share: "Share",
+    share_card_error: "Image failed to load, try again later",
     page_title: "WorldCupArena — LLM Football Prediction Leaderboard",
     meta_description: "Benchmarking LLMs and deep-research agents on real-world football prediction. Live leaderboard + next-match model predictions.",
     lang_button: "中文",
@@ -616,6 +632,11 @@ let _activeLeaderboardView = "main";
 let _leaderboardSort = "result";
 let _countdownIntervals = [];
 let _mobilePredView = null;
+
+// Share Card(分享图)状态 — Phase 23 / ADR-020
+let _shareManifest = null;     // {wca_id: {brief?, full?, slug, home, away, kick_bj}} ← share/manifest.json
+let _shareVersion = "";        // 缓存破除 token(= 本次页面加载抓 manifest 的时刻)
+let _shareModalState = { wcaId: null, preset: "brief" };
 
 const PREDICTION_CARDS_PER_ROW = initialPredictionCardsPerRow();
 
@@ -1598,6 +1619,136 @@ function openReasoningModal(idx) {
 
 function closeReasoningModal() {
   document.getElementById("reasoning-modal").style.display = "none";
+}
+
+// ---------- Share Card(分享图)— Phase 23 / ADR-020 -------------------------
+// 预渲静态 PNG(share_cards.sh 产出 + rsync 到 docroot share/);前端按 fixture.wca_id 查
+// share/manifest.json 拿相对路径,弹预览图供长按保存 / 下载 / Web Share。v1 仅中文(_lang==="zh")。
+const SHARE_BASE = "share/";
+
+async function loadShareManifest() {
+  try {
+    const resp = await fetch(SHARE_BASE + "manifest.json", { cache: "no-cache" });
+    if (!resp.ok) return;
+    _shareManifest = await resp.json();
+    _shareVersion = String(Date.now());   // 每次页面加载一个 token → 配合 docroot no-cache,图总取最新
+    if (_siteData) renderSiteData();        // manifest 后到 → 重渲让按钮出现
+  } catch (err) { /* 无 manifest = 不出分享按钮,静默降级 */ }
+}
+
+function shareCardEntry(wcaId) {
+  if (_lang !== "zh" || !_shareManifest || !wcaId) return null;   // v1 仅中文卡(Decision 5)
+  const e = _shareManifest[wcaId];
+  return (e && (e.brief || e.full)) ? e : null;
+}
+
+function shareImageUrl(entry, preset) {
+  const rel = entry[preset] || entry.brief || entry.full;
+  return rel ? SHARE_BASE + rel + "?v=" + _shareVersion : "";
+}
+
+function renderShareButton(f) {
+  const entry = shareCardEntry(f && f.wca_id);
+  if (!entry) return "";   // 图不存在 / 非中文 → 不出按钮(优雅降级)
+  return `<div class="flex justify-center mt-3 mb-1">
+    <button type="button" onclick='openShareCard(${jsArg(f.wca_id)})'
+            class="chip pred-action hover:bg-white/15 transition text-xs flex items-center gap-1.5">
+      <span aria-hidden="true">📤</span>${t("share_card_button")}
+    </button></div>`;
+}
+
+function buildShareModal() {
+  const div = document.createElement("div");
+  div.id = "share-modal";
+  div.style.cssText = "display:none;position:fixed;inset:0;z-index:60;align-items:center;justify-content:center;padding:1rem;";
+  div.innerHTML = `
+    <div class="share-modal-backdrop" style="position:absolute;inset:0;backdrop-filter:blur(4px);background:rgba(0,0,0,.55);"
+         onclick="closeShareCard()"></div>
+    <div class="card share-modal-card rounded-2xl p-5 relative" style="max-width:30rem;width:100%;max-height:90vh;overflow-y:auto;z-index:1;">
+      <button onclick="closeShareCard()" class="absolute top-3 right-3 text-gray-400 hover:text-white text-xl leading-none">✕</button>
+      <h3 class="font-bold text-base mb-3 pr-6" id="share-modal-title">${t("share_card_title")}</h3>
+      <div class="flex gap-2 mb-3" id="share-modal-tabs"></div>
+      <div class="rounded-xl overflow-hidden mb-3" style="background:rgba(0,0,0,.2);min-height:140px;display:flex;align-items:center;justify-content:center;">
+        <img id="share-modal-img" alt="" style="width:100%;display:block;" />
+      </div>
+      <div id="share-modal-msg" class="text-xs text-gray-400 text-center mb-3">${t("share_card_hint")}</div>
+      <div class="flex gap-2 justify-center" id="share-modal-actions"></div>
+    </div>`;
+  document.body.appendChild(div);
+}
+
+function shareTabBtn(preset, label, active, available) {
+  if (!available) return "";
+  return `<button type="button" onclick="setSharePreset('${preset}')"
+    class="rounded-lg px-3 py-1.5 text-sm font-bold transition ${active ? "bg-green-500/90 text-white" : "bg-white/10 hover:bg-white/20 text-gray-200"}">${esc(label)}</button>`;
+}
+
+function renderShareTabs() {
+  const e = _shareManifest && _shareManifest[_shareModalState.wcaId];
+  if (!e) return;
+  const p = _shareModalState.preset;
+  // 只有真预渲了的预设才显 tab(可能某场只有 brief);单一预设时 tab 仍显但无切换损耗。
+  document.getElementById("share-modal-tabs").innerHTML =
+    shareTabBtn("brief", t("share_card_brief"), p === "brief", !!e.brief) +
+    shareTabBtn("full",  t("share_card_full"),  p === "full",  !!e.full);
+}
+
+function renderShareActions() {
+  const e = _shareManifest && _shareManifest[_shareModalState.wcaId];
+  if (!e) return;
+  const url = shareImageUrl(e, _shareModalState.preset);
+  const fname = `matchmate-${e.slug || "prediction"}-${_shareModalState.preset}.png`;
+  const dl = `<a href="${esc(url)}" download="${esc(fname)}"
+      class="chip pred-action hover:bg-white/15 transition text-sm">${t("share_card_download")}</a>`;
+  // Web Share(navigator.share files):支持才显;微信内置浏览器一般不支持 → 退长按保存。
+  const canShare = (typeof navigator !== "undefined" && navigator.share && navigator.canShare);
+  const sh = canShare ? `<button type="button" onclick="shareCardNative()"
+      class="chip pred-action hover:bg-white/15 transition text-sm">${t("share_card_share")}</button>` : "";
+  document.getElementById("share-modal-actions").innerHTML = dl + sh;
+}
+
+function setSharePreset(preset) {
+  const e = _shareManifest && _shareManifest[_shareModalState.wcaId];
+  if (!e || !e[preset]) return;
+  _shareModalState.preset = preset;
+  document.getElementById("share-modal-img").src = shareImageUrl(e, preset);
+  renderShareTabs();
+  renderShareActions();
+}
+
+function openShareCard(wcaId) {
+  const e = shareCardEntry(wcaId);
+  if (!e) return;
+  _shareModalState = { wcaId, preset: e.brief ? "brief" : "full" };
+  document.getElementById("share-modal-title").textContent =
+    `${e.home || ""} vs ${e.away || ""} · ${t("share_card_title")}`;
+  const img = document.getElementById("share-modal-img");
+  const msg = document.getElementById("share-modal-msg");
+  img.onerror = () => { msg.textContent = t("share_card_error"); msg.style.color = "#fca5a5"; };
+  img.onload  = () => { msg.textContent = t("share_card_hint"); msg.style.color = ""; };
+  img.src = shareImageUrl(e, _shareModalState.preset);
+  renderShareTabs();
+  renderShareActions();
+  document.getElementById("share-modal").style.display = "flex";
+}
+
+function closeShareCard() {
+  document.getElementById("share-modal").style.display = "none";
+}
+
+async function shareCardNative() {
+  const e = _shareManifest && _shareManifest[_shareModalState.wcaId];
+  if (!e) return;
+  const url = shareImageUrl(e, _shareModalState.preset);
+  const fname = `matchmate-${e.slug || "prediction"}-${_shareModalState.preset}.png`;
+  try {
+    const resp = await fetch(url);
+    const blob = await resp.blob();
+    const file = new File([blob], fname, { type: "image/png" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({ files: [file], title: `${e.home || ""} vs ${e.away || ""}`, text: t("share_card_title") });
+    }
+  } catch (err) { /* 用户取消或不支持,静默 */ }
 }
 
 // ---------- Prediction card --------------------------------------------------
@@ -3598,6 +3749,7 @@ function _renderOneFixture(nm, cardIdx) {
           </div>
         </div>
       </div>
+      ${renderShareButton(f)}
       ${renderUserPredictionEditor(nm)}
       ${renderLivePredictions(standaloneLivePreds, f)}
       ${preds.length === 0
@@ -4039,12 +4191,14 @@ async function main() {
   setTheme(_theme, { updateUrl: false });
   applyStaticI18n();
   buildReasoningModal();
+  buildShareModal();
   wireTabs();
   setupMobileToc();
   setupResponsivePredictions();
   initUserSession();
   await loadUserPredictions();
   await loadSiteData();
+  loadShareManifest();   // best-effort,后到则重渲让分享按钮出现(无 manifest = 静默无按钮)
 }
 
 main();
